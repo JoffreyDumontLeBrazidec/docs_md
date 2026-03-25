@@ -1,0 +1,59 @@
+[ECMWF-INFO -ecprofile] /usr/bin/bash NON_INTERACTIVE on ac6-178 at 20260319_202830.515, PID: 3924537, JOBID: 30822693
+[ECMWF-INFO -ecprofile] $SCRATCH=/ec/res4/scratch/ecm5702
+[ECMWF-INFO -ecprofile] $PERM=/perm/ecm5702
+[ECMWF-INFO -ecprofile] $HPCPERM=/ec/res4/hpcperm/ecm5702
+[ECMWF-INFO -ecprofile] $TMPDIR=/etc/ecmwf/ssd/ssd1/tmpdirs/ecm5702.30822693
+[ECMWF-INFO -ecprofile] $SCRATCHDIR=/ec/res4/scratchdir/ecm5702/5/30822693
+Found 25 prediction files.
+2026-03-19 20:28:40,430 - INFO - Running event=idalia | support=regridded | files=25 | days=[26, 27, 28, 29, 30] | steps=[24, 48, 72, 96, 120]
+Could not find manifest file for plugin int.ecmwf.atlas-orca
+Could not find manifest file for plugin int.ecmwf.atlas-orca
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/.ds-dyn/lib/python3.11/site-packages/gribapi/__init__.py:23: UserWarning: ecCodes 2.38.0 or higher is recommended. You are running version 2.23.0
+  warnings.warn(
+2026-03-19 20:33:18,000 - INFO - MSLP OPER support [974.12, 1024.86] hPa | tail_index=1.14 extreme_index=2.26
+2026-03-19 20:33:18,001 - INFO - WIND OPER support [0.00, 28.96] m/s | tail_index=0.883 extreme_index=0.884
+2026-03-19 20:33:18,519 - INFO - MSLP manual_56b6c4e2_karras_n80_sigmax100k support [968.06, 1026.44] | tail=0.883 ext=2.18
+2026-03-19 20:33:19,047 - INFO - WIND manual_56b6c4e2_karras_n80_sigmax100k support [0.00, 38.25] | tail=0.644 ext=0.838
+2026-03-19 20:33:19,507 - INFO - MSLP ENFO_O320_j2hh           support [967.62, 1023.95] | tail=0.864 ext=2.03
+2026-03-19 20:33:20,038 - INFO - WIND ENFO_O320_j2hh           support [0.00, 32.56] | tail=0.608 ext=0.764
+2026-03-19 20:33:20,460 - INFO - MSLP ENFO_O320_j2u3           support [979.64, 1024.18] | tail=0.814 ext=1.88
+2026-03-19 20:33:20,975 - INFO - WIND ENFO_O320_j2u3           support [0.00, 30.28] | tail=0.608 ext=0.747
+2026-03-19 20:33:21,399 - INFO - MSLP ENFO_O320_0001           support [954.24, 1024.50] | tail=0.88 ext=2.22
+2026-03-19 20:33:21,900 - INFO - WIND ENFO_O320_0001           support [0.00, 49.93] | tail=0.658 ext=0.833
+2026-03-19 20:33:22,297 - INFO - MSLP EEFO_O96_0001            support [987.72, 1023.85] | tail=0.828 ext=1.55
+2026-03-19 20:33:22,751 - INFO - WIND EEFO_O96_0001            support [0.00, 23.66] | tail=0.567 ext=0.569
+2026-03-19 20:33:23,187 - INFO - MSLP ENFO_O320_ip6y           support [972.12, 1024.06] | tail=0.914 ext=2.28
+2026-03-19 20:33:23,697 - INFO - WIND ENFO_O320_ip6y           support [0.00, 34.62] | tail=0.638 ext=0.862
+2026-03-19 20:33:24,204 - INFO - Saved TC PDF from predictions: /etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/tc_aug26_30_regridded_20260319/tc_normed_pdfs_idalia_56b6c4e2_karras_n80_sigmax100k_aug26_30_regridded_vs_j2hh_j2u3.pdf
+2026-03-19 20:33:24,204 - INFO - Saved TC stats JSON: /etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/tc_aug26_30_regridded_20260319/tc_normed_pdfs_idalia_56b6c4e2_karras_n80_sigmax100k_aug26_30_regridded_vs_j2hh_j2u3.stats.json
+TC eval stats written to: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/tc_aug26_30_regridded_20260319/tc_normed_pdfs_idalia_56b6c4e2_karras_n80_sigmax100k_aug26_30_regridded_vs_j2hh_j2u3.stats.json
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/.ds-dyn/lib/python3.11/site-packages/gribapi/__init__.py:23: UserWarning: ecCodes 2.38.0 or higher is recommended. You are running version 2.23.0
+  warnings.warn(
+Wrote /etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/tc_aug26_30_regridded_20260319/EXPERIMENT_CONFIG.yaml
+[ECMWF-INFO -ecepilog] ----------------------------------------------------------------------------------------------------
+[ECMWF-INFO -ecepilog] This is the ECMWF job Epilogue
+[ECMWF-INFO -ecepilog] +++ Please report issues using the Support portal +++
+[ECMWF-INFO -ecepilog] +++ https://support.ecmwf.int                     +++
+[ECMWF-INFO -ecepilog] ----------------------------------------------------------------------------------------------------
+[ECMWF-INFO -ecepilog] Run at 2026-03-19T20:33:30 on ac
+[ECMWF-INFO -ecepilog] JobName                   : tc_56b6_n80k
+[ECMWF-INFO -ecepilog] JobID                     : 30822693
+[ECMWF-INFO -ecepilog] Submit                    : 2026-03-19T10:17:21
+[ECMWF-INFO -ecepilog] Start                     : 2026-03-19T20:28:26
+[ECMWF-INFO -ecepilog] End                       : 2026-03-19T20:33:30
+[ECMWF-INFO -ecepilog] QueuedTime                : 1.0
+[ECMWF-INFO -ecepilog] ElapsedRaw                : 304
+[ECMWF-INFO -ecepilog] ExitCode                  : 0:0
+[ECMWF-INFO -ecepilog] DerivedExitCode           : 0:0
+[ECMWF-INFO -ecepilog] State                     : COMPLETED
+[ECMWF-INFO -ecepilog] Account                   : ecrdmomu
+[ECMWF-INFO -ecepilog] QOS                       : nf
+[ECMWF-INFO -ecepilog] User                      : ecm5702
+[ECMWF-INFO -ecepilog] StdOut                    : /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/logs/tc_eval_30822693.out
+[ECMWF-INFO -ecepilog] StdErr                    : /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/logs/tc_eval_30822693.out
+[ECMWF-INFO -ecepilog] NNodes                    : 1
+[ECMWF-INFO -ecepilog] NCPUS                     : 8
+[ECMWF-INFO -ecepilog] SBU                       : 5.764
+[ECMWF-INFO -ecepilog] jobtag                    : ecm5702-tc_56b6_n80k-1x8-/home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320__JOBID__karras_n80_sigmax100k_aug2630/logs/tc_eval__JOBID_.out
+[ECMWF-INFO -ecepilog] ----------------------------------------------------------------------------------------------------
+

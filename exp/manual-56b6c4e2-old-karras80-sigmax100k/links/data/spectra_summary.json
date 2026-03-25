@@ -1,0 +1,28 @@
+{
+  "method": "ecmwf_mean_curve_reference_l2",
+  "relative_to": "/lus/h2resw01/hpcperm/ecm5702/reference_spectra/enfo_o320",
+  "spectra_output_dir": "/home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/spectra_step120_5dates_m10_ecmwf",
+  "scoreboard_fields": [
+    "10u",
+    "10v",
+    "2t"
+  ],
+  "score_wavenumber_min_exclusive": 100.0,
+  "mean_relative_l2": 0.026554590553489594,
+  "coverage": "10u: 5d/2m/1s/10c; 10v: 5d/2m/1s/10c; 2t: 5d/2m/1s/10c",
+  "10u": {
+    "relative_l2_mean_curve": 0.029470028791201884,
+    "n_pairs": 10,
+    "missing_reference_pairs": 40
+  },
+  "10v": {
+    "relative_l2_mean_curve": 0.03757594915080554,
+    "n_pairs": 10,
+    "missing_reference_pairs": 40
+  },
+  "2t": {
+    "relative_l2_mean_curve": 0.01261779371846136,
+    "n_pairs": 10,
+    "missing_reference_pairs": 40
+  }
+}

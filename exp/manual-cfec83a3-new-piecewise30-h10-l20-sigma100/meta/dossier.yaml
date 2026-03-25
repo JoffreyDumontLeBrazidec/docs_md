@@ -1,0 +1,176 @@
+generated_at: '2026-03-25T19:38:39Z'
+slug: manual-cfec83a3-new-piecewise30-h10-l20-sigma100
+source_dossier: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/exp/manual-cfec83a3-new-piecewise30-h10-l20-sigma100.md
+run_root: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260323_piecewise30_h10_l20_sigma100
+front_matter:
+  dossier_mode: generated
+  slug: manual-cfec83a3-new-piecewise30-h10-l20-sigma100
+  display_label: cfec83 pw30
+  role: experiment
+  checkpoint_id: cfec83a3cd0644778e2bfcbacfa9f4fc
+  checkpoint_path: /home/ecm5702/scratch/aifs/checkpoint/cfec83a3cd0644778e2bfcbacfa9f4fc/last.ckpt
+  lane: o96-o320
+  stack_flavor: new
+  run_id: manual_cfec83a3_new_o96_o320_20260323_piecewise30_h10_l20_sigma100
+  run_root: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260323_piecewise30_h10_l20_sigma100
+  venv: /home/ecm5702/dev/.ds-dyn/bin/activate
+  login_node: null
+  qos: null
+  job_ids: []
+  task_note: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/epics/enfo_o320_scoreboard/in-progress/20260320_recent_eval_audit.md
+  experiment_config: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260323_piecewise30_h10_l20_sigma100/EXPERIMENT_CONFIG.yaml
+  sampling:
+    summary: schedule_type=experimental_piecewise, schedule_kind=piecewise30, high_schedule_type=exponential,
+      low_schedule_type=karras, num_steps=30, num_steps_high=10, num_steps_low=20,
+      sigma_min=0.03, sigma_transition=100.0, sigma_max=100000.0, rho=7.0, sampler=heun,
+      S_churn=2.5, S_min=0.75, S_max=100000.0, S_noise=1.05
+    extra_args:
+      schedule_kind: piecewise30
+      num_steps: 30
+      sigma_max: 100000.0
+      sigma_min: 0.03
+      rho: 7.0
+      sampler: heun
+      S_churn: 2.5
+      S_min: 0.75
+      S_max: 100000.0
+      S_noise: 1.05
+      schedule_type: experimental_piecewise
+      sigma_transition: 100.0
+      high_schedule_type: exponential
+      low_schedule_type: karras
+      num_steps_high: 10
+      num_steps_low: 20
+  surfaces:
+    proxy10:
+      status: recorded
+      promotion: promoted
+      rank: 9
+      scope:
+        dates:
+        - 20230829
+        - 20230828
+        - 20230830
+        - 20230827
+        members:
+        - 1
+        steps_hours:
+        - 24
+        - 48
+        - 72
+      artifacts:
+        tc_stats: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total/proxy10total_subset/tc_normed_pdfs_idalia_franklin_manual_cfec83a3_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total_strict.stats.json
+        spectra_summary: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total/spectra_harmonized_proxy10total/spectra_summary.json
+        compare_json: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total/proxy_tc_compare.json
+        scoreboard_metrics: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total/scoreboard_metrics.json
+    aug_26_30:
+      status: recorded
+      promotion: promoted
+      rank: 6
+      scope:
+        dates:
+        - 20230826
+        - 20230827
+        - 20230828
+        - 20230829
+        - 20230830
+        members:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        steps_hours:
+        - 24
+        - 48
+        - 72
+        - 96
+        - 120
+      artifacts:
+        sigma_csv: /home/ecm5702/perm/eval/scoreboards/sigma/manual_cfec83a3_new_o96_o320_20260323_piecewise30_h10_l20_sigma100_sigma_eval.csv
+        tc_stats: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260323_piecewise30_h10_l20_sigma100/tc_normed_pdfs_idalia_franklin_manual_cfec83a3_new_o96_o320_20260323_piecewise30_h10_l20_sigma100_from_predictions.stats.json
+        spectra_summary: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260323_piecewise30_h10_l20_sigma100/spectra_step120_5dates_m10_ecmwf/spectra_summary.json
+        comparison_summary: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260323_piecewise30_h10_l20_sigma100/spectra_step120_5dates_m10_ecmwf/comparison_summary.json
+        surface_loss_summary: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260323_piecewise30_h10_l20_sigma100/surface_loss_summary.json
+scoreboard:
+  full:
+    tc_rank: '6'
+    label: cfec83 pw30
+    checkpoint_short: cfec83a3cd
+    eval_sampler_min: piecewise30
+    table_group: main
+    contract_status: eligible
+    idalia_tc_extreme_score: '0.909171'
+    franklin_tc_extreme_score: '0.742939'
+    spectra_10u_score_vs_reference: '0.977953'
+    spectra_10v_score_vs_reference: '0.972759'
+    spectra_2t_score_vs_reference: '0.986575'
+    spectra_mean_score_vs_reference: '0.979096'
+    spectra_10u_distance: '0.022047'
+    spectra_10v_distance: '0.027241'
+    spectra_2t_distance: '0.013425'
+    spectra_mean_distance: '0.020904'
+    surface_weighted_mse: '10671.348770'
+    validation_loss: '0.066417'
+    role: experiment
+    spectra_coverage: 10 pairs
+    spectra_n_curves: '10'
+    surface_loss_source: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260323_piecewise30_h10_l20_sigma100/surface_loss_summary.json
+    note: Full-contract row with complete scoreboard artifacts.
+    dossier: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/state/source_26_30/experiments/manual-cfec83a3-new-piecewise30-h10-l20-sigma100.md
+    slug: manual-cfec83a3-new-piecewise30-h10-l20-sigma100
+  proxy:
+    tc_rank: '9'
+    label: cfec83 pw30 proxy10total
+    checkpoint_short: cfec83a3cd
+    eval_sampler_min: piecewise30
+    table_group: main
+    contract_status: mismatch
+    idalia_tc_extreme_score: '0.654797'
+    franklin_tc_extreme_score: '0.804913'
+    spectra_10u_score_vs_reference: '0.967998'
+    spectra_10v_score_vs_reference: '0.963923'
+    spectra_2t_score_vs_reference: '0.974774'
+    spectra_mean_score_vs_reference: '0.968898'
+    spectra_10u_distance: '0.032002'
+    spectra_10v_distance: '0.036077'
+    spectra_2t_distance: '0.025226'
+    spectra_mean_distance: '0.031102'
+    surface_weighted_mse: '3900.165095'
+    validation_loss: na
+    role: experiment
+    spectra_coverage: 10 curves
+    spectra_n_curves: '10'
+    surface_loss_source: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total/surface_loss_summary.json
+    note: Direct proxy10total row with strict TC and spectra artifacts.
+    dossier: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/state/source_proxy10/experiments/manual-cfec83a3-new-piecewise30-h10-l20-sigma100.md
+    slug: manual-cfec83a3-new-piecewise30-h10-l20-sigma100
+  idalia_franklin_mean: 0.826055
+inventory:
+  predictions_count: 25
+  spectra_dirs:
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260323_piecewise30_h10_l20_sigma100/spectra_step120_5dates_m10_ecmwf
+  local_plot_dirs:
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260323_piecewise30_h10_l20_sigma100/eval_one_date_amazon_member01
+  local_plot_pngs: 5
+  local_plot_pdfs: 5
+  top_level_data_files:
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260323_piecewise30_h10_l20_sigma100/EXPERIMENT_CONFIG.yaml
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260323_piecewise30_h10_l20_sigma100/manual_inference_run_info.txt
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260323_piecewise30_h10_l20_sigma100/predictions_manifest.csv
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260323_piecewise30_h10_l20_sigma100/scoreboard_metrics.json
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260323_piecewise30_h10_l20_sigma100/surface_loss_summary.json
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260323_piecewise30_h10_l20_sigma100/tc_normed_pdfs_idalia_franklin_manual_cfec83a3_new_o96_o320_20260323_piecewise30_h10_l20_sigma100_from_predictions.stats.json
+  top_level_artifacts:
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260323_piecewise30_h10_l20_sigma100/tc_normed_pdfs_idalia_franklin_manual_cfec83a3_new_o96_o320_20260323_piecewise30_h10_l20_sigma100_from_predictions.pdf
+  logs: []
+  extra_dirs:
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260323_piecewise30_h10_l20_sigma100/eefo_o96
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260323_piecewise30_h10_l20_sigma100/enfo_o320
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260323_piecewise30_h10_l20_sigma100/predictions_step120_5dates
+  tc_members: 0

@@ -1,0 +1,137 @@
+generated_at: '2026-03-25T19:38:35Z'
+slug: manual-56b6c4e2-old-karras80-sigmax100k
+source_dossier: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/exp/manual-56b6c4e2-old-karras80-sigmax100k.md
+run_root: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630
+front_matter:
+  dossier_mode: generated
+  slug: manual-56b6c4e2-old-karras80-sigmax100k
+  display_label: 56b6 old k80 sigmax100k
+  role: experiment
+  checkpoint_id: 56b6c4e2a6064878841dba0635c7be44
+  checkpoint_path: /home/ecm5702/scratch/aifs/checkpoint/56b6c4e2a6064878841dba0635c7be44/last.ckpt
+  lane: o96-o320
+  stack_flavor: old
+  run_id: manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630
+  run_root: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630
+  venv: /home/ecm5702/dev/.ds-old/bin/activate
+  login_node: null
+  qos: null
+  job_ids:
+  - 30822676
+  - 31445856
+  task_note: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/epics/enfo_o320_scoreboard/in-progress/20260320_recent_eval_audit.md
+  experiment_config: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/EXPERIMENT_CONFIG.yaml
+  sampling:
+    summary: num_steps=80, rho=7.0, sampler=heun, sigma_max=100000.0, sigma_min=0.03,
+      S_max=100000.0
+    extra_args:
+      num_steps: 80
+      rho: 7.0
+      sampler: heun
+      sigma_max: 100000.0
+      sigma_min: 0.03
+      S_churn: 2.5
+      S_min: 0.75
+      S_max: 100000.0
+      S_noise: 1.05
+  surfaces:
+    proxy10:
+      status: not_yet_recorded
+      promotion: not_promoted
+      rank: null
+      scope: {}
+      artifacts:
+        tc_stats: null
+        spectra_summary: null
+        compare_json: null
+        scoreboard_metrics: null
+    aug_26_30:
+      status: recorded
+      promotion: promoted
+      rank: 4
+      scope:
+        dates:
+        - 20230826
+        - 20230827
+        - 20230828
+        - 20230829
+        - 20230830
+        members:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        steps_hours:
+        - 24
+        - 48
+        - 72
+        - 96
+        - 120
+      artifacts:
+        sigma_csv: null
+        tc_stats: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/tc_normed_pdfs_idalia_franklin_manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630_from_predictions.stats.json
+        spectra_summary: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/spectra_step120_5dates_m10_ecmwf/spectra_summary.json
+        comparison_summary: null
+        surface_loss_summary: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/surface_loss_summary.json
+scoreboard:
+  full:
+    tc_rank: '4'
+    label: 56b6 old k80 sigmax100k
+    checkpoint_short: 56b6c4e2a6
+    eval_sampler_min: karras80
+    table_group: main
+    contract_status: eligible
+    idalia_tc_extreme_score: '0.921282'
+    franklin_tc_extreme_score: '0.738797'
+    spectra_10u_score_vs_reference: '0.970530'
+    spectra_10v_score_vs_reference: '0.962424'
+    spectra_2t_score_vs_reference: '0.987382'
+    spectra_mean_score_vs_reference: '0.973445'
+    spectra_10u_distance: '0.029470'
+    spectra_10v_distance: '0.037576'
+    spectra_2t_distance: '0.012618'
+    spectra_mean_distance: '0.026555'
+    surface_weighted_mse: '10788.103067'
+    validation_loss: na
+    role: experiment
+    spectra_coverage: 10 pairs
+    spectra_n_curves: '10'
+    surface_loss_source: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/surface_loss_summary.json
+    note: Full-contract row with repaired TC, spectra, and surface metrics; sigma
+      CSV remains absent.
+    dossier: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/state/source_26_30/experiments/manual-56b6c4e2-old-karras80-sigmax100k.md
+    slug: manual-56b6c4e2-old-karras80-sigmax100k
+  proxy: {}
+  idalia_franklin_mean: 0.8300395
+inventory:
+  predictions_count: 25
+  spectra_dirs:
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/spectra_step120_5dates_m10_ecmwf
+  local_plot_dirs:
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/eval_one_date_amazon_member01
+  local_plot_pngs: 1
+  local_plot_pdfs: 2
+  top_level_data_files:
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/EXPERIMENT_CONFIG.yaml
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/manual_inference_run_info.txt
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/predictions_manifest.csv
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/scoreboard_metrics.json
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/surface_loss_summary.json
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/tc_normed_pdfs_idalia_franklin_manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630_from_predictions.stats.json
+  top_level_artifacts:
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/tc_normed_pdfs_idalia_franklin_manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630_from_predictions.pdf
+  logs:
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/logs/predict25_30822676.out
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/logs/tc_eval_30822693.out
+  extra_dirs:
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/eefo_o96
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/enfo_o320
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/predictions_step120_5dates
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/tc_aug26_30_regridded_20260319
+  tc_members: 0

@@ -1,0 +1,291 @@
+run_id: manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot
+checkpoint:
+  run_id: 56b6c4e2a6064878841dba0635c7be44
+  path: /home/ecm5702/scratch/aifs/checkpoint/56b6c4e2a6064878841dba0635c7be44/last.ckpt
+source:
+  input_root: /home/ecm5702/hpcperm/data/input_data/o96_o320/idalia_mixed_unsafe_20260311
+  bundle_pattern: '*_input_bundle.nc'
+  bundle_scope:
+    dates:
+    - 20230826
+    - 20230827
+    - 20230828
+    - 20230829
+    - 20230830
+    steps_hours:
+    - 24
+    - 48
+    - 72
+    - 96
+    - 120
+    members:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+stack_flavor: old
+lane: o96_o320
+source_hpc: ac
+sampling_config_json: '{"schedule_type":"experimental_piecewise","num_steps":30,"sigma_max":100000.0,"sigma_transition":100.0,"sigma_min":0.03,"high_schedule_type":"exponential","low_schedule_type":"karras","num_steps_high":10,"num_steps_low":20,"rho":7.0,"sampler":"heun","S_churn":2.5,"S_min":0.75,"S_max":100000.0,"S_noise":1.05}'
+allow_missing_target_old: 1
+prediction_representation:
+  mode: state_reconstruction
+  formula: pred_state = inference_model.predict_step(x_lres, x_hres)
+outputs:
+  run_dir: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot
+  predictions_dir: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/predictions
+  manifest_csv: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/predictions_manifest.csv
+  run_info_txt: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/manual_inference_run_info.txt
+  slurm_output_pattern: /home/ecm5702/perm/eval/manual_predict_x_bundle_37886603.out
+  logs_dir: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/logs
+created_utc: '2026-03-13T15:12:20Z'
+updated_utc: '2026-03-13T16:29:55Z'
+purpose: Prediction-run eval bundle
+artifact_paths:
+  run_root: /etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot
+  artifacts_root: /etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot
+  manifest_path: /etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/EXPERIMENT_CONFIG.yaml
+predictions:
+  source_dir: /etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/predictions
+  file_pattern: predictions_YYYYMMDD_stepXXX.nc
+  file_count_expected: 25
+  file_count_actual: 25
+  dates:
+  - 20230826
+  - 20230827
+  - 20230828
+  - 20230829
+  - 20230830
+  steps_hours:
+  - 24
+  - 48
+  - 72
+  - 96
+  - 120
+  ensemble_members: 10
+  weather_state_count: 68
+  weather_states:
+  - 10u
+  - 10v
+  - 2d
+  - 2t
+  - msl
+  - q_100
+  - q_1000
+  - q_200
+  - q_300
+  - q_400
+  - q_50
+  - q_500
+  - q_700
+  - q_850
+  - q_925
+  - skt
+  - sp
+  - t_100
+  - t_1000
+  - t_200
+  - t_300
+  - t_400
+  - t_50
+  - t_500
+  - t_700
+  - t_850
+  - t_925
+  - tcw
+  - u_100
+  - u_1000
+  - u_200
+  - u_300
+  - u_400
+  - u_50
+  - u_500
+  - u_700
+  - u_850
+  - u_925
+  - v_100
+  - v_1000
+  - v_200
+  - v_300
+  - v_400
+  - v_50
+  - v_500
+  - v_700
+  - v_850
+  - v_925
+  - w_100
+  - w_1000
+  - w_200
+  - w_300
+  - w_400
+  - w_50
+  - w_500
+  - w_700
+  - w_850
+  - w_925
+  - z_100
+  - z_1000
+  - z_200
+  - z_300
+  - z_400
+  - z_50
+  - z_500
+  - z_700
+  - z_850
+  - z_925
+  checkpoint_metadata:
+    source_attributes:
+    - checkpoint_id
+    - checkpoint_path
+    checkpoint_id: 56b6c4e2a6064878841dba0635c7be44
+    checkpoint_id_consistent_across_files: true
+    checkpoint_path: /home/ecm5702/scratch/aifs/checkpoint/56b6c4e2a6064878841dba0635c7be44/last.ckpt
+    checkpoint_path_consistent_across_files: true
+  sampling_parameters:
+    source_attribute: sampling_config_json
+    consistent_across_all_prediction_files: true
+    json_raw: '{"S_churn": 2.5, "S_max": 100000.0, "S_min": 0.75, "S_noise": 1.05, "custom_sigmas": "100000,50118.7233627,25118.8643151,12589.2541179,6309.5734448,3162.27766017,1584.89319246,794.328234724,398.107170553,199.526231497,100,77.300712924,59.1693380339,44.8126340837,33.5516235781,24.8087752272,18.0961831776,13.004702648,9.19400160202,6.38348808508,4.34407285828,2.8907269573,1.87579380728,1.18301552346,0.722233027687,0.424719610699,0.239107570306,0.127867555471,0.0643002463028,0.03",
+      "noise_steps_passed": 31, "num_steps_high": 10, "num_steps_low": 20, "num_steps_requested": 30, "rho": 7.0, "rho_low":
+      7.0, "sampler": "heun", "schedule": "piecewise30_h10_l20_sigma100_classic", "schedule_kind": "piecewise", "schedule_type":
+      "experimental_piecewise", "sigma_max": 100000.0, "sigma_min": 0.03, "sigma_transition": 100.0}'
+    parsed:
+      S_churn: 2.5
+      S_max: 100000.0
+      S_min: 0.75
+      S_noise: 1.05
+      custom_sigmas: 100000,50118.7233627,25118.8643151,12589.2541179,6309.5734448,3162.27766017,1584.89319246,794.328234724,398.107170553,199.526231497,100,77.300712924,59.1693380339,44.8126340837,33.5516235781,24.8087752272,18.0961831776,13.004702648,9.19400160202,6.38348808508,4.34407285828,2.8907269573,1.87579380728,1.18301552346,0.722233027687,0.424719610699,0.239107570306,0.127867555471,0.0643002463028,0.03
+      noise_steps_passed: 31
+      num_steps_high: 10
+      num_steps_low: 20
+      num_steps_requested: 30
+      rho: 7.0
+      rho_low: 7.0
+      sampler: heun
+      schedule: piecewise30_h10_l20_sigma100_classic
+      schedule_kind: piecewise
+      schedule_type: experimental_piecewise
+      sigma_max: 100000.0
+      sigma_min: 0.03
+      sigma_transition: 100.0
+  output_weather_states:
+    source_attributes:
+    - output_weather_state_mode
+    - output_weather_states
+    mode: ''
+    mode_consistent_across_files: true
+    raw: ''
+    raw_consistent_across_files: true
+  first_prediction_file: /etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/predictions/predictions_20230826_step024.nc
+  first_prediction_file_attrs:
+    checkpoint_id: 56b6c4e2a6064878841dba0635c7be44
+    checkpoint_path: /home/ecm5702/scratch/aifs/checkpoint/56b6c4e2a6064878841dba0635c7be44/last.ckpt
+    grid: O320
+    inference_checkpoint_path: /lus/h2resw01/scratch/ecm5702/aifs/checkpoint/56b6c4e2a6064878841dba0635c7be44/inference-last.ckpt
+    prediction_formula: pred_state = pred_residual + interpolate_down(input_lres)
+    prediction_representation: state_reconstruction
+    sampling_config_json: '{"S_churn": 2.5, "S_max": 100000.0, "S_min": 0.75, "S_noise": 1.05, "custom_sigmas": "100000,50118.7233627,25118.8643151,12589.2541179,6309.5734448,3162.27766017,1584.89319246,794.328234724,398.107170553,199.526231497,100,77.300712924,59.1693380339,44.8126340837,33.5516235781,24.8087752272,18.0961831776,13.004702648,9.19400160202,6.38348808508,4.34407285828,2.8907269573,1.87579380728,1.18301552346,0.722233027687,0.424719610699,0.239107570306,0.127867555471,0.0643002463028,0.03",
+      "noise_steps_passed": 31, "num_steps_high": 10, "num_steps_low": 20, "num_steps_requested": 30, "rho": 7.0, "rho_low":
+      7.0, "sampler": "heun", "schedule": "piecewise30_h10_l20_sigma100_classic", "schedule_kind": "piecewise", "schedule_type":
+      "experimental_piecewise", "sigma_max": 100000.0, "sigma_min": 0.03, "sigma_transition": 100.0}'
+    target_members_with_data: 10
+    target_weather_state_count_min: 68
+  manifest_paths:
+  - /etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/predictions_manifest.csv
+  manifest_csv: /etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/predictions_manifest.csv
+provenance:
+  source_script: /var/spool/slurmd/job38352840/slurm_script
+  job_id: '38352840'
+tc_evaluation:
+  method: prediction-driven
+  label: ''
+  script: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/downscaling-tools/eval/tc/plot_pdf_tc_from_predictions.py
+  base_tc_dir: ''
+  outputs:
+    tc_pdf_from_predictions: /etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/tc_normed_pdfs_idalia_manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot_from_predictions.pdf
+    tc_pdf_canonical: /etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/tc_normed_pdfs_all_events_manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot.pdf
+    tc_stats_json: /etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/tc_normed_pdfs_idalia_manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot_from_predictions.stats.json
+    canonical_stats_json: ''
+scope:
+  dates:
+  - 20230826
+  - 20230827
+  - 20230828
+  - 20230829
+  - 20230830
+  steps_hours:
+  - 24
+  - 48
+  - 72
+  - 96
+  - 120
+  members:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  bundle_pairs:
+  - '20230826:24'
+  - '20230826:48'
+  - 20230826:72
+  - 20230826:96
+  - 20230826:120
+  - '20230827:24'
+  - '20230827:48'
+  - 20230827:72
+  - 20230827:96
+  - 20230827:120
+  - '20230828:24'
+  - '20230828:48'
+  - 20230828:72
+  - 20230828:96
+  - 20230828:120
+  - '20230829:24'
+  - '20230829:48'
+  - 20230829:72
+  - 20230829:96
+  - 20230829:120
+  - '20230830:24'
+  - '20230830:48'
+  - 20230830:72
+  - 20230830:96
+  - 20230830:120
+sampling_config:
+  schedule_kind: piecewise30
+  num_steps: 30
+  sigma_max: 100000.0
+  sigma_min: 0.03
+  rho: 7.0
+  sampler: heun
+  S_churn: 2.5
+  S_min: 0.75
+  S_max: 100000.0
+  S_noise: 1.05
+  schedule_type: experimental_piecewise
+  sigma_transition: 100.0
+  high_schedule_type: exponential
+  low_schedule_type: karras
+  num_steps_high: 10
+  num_steps_low: 20
+config_capture_metadata:
+  capture_status: exact
+  inventory_record_slug: manual-56b6c4e2-old-piecewise30-h10-l20-sigma100
+  inventory_path: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/state/experiment_config_inventory.yaml
+  primary_source_kind: run_info
+  primary_source_path: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/manual_inference_run_info.txt
+  secondary_source_paths:
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/logs/tc_cache_j2hh_38354672.out
+  updated_utc: '2026-03-24T11:48:13Z'
+  run_info_present: true
+  bundle_pair_count: 25

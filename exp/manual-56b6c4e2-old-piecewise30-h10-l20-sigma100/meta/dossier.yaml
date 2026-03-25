@@ -1,0 +1,193 @@
+generated_at: '2026-03-25T19:38:31Z'
+slug: manual-56b6c4e2-old-piecewise30-h10-l20-sigma100
+source_dossier: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/exp/manual-56b6c4e2-old-piecewise30-h10-l20-sigma100.md
+run_root: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot
+front_matter:
+  dossier_mode: generated
+  slug: manual-56b6c4e2-old-piecewise30-h10-l20-sigma100
+  display_label: 56b6 old pw30 classic
+  role: experiment
+  checkpoint_id: 56b6c4e2a6064878841dba0635c7be44
+  checkpoint_path: /home/ecm5702/scratch/aifs/checkpoint/56b6c4e2a6064878841dba0635c7be44/last.ckpt
+  lane: o96-o320
+  stack_flavor: old
+  run_id: manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot
+  run_root: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot
+  venv: /home/ecm5702/dev/.ds-old/bin/activate
+  login_node: null
+  qos: null
+  job_ids: []
+  task_note: null
+  experiment_config: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/EXPERIMENT_CONFIG.yaml
+  sampling:
+    summary: schedule_type=experimental_piecewise, schedule_kind=piecewise30, high_schedule_type=exponential,
+      low_schedule_type=karras, num_steps=30, num_steps_high=10, num_steps_low=20,
+      sigma_min=0.03, sigma_transition=100.0, sigma_max=100000.0, rho=7.0, sampler=heun,
+      S_churn=2.5, S_min=0.75, S_max=100000.0, S_noise=1.05
+    extra_args:
+      schedule_kind: piecewise30
+      num_steps: 30
+      sigma_max: 100000.0
+      sigma_min: 0.03
+      rho: 7.0
+      sampler: heun
+      S_churn: 2.5
+      S_min: 0.75
+      S_max: 100000.0
+      S_noise: 1.05
+      schedule_type: experimental_piecewise
+      sigma_transition: 100.0
+      high_schedule_type: exponential
+      low_schedule_type: karras
+      num_steps_high: 10
+      num_steps_low: 20
+  surfaces:
+    proxy10:
+      status: recorded
+      promotion: promoted
+      rank: 2
+      scope:
+        dates:
+        - 20230827
+        - 20230828
+        - 20230829
+        - 20230830
+        members:
+        - 1
+        steps_hours:
+        - 24
+        - 48
+        - 72
+      artifacts:
+        tc_stats: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/proxy10total_subset_20260318/tc_normed_pdfs_idalia_franklin_56b6c4e2_proxy10total_strict_20260318.stats.json
+        spectra_summary: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/spectra_harmonized_proxy10total_20260318/spectra_summary.json
+        compare_json: null
+        scoreboard_metrics: null
+    aug_26_30:
+      status: recorded
+      promotion: promoted
+      rank: 2
+      scope:
+        dates:
+        - 20230826
+        - 20230827
+        - 20230828
+        - 20230829
+        - 20230830
+        members:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        steps_hours:
+        - 24
+        - 48
+        - 72
+        - 96
+        - 120
+      artifacts:
+        sigma_csv: null
+        tc_stats: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/tc_normed_pdfs_idalia_franklin_56b6c4e2_full25_strict_20260317.stats.json
+        spectra_summary: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/spectra/spectra_summary.json
+        comparison_summary: null
+        surface_loss_summary: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/surface_loss_summary.json
+scoreboard:
+  full:
+    tc_rank: '2'
+    label: 56b6 old pw30 classic
+    checkpoint_short: 56b6c4e2a6
+    eval_sampler_min: piecewise30
+    table_group: main
+    contract_status: eligible
+    idalia_tc_extreme_score: '0.938624'
+    franklin_tc_extreme_score: '0.758736'
+    spectra_10u_score_vs_reference: '0.956592'
+    spectra_10v_score_vs_reference: '0.966089'
+    spectra_2t_score_vs_reference: '0.983259'
+    spectra_mean_score_vs_reference: '0.968647'
+    spectra_10u_distance: '0.043408'
+    spectra_10v_distance: '0.033911'
+    spectra_2t_distance: '0.016741'
+    spectra_mean_distance: '0.031353'
+    surface_weighted_mse: '10783.899057'
+    validation_loss: na
+    role: experiment
+    spectra_coverage: 25 curves
+    spectra_n_curves: '25'
+    surface_loss_source: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/surface_loss_summary.json
+    note: Full-contract row with TC plus spectra complete.
+    dossier: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/state/source_26_30/experiments/manual-56b6c4e2-old-piecewise30-h10-l20-sigma100.md
+    slug: manual-56b6c4e2-old-piecewise30-h10-l20-sigma100
+  proxy:
+    tc_rank: '2'
+    label: 56b6 pw30 proxy10total
+    checkpoint_short: 56b6c4e2a6
+    eval_sampler_min: piecewise30
+    table_group: main
+    contract_status: eligible
+    idalia_tc_extreme_score: '0.911372'
+    franklin_tc_extreme_score: '1.000000'
+    spectra_10u_score_vs_reference: '0.952414'
+    spectra_10v_score_vs_reference: '0.958627'
+    spectra_2t_score_vs_reference: '0.973634'
+    spectra_mean_score_vs_reference: '0.961558'
+    spectra_10u_distance: '0.047586'
+    spectra_10v_distance: '0.041373'
+    spectra_2t_distance: '0.026366'
+    spectra_mean_distance: '0.038442'
+    surface_weighted_mse: '10783.899057'
+    validation_loss: na
+    role: experiment
+    spectra_coverage: 10 curves
+    spectra_n_curves: '10'
+    surface_loss_source: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/surface_loss_summary.json
+    note: Corrected proxy10total row with scoreboard-native TC and spectra artifacts.
+    dossier: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/state/source_proxy10/experiments/manual-56b6c4e2-old-piecewise30-h10-l20-sigma100.md
+    slug: manual-56b6c4e2-old-piecewise30-h10-l20-sigma100
+  idalia_franklin_mean: 0.84868
+inventory:
+  predictions_count: 25
+  spectra_dirs:
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/spectra
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/spectra_canonical_20260317
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/spectra_ecmwf
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/spectra_ecmwf_proxy10
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/spectra_harmonized_proxy10_20260318
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/spectra_harmonized_proxy10total_20260318
+  local_plot_dirs:
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/eval_one_date
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/eval_one_date_amazon_member01
+  local_plot_pngs: 5
+  local_plot_pdfs: 10
+  top_level_data_files:
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/EXPERIMENT_CONFIG.yaml
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/manual_inference_run_info.txt
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/predictions_manifest.csv
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/surface_loss_summary.json
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/tc_normed_pdfs_franklin_manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot_from_predictions.stats.json
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/tc_normed_pdfs_idalia_franklin_56b6c4e2_full25_strict_20260317.stats.json
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/tc_normed_pdfs_idalia_manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot_from_predictions.stats.json
+  top_level_artifacts:
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/tc_normed_pdfs_all_events_manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot.pdf
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/tc_normed_pdfs_franklin_manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot_from_predictions.pdf
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/tc_normed_pdfs_idalia_franklin_56b6c4e2_full25_strict_20260317.pdf
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/tc_normed_pdfs_idalia_manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot_from_predictions.pdf
+  logs:
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/logs/tc_cache_j2hh_38354672.out
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/logs/tc_cache_root_38363753.out
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/logs/tc_cache_smoke_38352387.out
+  extra_dirs:
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/eventscore_20260317
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/proxy10_subset_20260317
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/proxy10total_subset_20260318
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/scheduler_comparison_20260313
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/tc_cached_refs_j2hh_smoketest_20260313
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/tc_cached_refs_runroot_smoketest_20260313
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/tc_cached_refs_smoketest_20260313
+  tc_members: 10

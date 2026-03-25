@@ -1,0 +1,89 @@
+source:
+  input_root: /home/ecm5702/hpcperm/data/input_data/o96_o320/idalia
+  bundle_pattern: '*_input_bundle.nc'
+  bundle_scope:
+    dates:
+    - 20230826
+    - 20230827
+    - 20230828
+    - 20230829
+    - 20230830
+    steps_hours:
+    - 24
+    - 48
+    - 72
+    - 96
+    - 120
+scope:
+  dates:
+  - 20230826
+  - 20230827
+  - 20230828
+  - 20230829
+  - 20230830
+  steps_hours:
+  - 24
+  - 48
+  - 72
+  - 96
+  - 120
+  bundle_pairs:
+  - '20230826:24'
+  - '20230826:48'
+  - 20230826:72
+  - 20230826:96
+  - 20230826:120
+  - '20230827:24'
+  - '20230827:48'
+  - 20230827:72
+  - 20230827:96
+  - 20230827:120
+  - '20230828:24'
+  - '20230828:48'
+  - 20230828:72
+  - 20230828:96
+  - 20230828:120
+  - '20230829:24'
+  - '20230829:48'
+  - 20230829:72
+  - 20230829:96
+  - 20230829:120
+  - '20230830:24'
+  - '20230830:48'
+  - 20230830:72
+  - 20230830:96
+  - 20230830:120
+checkpoint:
+  run_id: cfec83a3cd0644778e2bfcbacfa9f4fc
+run_id: manual_cfec83a3_new_o96_o320_20260320_oldlike200k
+stack_flavor: new
+lane: o96_o320
+sampling_config_json: '{"S_churn":2.5,"S_max":1000.0,"S_min":0.75,"S_noise":1.05,"num_steps":40,"rho":7.0,"sampler":"heun","schedule_kind":"karras","schedule_type":"karras","sigma_max":1000.0,"sigma_min":0.03}'
+sampling_config:
+  schedule_kind: karras
+  num_steps: 40
+  sigma_max: 1000.0
+  sigma_min: 0.03
+  rho: 7.0
+  sampler: heun
+  S_churn: 2.5
+  S_min: 0.75
+  S_max: 1000.0
+  S_noise: 1.05
+  schedule_type: karras
+outputs:
+  run_dir: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k
+  predictions_dir: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/predictions
+  manifest_csv: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/predictions_manifest.csv
+  jobs_dir: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/jobs
+  logs_dir: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/logs
+config_capture_metadata:
+  capture_status: reconstructed
+  inventory_record_slug: manual-cfec83a3-new-karras40-oldlike200k
+  inventory_path: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/state/experiment_config_inventory.yaml
+  primary_source_kind: job_script
+  primary_source_path: /etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/jobs/predict25_manual_cfec83a3_new_o96_o320_20260320_oldlike200k.sbatch
+  secondary_source_paths:
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/logs/predict25_manual_cfec83a3_new_o96_o320_20260320_oldlike200k_31377164.out
+  updated_utc: '2026-03-24T11:48:13Z'
+  bundle_pair_count: 25

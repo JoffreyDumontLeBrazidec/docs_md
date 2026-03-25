@@ -1,0 +1,182 @@
+generated_at: '2026-03-25T19:38:28Z'
+slug: manual-cfec83a3-new-karras40-oldlike200k
+source_dossier: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/exp/manual-cfec83a3-new-karras40-oldlike200k.md
+run_root: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k
+front_matter:
+  dossier_mode: generated
+  slug: manual-cfec83a3-new-karras40-oldlike200k
+  display_label: cfec83 k40 oldlike200k
+  role: experiment
+  checkpoint_id: cfec83a3cd0644778e2bfcbacfa9f4fc
+  checkpoint_path: /home/ecm5702/scratch/aifs/checkpoint/cfec83a3cd0644778e2bfcbacfa9f4fc/last.ckpt
+  lane: o96-o320
+  stack_flavor: new
+  run_id: manual_cfec83a3_new_o96_o320_20260320_oldlike200k
+  run_root: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k
+  venv: /home/ecm5702/dev/.ds-dyn/bin/activate
+  login_node: null
+  qos: null
+  job_ids:
+  - 31375341
+  - 31375342
+  - 31377164
+  task_note: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/epics/enfo_o320_scoreboard/in-progress/20260320_recent_eval_audit.md
+  experiment_config: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/EXPERIMENT_CONFIG.yaml
+  sampling:
+    summary: schedule_type=karras, schedule_kind=karras, num_steps=40, sigma_min=0.03,
+      sigma_max=1000.0, rho=7.0, sampler=heun, S_churn=2.5, S_min=0.75, S_max=1000.0,
+      S_noise=1.05
+    extra_args:
+      schedule_kind: karras
+      num_steps: 40
+      sigma_max: 1000.0
+      sigma_min: 0.03
+      rho: 7.0
+      sampler: heun
+      S_churn: 2.5
+      S_min: 0.75
+      S_max: 1000.0
+      S_noise: 1.05
+      schedule_type: karras
+  surfaces:
+    proxy10:
+      status: recorded
+      promotion: promoted
+      rank: 4
+      scope:
+        dates:
+        - 20230827
+        - 20230828
+        - 20230829
+        - 20230830
+        members:
+        - 1
+        steps_hours:
+        - 24
+        - 48
+        - 72
+      artifacts:
+        tc_stats: /home/ecm5702/perm/eval/manual_cfec83a3_proxy10total_20260320/tc_normed_pdfs_idalia_franklin_cfec83a3_proxy10total_strict_20260320.stats.json
+        spectra_summary: /home/ecm5702/perm/eval/manual_cfec83a3_proxy10total_20260320/spectra_harmonized_proxy10total_20260320/spectra_summary.json
+        compare_json: null
+        scoreboard_metrics: null
+    aug_26_30:
+      status: recorded
+      promotion: promoted
+      rank: 5
+      scope:
+        dates:
+        - 20230826
+        - 20230827
+        - 20230828
+        - 20230829
+        - 20230830
+        members:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        steps_hours:
+        - 24
+        - 48
+        - 72
+        - 96
+        - 120
+      artifacts:
+        sigma_csv: /home/ecm5702/perm/eval/scoreboards/sigma/manual_cfec83a3_new_o96_o320_20260320_oldlike200k_sigma_eval.csv
+        tc_stats: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/tc_normed_pdfs_idalia_franklin_manual_cfec83a3_new_o96_o320_20260320_oldlike200k_from_predictions.stats.json
+        spectra_summary: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/spectra_step120_5dates_m10_ecmwf/spectra_summary.json
+        comparison_summary: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/spectra_step120_5dates_m10_ecmwf/comparison_summary.json
+        surface_loss_summary: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/surface_loss_summary.json
+scoreboard:
+  full:
+    tc_rank: '5'
+    label: cfec83 k40 oldlike200k
+    checkpoint_short: cfec83a3cd
+    eval_sampler_min: karras40
+    table_group: main
+    contract_status: eligible
+    idalia_tc_extreme_score: '0.919355'
+    franklin_tc_extreme_score: '0.794926'
+    spectra_10u_score_vs_reference: '0.979782'
+    spectra_10v_score_vs_reference: '0.975783'
+    spectra_2t_score_vs_reference: '0.986208'
+    spectra_mean_score_vs_reference: '0.980591'
+    spectra_10u_distance: '0.020218'
+    spectra_10v_distance: '0.024217'
+    spectra_2t_distance: '0.013792'
+    spectra_mean_distance: '0.019409'
+    surface_weighted_mse: '10646.679560'
+    validation_loss: '0.066412'
+    role: experiment
+    spectra_coverage: 10 pairs
+    spectra_n_curves: '10'
+    surface_loss_source: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/surface_loss_summary.json
+    note: Full-contract row with complete scoreboard artifacts.
+    dossier: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/state/source_26_30/experiments/manual-cfec83a3-new-karras40-oldlike200k.md
+    slug: manual-cfec83a3-new-karras40-oldlike200k
+  proxy:
+    tc_rank: '4'
+    label: cfec83 k40 proxy10total
+    checkpoint_short: cfec83a3cd
+    eval_sampler_min: karras40
+    table_group: main
+    contract_status: eligible
+    idalia_tc_extreme_score: '0.785289'
+    franklin_tc_extreme_score: '0.700827'
+    spectra_10u_score_vs_reference: '0.967958'
+    spectra_10v_score_vs_reference: '0.966045'
+    spectra_2t_score_vs_reference: '0.975564'
+    spectra_mean_score_vs_reference: '0.969856'
+    spectra_10u_distance: '0.032042'
+    spectra_10v_distance: '0.033955'
+    spectra_2t_distance: '0.024436'
+    spectra_mean_distance: '0.030144'
+    surface_weighted_mse: '10646.679560'
+    validation_loss: '0.066412'
+    role: experiment
+    spectra_coverage: 10 curves
+    spectra_n_curves: '10'
+    surface_loss_source: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/surface_loss_summary.json
+    note: Frozen proxy10total row rebuilt from the March 20 run root with scoreboard-native
+      TC and spectra artifacts.
+    dossier: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/state/source_proxy10/experiments/manual-cfec83a3-new-karras40-oldlike200k.md
+    slug: manual-cfec83a3-new-karras40-oldlike200k
+  idalia_franklin_mean: 0.8571405000000001
+inventory:
+  predictions_count: 25
+  spectra_dirs:
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/spectra_step120_5dates_m10_ecmwf
+  local_plot_dirs:
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/eval
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/eval_one_date_amazon_member01
+  local_plot_pngs: 10
+  local_plot_pdfs: 10
+  top_level_data_files:
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/EXPERIMENT_CONFIG.yaml
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/proxy_tc_compare.json
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/scoreboard_metrics.json
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/surface_loss_summary.json
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/tc_normed_pdfs_idalia_franklin_manual_cfec83a3_new_o96_o320_20260320_oldlike200k_from_predictions.stats.json
+  top_level_artifacts:
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/tc_normed_pdfs_idalia_franklin_manual_cfec83a3_new_o96_o320_20260320_oldlike200k_from_predictions.pdf
+  logs:
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/logs/autopilot_predictions.pid
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/logs/autopilot_predictions_background.log
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/logs/eval_proxy_manual_cfec83a3_new_o96_o320_20260320_oldlike200k_31375342.out
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/logs/predict25_manual_cfec83a3_new_o96_o320_20260320_oldlike200k_31377164.out
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/logs/predict25_manual_cfec83a3_new_o96_o320_20260320_oldlike200k_31483987.out
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/logs/predict_proxy_manual_cfec83a3_new_o96_o320_20260320_oldlike200k_31375341.out
+  extra_dirs:
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/eefo_o96
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/enfo_o320
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/jobs
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/plots
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/predictions_step120_5dates
+  tc_members: 0

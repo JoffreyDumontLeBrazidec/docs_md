@@ -1,0 +1,20 @@
+{
+  "run_id": "manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630",
+  "sigma_losses": {
+    "sigma_1": null,
+    "sigma_5": null,
+    "sigma_10": null,
+    "sigma_100": null
+  },
+  "tc_extreme_scores": {
+    "idalia": 0.9212823678912794,
+    "franklin": 0.7387966622926627
+  },
+  "spectra_mean_relative_l2": 0.02579247715980901,
+  "spectra_relative_l2": {
+    "10u": 0.030078333933698898,
+    "10v": 0.03436193772135602,
+    "2t": 0.012937159824372116
+  },
+  "surface_weighted_mse": 10788.103067443213
+}

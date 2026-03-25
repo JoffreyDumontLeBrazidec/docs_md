@@ -1,0 +1,25 @@
+doc_type: experiment-room
+lane: o320-o1280
+slug: f03c9e-full25
+status: completed
+updated_utc: 2026-03-25T18:44:59Z
+checkpoint_family: f03c9e8862c9422f972629814d94a3a3
+checkpoint_root: /home/ecm5702/scratch/aifs/checkpoint/f03c9e8862c9422f972629814d94a3a3
+run_root: /home/ecm5702/perm/eval/manual_f03c9e_100k_full25_20260309_yfix1
+predictions:
+  file_count: 25
+  dates: [20230826, 20230827, 20230828, 20230829, 20230830]
+  steps_hours: [24, 48, 72, 96, 120]
+  ensemble_members: 10
+artifacts:
+  predictions_dir: /home/ecm5702/perm/eval/manual_f03c9e_100k_full25_20260309_yfix1/predictions
+  predictions_manifest: /home/ecm5702/perm/eval/manual_f03c9e_100k_full25_20260309_yfix1/predictions/predictions_manifest.csv
+  experiment_config: /home/ecm5702/perm/eval/manual_f03c9e_100k_full25_20260309_yfix1/EXPERIMENT_CONFIG.yaml
+  spectra_summary: /home/ecm5702/perm/eval/manual_f03c9e_100k_full25_20260309_yfix1/spectra_step120_5dates_m10_ecmwf_20260313/spectra_summary.json
+  tc_stats: /home/ecm5702/perm/eval/manual_f03c9e_100k_full25_20260309_yfix1/tc_idalia_compare_refs_regridded008deg_20260313/tc_normed_pdfs_idalia_manual_f03c9e_100k_full25_20260309_yfix1_regridded008deg_refs_eefo_o320_enfo_o1280.stats.json
+  intermediate_manifest: /home/ecm5702/perm/eval/manual_f03c9e_100k_full25_20260309_yfix1/intermediate_idalia_maxwind_20260313/intermediate_spectra_localplots_20260313/intermediate_spectra_manifest.json
+provenance:
+  dossier: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/epics/checkpoint-eval-pipeline/checkpoint-dossiers/f03c9e.md
+  tasks:
+    - /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/epics/checkpoint-eval-pipeline/completed-tasks/20260311_manual_f03c9e_100k_full25_missing_restart.md
+    - /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/epics/checkpoint-eval-pipeline/completed-tasks/20260313_f03c9e_100k_tc_eval_and_maxwind_intermediate.md

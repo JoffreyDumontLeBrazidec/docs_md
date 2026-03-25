@@ -1,0 +1,178 @@
+generated_at: '2026-03-25T19:38:37Z'
+slug: manual-61cf1811-new-piecewise30-h10-l20-sigma100
+source_dossier: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/exp/manual-61cf1811-new-piecewise30-h10-l20-sigma100.md
+run_root: /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_ref
+front_matter:
+  dossier_mode: generated
+  slug: manual-61cf1811-new-piecewise30-h10-l20-sigma100
+  display_label: 61cf pw30 exp/karras
+  role: experiment
+  checkpoint_id: 61cf18112f9f4e5da192ae930b40aa79
+  checkpoint_path: /home/ecm5702/scratch/aifs/checkpoint/61cf18112f9f4e5da192ae930b40aa79/anemoi-by_epoch-epoch_021-step_100000.ckpt
+  lane: o96-o320
+  stack_flavor: new
+  run_id: manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_ref
+  run_root: /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_ref
+  venv: /home/ecm5702/dev/.ds-dyn/bin/activate
+  login_node: ac6-100
+  qos: ng
+  job_ids:
+  - 31418043
+  - 31418044
+  - 31418106
+  task_note: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/epics/enfo_o320_scoreboard/in-progress/20260320_61cf1811_piecewise30_reference_sampler.md
+  experiment_config: /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total/EXPERIMENT_CONFIG.yaml
+  sampling:
+    summary: schedule_type=experimental_piecewise, high_schedule_type=exponential,
+      low_schedule_type=karras, num_steps=30, num_steps_high=10, num_steps_low=20,
+      sigma_min=0.03, sigma_transition=100.0, sigma_max=100000.0, sampler=heun
+    extra_args:
+      schedule_type: experimental_piecewise
+      num_steps: 30
+      sigma_max: 100000.0
+      sigma_transition: 100.0
+      sigma_min: 0.03
+      high_schedule_type: exponential
+      low_schedule_type: karras
+      num_steps_high: 10
+      num_steps_low: 20
+      rho: 7.0
+      sampler: heun
+      S_churn: 2.5
+      S_min: 0.75
+      S_max: 100000.0
+      S_noise: 1.05
+  surfaces:
+    proxy10:
+      status: recorded
+      promotion: promoted
+      rank: 7
+      scope:
+        dates:
+        - 20230827
+        - 20230828
+        - 20230829
+        - 20230830
+        members:
+        - 1
+        steps_hours:
+        - 24
+        - 48
+        - 72
+      artifacts:
+        tc_stats: /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total/proxy10total_subset_20260320/tc_normed_pdfs_idalia_franklin_61cf1811_piecewise30_proxy10total_strict_20260320.stats.json
+        spectra_summary: /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total/spectra_harmonized_proxy10total_20260320/spectra_summary.json
+        compare_json: null
+        scoreboard_metrics: null
+    aug_26_30:
+      status: recorded
+      promotion: promoted
+      rank: 1
+      scope:
+        dates:
+        - 20230826
+        - 20230827
+        - 20230828
+        - 20230829
+        - 20230830
+        members:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        steps_hours:
+        - 24
+        - 48
+        - 72
+        - 96
+        - 120
+      artifacts:
+        sigma_csv: /home/ecm5702/perm/eval/scoreboards/sigma/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_ref_sigma_eval.csv
+        tc_stats: /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_ref/tc_normed_pdfs_idalia_franklin_manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_ref_from_predictions.stats.json
+        spectra_summary: /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_ref/spectra_step120_5dates_m10_ecmwf/spectra_summary.json
+        comparison_summary: null
+        surface_loss_summary: /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_ref/surface_loss_summary.json
+scoreboard:
+  full:
+    tc_rank: '1'
+    label: 61cf pw30 exp/karras
+    checkpoint_short: 61cf18112f
+    eval_sampler_min: piecewise30
+    table_group: main
+    contract_status: eligible
+    idalia_tc_extreme_score: '0.955691'
+    franklin_tc_extreme_score: '0.700841'
+    spectra_10u_score_vs_reference: '0.962478'
+    spectra_10v_score_vs_reference: '0.951560'
+    spectra_2t_score_vs_reference: '0.987614'
+    spectra_mean_score_vs_reference: '0.967218'
+    spectra_10u_distance: '0.037522'
+    spectra_10v_distance: '0.048440'
+    spectra_2t_distance: '0.012386'
+    spectra_mean_distance: '0.032782'
+    surface_weighted_mse: '10819.666366'
+    validation_loss: '0.063202'
+    role: experiment
+    spectra_coverage: 10 pairs
+    spectra_n_curves: '10'
+    surface_loss_source: /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_ref/surface_loss_summary.json
+    note: Full contract + complete metrics.
+    dossier: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/state/source_26_30/experiments/manual-61cf1811-new-piecewise30-h10-l20-sigma100.md
+    slug: manual-61cf1811-new-piecewise30-h10-l20-sigma100
+  proxy:
+    tc_rank: '7'
+    label: 61cf pw30 proxy10total
+    checkpoint_short: 61cf18112f
+    eval_sampler_min: piecewise30
+    table_group: main
+    contract_status: eligible
+    idalia_tc_extreme_score: '0.716516'
+    franklin_tc_extreme_score: '0.746305'
+    spectra_10u_score_vs_reference: '0.952404'
+    spectra_10v_score_vs_reference: '0.947028'
+    spectra_2t_score_vs_reference: '0.973018'
+    spectra_mean_score_vs_reference: '0.957483'
+    spectra_10u_distance: '0.047596'
+    spectra_10v_distance: '0.052972'
+    spectra_2t_distance: '0.026982'
+    spectra_mean_distance: '0.042517'
+    surface_weighted_mse: '3990.344360'
+    validation_loss: na
+    role: experiment
+    spectra_coverage: 10 curves
+    spectra_n_curves: '10'
+    surface_loss_source: /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total/surface_loss_summary.json
+    note: Direct proxy10total row with strict regridded TC and spectra artifacts;
+      the first post-step failed on missing `ecmwf-toolbox`, then a repair job completed
+      the canonical bundle.
+    dossier: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/state/source_proxy10/experiments/manual-61cf1811-new-piecewise30-h10-l20-sigma100.md
+    slug: manual-61cf1811-new-piecewise30-h10-l20-sigma100
+  idalia_franklin_mean: 0.828266
+inventory:
+  predictions_count: 25
+  spectra_dirs:
+  - /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_ref/spectra_step120_5dates_m10_ecmwf
+  local_plot_dirs:
+  - /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_ref/eval_one_date_amazon_member01
+  local_plot_pngs: 4
+  local_plot_pdfs: 4
+  top_level_data_files:
+  - /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_ref/manual_inference_run_info.txt
+  - /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_ref/predictions_manifest.csv
+  - /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_ref/scoreboard_metrics.json
+  - /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_ref/surface_loss_summary.json
+  - /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_ref/tc_normed_pdfs_idalia_franklin_manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_ref_from_predictions.stats.json
+  top_level_artifacts:
+  - /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_ref/tc_normed_pdfs_idalia_franklin_manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_ref_from_predictions.pdf
+  logs: []
+  extra_dirs:
+  - /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_ref/eefo_o96
+  - /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_ref/enfo_o320
+  - /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_ref/predictions_step120_5dates
+  tc_members: 0

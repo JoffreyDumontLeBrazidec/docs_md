@@ -1,0 +1,119 @@
+run_id: manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630
+checkpoint:
+  run_id: 56b6c4e2a6064878841dba0635c7be44
+  path: /home/ecm5702/scratch/aifs/checkpoint/56b6c4e2a6064878841dba0635c7be44/last.ckpt
+  inference_path: /home/ecm5702/scratch/aifs/checkpoint/56b6c4e2a6064878841dba0635c7be44/inference-anemoi-by_epoch-epoch_021-step_101728.ckpt
+  epoch: 21
+  step: 101728
+  note: tensor-identical to last.ckpt (lr=0, same 518 keys, 0 differing tensors)
+source:
+  input_root: /home/ecm5702/hpcperm/data/input_data/o96_o320/idalia
+  bundle_pattern: '*_input_bundle.nc'
+  bundle_scope:
+    dates:
+    - 20230826
+    - 20230827
+    - 20230828
+    - 20230829
+    - 20230830
+    steps_hours:
+    - 24
+    - 48
+    - 72
+    - 96
+    - 120
+    members:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+stack_flavor: old
+lane: o96_o320
+sampling_config:
+  schedule_kind: karras
+  num_steps: 80
+  sigma_max: 100000.0
+  sigma_min: 0.03
+  rho: 7.0
+  S_churn: 2.5
+  S_min: 0.75
+  S_max: 100000.0
+  S_noise: 1.05
+  sampler: heun
+purpose: matched-stage comparison with NEW 39991df8 n80/sigmax100k (Aug16-30)
+comparison_target: /home/ecm5702/perm/eval/manual_39991df8_new_o96_o320_20260313_full75_m10_fix3_unsafe_n80_sigmax100k_smax100k
+outputs:
+  run_dir: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630
+  predictions_dir: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/predictions
+  manifest_csv: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/predictions_manifest.csv
+  run_info_txt: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/manual_inference_run_info.txt
+  logs_dir: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/logs
+scope:
+  dates:
+  - 20230826
+  - 20230827
+  - 20230828
+  - 20230829
+  - 20230830
+  steps_hours:
+  - 24
+  - 48
+  - 72
+  - 96
+  - 120
+  members:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  bundle_pairs:
+  - '20230826:24'
+  - '20230826:48'
+  - 20230826:72
+  - 20230826:96
+  - 20230826:120
+  - '20230827:24'
+  - '20230827:48'
+  - 20230827:72
+  - 20230827:96
+  - 20230827:120
+  - '20230828:24'
+  - '20230828:48'
+  - 20230828:72
+  - 20230828:96
+  - 20230828:120
+  - '20230829:24'
+  - '20230829:48'
+  - 20230829:72
+  - 20230829:96
+  - 20230829:120
+  - '20230830:24'
+  - '20230830:48'
+  - 20230830:72
+  - 20230830:96
+  - 20230830:120
+sampling_config_json: '{"S_churn":2.5,"S_max":100000.0,"S_min":0.75,"S_noise":1.05,"num_steps":80,"rho":7.0,"sampler":"heun","schedule_kind":"karras","sigma_max":100000.0,"sigma_min":0.03}'
+config_capture_metadata:
+  capture_status: exact
+  inventory_record_slug: manual-56b6c4e2-old-karras80-sigmax100k
+  inventory_path: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/state/experiment_config_inventory.yaml
+  primary_source_kind: run_info
+  primary_source_path: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/manual_inference_run_info.txt
+  secondary_source_paths:
+  - /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/overnight-task/20260319_discrepancy_wave/outputs/agent2_artifacts/predict_56b6c4e2_old_karras_n80_sigmax100k_aug2630.sbatch
+  - /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260319_karras_n80_sigmax100k_aug2630/logs/predict25_30822676.out
+  updated_utc: '2026-03-24T11:48:13Z'
+  run_info_present: true
+  bundle_pair_count: 25

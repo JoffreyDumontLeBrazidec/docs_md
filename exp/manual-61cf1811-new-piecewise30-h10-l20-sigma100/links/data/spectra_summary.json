@@ -1,0 +1,55 @@
+{
+  "run_label": "manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total_20260320",
+  "predictions_dir": "/etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total/proxy10total_subset_20260320/predictions",
+  "num_files": 10,
+  "nside": 128,
+  "lmax": 319,
+  "score_wavenumber_min_exclusive": 100.0,
+  "spectra_method_requested": "auto",
+  "spectra_method_used": "healpy",
+  "member_aggregation": "per-file-mean",
+  "weather_states": {
+    "10u": {
+      "status": "ok",
+      "n_curves": 10,
+      "n_member_curves": 10,
+      "pdf": "/etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total/spectra_harmonized_proxy10total_20260320/spectra_10u.pdf",
+      "relative_l2_mean_curve": 0.04759625685026043
+    },
+    "10v": {
+      "status": "ok",
+      "n_curves": 10,
+      "n_member_curves": 10,
+      "pdf": "/etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total/spectra_harmonized_proxy10total_20260320/spectra_10v.pdf",
+      "relative_l2_mean_curve": 0.052971887038369636
+    },
+    "2t": {
+      "status": "ok",
+      "n_curves": 10,
+      "n_member_curves": 10,
+      "pdf": "/etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total/spectra_harmonized_proxy10total_20260320/spectra_2t.pdf",
+      "relative_l2_mean_curve": 0.026982466015245406
+    },
+    "msl": {
+      "status": "ok",
+      "n_curves": 10,
+      "n_member_curves": 10,
+      "pdf": "/etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total/spectra_harmonized_proxy10total_20260320/spectra_msl.pdf",
+      "relative_l2_mean_curve": 0.033920132998052514
+    },
+    "t_850": {
+      "status": "ok",
+      "n_curves": 10,
+      "n_member_curves": 10,
+      "pdf": "/etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total/spectra_harmonized_proxy10total_20260320/spectra_t_850.pdf",
+      "relative_l2_mean_curve": 0.07406922586969032
+    },
+    "z_500": {
+      "status": "ok",
+      "n_curves": 10,
+      "n_member_curves": 10,
+      "pdf": "/etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total/spectra_harmonized_proxy10total_20260320/spectra_z_500.pdf",
+      "relative_l2_mean_curve": 0.046187135978477206
+    }
+  }
+}

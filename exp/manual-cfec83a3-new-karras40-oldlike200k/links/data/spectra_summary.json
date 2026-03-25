@@ -1,0 +1,55 @@
+{
+  "run_label": "manual_cfec83a3_new_o96_o320_20260320_oldlike200k_proxy10total_20260320",
+  "predictions_dir": "/etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_cfec83a3_proxy10total_20260320/predictions",
+  "num_files": 10,
+  "nside": 128,
+  "lmax": 319,
+  "score_wavenumber_min_exclusive": 100.0,
+  "spectra_method_requested": "auto",
+  "spectra_method_used": "healpy",
+  "member_aggregation": "per-file-mean",
+  "weather_states": {
+    "10u": {
+      "status": "ok",
+      "n_curves": 10,
+      "n_member_curves": 10,
+      "pdf": "/etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_cfec83a3_proxy10total_20260320/spectra_harmonized_proxy10total_20260320/spectra_10u.pdf",
+      "relative_l2_mean_curve": 0.03204235015441005
+    },
+    "10v": {
+      "status": "ok",
+      "n_curves": 10,
+      "n_member_curves": 10,
+      "pdf": "/etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_cfec83a3_proxy10total_20260320/spectra_harmonized_proxy10total_20260320/spectra_10v.pdf",
+      "relative_l2_mean_curve": 0.0339552657909465
+    },
+    "2t": {
+      "status": "ok",
+      "n_curves": 10,
+      "n_member_curves": 10,
+      "pdf": "/etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_cfec83a3_proxy10total_20260320/spectra_harmonized_proxy10total_20260320/spectra_2t.pdf",
+      "relative_l2_mean_curve": 0.024435508262027072
+    },
+    "msl": {
+      "status": "ok",
+      "n_curves": 10,
+      "n_member_curves": 10,
+      "pdf": "/etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_cfec83a3_proxy10total_20260320/spectra_harmonized_proxy10total_20260320/spectra_msl.pdf",
+      "relative_l2_mean_curve": 0.024204082060606345
+    },
+    "t_850": {
+      "status": "ok",
+      "n_curves": 10,
+      "n_member_curves": 10,
+      "pdf": "/etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_cfec83a3_proxy10total_20260320/spectra_harmonized_proxy10total_20260320/spectra_t_850.pdf",
+      "relative_l2_mean_curve": 0.04808307433868214
+    },
+    "z_500": {
+      "status": "ok",
+      "n_curves": 10,
+      "n_member_curves": 10,
+      "pdf": "/etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_cfec83a3_proxy10total_20260320/spectra_harmonized_proxy10total_20260320/spectra_z_500.pdf",
+      "relative_l2_mean_curve": 0.0816670965636398
+    }
+  }
+}

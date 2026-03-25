@@ -1,0 +1,55 @@
+{
+  "run_label": "manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot_proxy10total_20260318",
+  "predictions_dir": "/etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/proxy10total_subset_20260318/predictions",
+  "num_files": 10,
+  "nside": 128,
+  "lmax": 319,
+  "score_wavenumber_min_exclusive": 100.0,
+  "spectra_method_requested": "auto",
+  "spectra_method_used": "healpy",
+  "member_aggregation": "per-file-mean",
+  "weather_states": {
+    "10u": {
+      "status": "ok",
+      "n_curves": 10,
+      "n_member_curves": 10,
+      "pdf": "/etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/spectra_harmonized_proxy10total_20260318/spectra_10u.pdf",
+      "relative_l2_mean_curve": 0.047585876177106246
+    },
+    "10v": {
+      "status": "ok",
+      "n_curves": 10,
+      "n_member_curves": 10,
+      "pdf": "/etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/spectra_harmonized_proxy10total_20260318/spectra_10v.pdf",
+      "relative_l2_mean_curve": 0.041372819510343925
+    },
+    "2t": {
+      "status": "ok",
+      "n_curves": 10,
+      "n_member_curves": 10,
+      "pdf": "/etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/spectra_harmonized_proxy10total_20260318/spectra_2t.pdf",
+      "relative_l2_mean_curve": 0.02636609163506192
+    },
+    "msl": {
+      "status": "ok",
+      "n_curves": 10,
+      "n_member_curves": 10,
+      "pdf": "/etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/spectra_harmonized_proxy10total_20260318/spectra_msl.pdf",
+      "relative_l2_mean_curve": 0.03027170013060019
+    },
+    "t_850": {
+      "status": "ok",
+      "n_curves": 10,
+      "n_member_curves": 10,
+      "pdf": "/etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/spectra_harmonized_proxy10total_20260318/spectra_t_850.pdf",
+      "relative_l2_mean_curve": 0.07555513442205693
+    },
+    "z_500": {
+      "status": "ok",
+      "n_curves": 10,
+      "n_member_curves": 10,
+      "pdf": "/etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/spectra_harmonized_proxy10total_20260318/spectra_z_500.pdf",
+      "relative_l2_mean_curve": 0.03718117393343583
+    }
+  }
+}

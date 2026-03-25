@@ -1,0 +1,20 @@
+2026-03-13 16:30:35,247 - INFO - Running event=idalia | support=regridded | regrid=0.2500 | files=25 | days=[26, 27, 28, 29, 30] | steps=[24, 48, 72, 96, 120]
+2026-03-13 16:32:42,068 - INFO - Using existing TC reference cache: /home/ecm5702/hpcperm/data/tc/cache/idalia/regridded_0p25deg/analysis/OPER_O320_0001.nc
+2026-03-13 16:32:42,112 - INFO - Using existing TC reference cache: /home/ecm5702/hpcperm/data/tc/cache/idalia/regridded_0p25deg/forecast/ENFO_O320_0001.nc
+2026-03-13 16:32:42,355 - INFO - Using existing TC reference cache: /home/ecm5702/hpcperm/data/tc/cache/idalia/regridded_0p25deg/forecast/EEFO_O96_0001.nc
+2026-03-13 16:32:42,528 - INFO - Using existing TC reference cache: /home/ecm5702/hpcperm/data/tc/cache/idalia/regridded_0p25deg/forecast/ENFO_O320_ip6y.nc
+2026-03-13 16:32:42,809 - INFO - Using existing TC reference cache: /home/ecm5702/hpcperm/data/tc/cache/idalia/regridded_0p25deg/forecast/ENFO_O320_j2hh.nc
+2026-03-13 16:32:43,213 - INFO - MSLP OPER support [974.12, 1024.86] hPa | tail_index=1.14 extreme_index=2.26
+2026-03-13 16:32:43,213 - INFO - WIND OPER support [0.00, 28.96] m/s | tail_index=0.883 extreme_index=0.884
+2026-03-13 16:32:43,712 - INFO - MSLP manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot support [969.28, 1026.44] | tail=0.901 ext=2.22
+2026-03-13 16:32:44,252 - INFO - WIND manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot support [0.00, 37.22] | tail=0.638 ext=0.853
+2026-03-13 16:32:44,701 - INFO - MSLP ENFO_O320_j2hh           support [967.62, 1023.95] | tail=0.864 ext=2.03
+2026-03-13 16:32:45,230 - INFO - WIND ENFO_O320_j2hh           support [0.00, 32.56] | tail=0.608 ext=0.764
+2026-03-13 16:32:45,648 - INFO - MSLP ENFO_O320_0001           support [954.24, 1024.50] | tail=0.88 ext=2.22
+2026-03-13 16:32:46,144 - INFO - WIND ENFO_O320_0001           support [0.00, 49.93] | tail=0.658 ext=0.833
+2026-03-13 16:32:46,546 - INFO - MSLP EEFO_O96_0001            support [987.72, 1023.85] | tail=0.828 ext=1.55
+2026-03-13 16:32:46,997 - INFO - WIND EEFO_O96_0001            support [0.00, 23.66] | tail=0.567 ext=0.569
+2026-03-13 16:32:47,428 - INFO - MSLP ENFO_O320_ip6y           support [972.12, 1024.06] | tail=0.914 ext=2.28
+2026-03-13 16:32:47,949 - INFO - WIND ENFO_O320_ip6y           support [0.00, 34.62] | tail=0.638 ext=0.862
+2026-03-13 16:32:48,474 - INFO - Saved cached-ref TC PDF from predictions: /etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/tc_cached_refs_j2hh_smoketest_20260313/tc_normed_pdfs_idalia_cached_refs_j2hh_smoketest_20260313.pdf
+2026-03-13 16:32:48,474 - INFO - Saved TC stats JSON: /etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/tc_cached_refs_j2hh_smoketest_20260313/tc_normed_pdfs_idalia_cached_refs_j2hh_smoketest_20260313.stats.json

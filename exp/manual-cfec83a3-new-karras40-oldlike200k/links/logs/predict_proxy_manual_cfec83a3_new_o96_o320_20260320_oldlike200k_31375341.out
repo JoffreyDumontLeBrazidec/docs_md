@@ -1,0 +1,334 @@
+[ECMWF-INFO -sbatch] - -------------------------------------------------------------------------------------
+[ECMWF-INFO -sbatch] -  This is the ECMWF jobfilter
+[ECMWF-INFO -sbatch] -  +++ Please report issues using the Support portal +++
+[ECMWF-INFO -sbatch] -  +++ https://support.ecmwf.int                     +++
+[ECMWF-INFO -sbatch] -  /usr/local/bin/ecsbatch: size: 53801, mtime: Tue Nov 25 12:31:30 2025
+[ECMWF-INFO -sbatch] - -------------------------------------------------------------------------------------
+[ECMWF-INFO -sbatch] - Time at submit: Fri Mar 20 12:22:55 2026 (1774009375.2297394) on ac6-101.bullx:/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs
+[ECMWF-INFO -sbatch] - --- SLURM VARIABLES ---
+[ECMWF-INFO -sbatch] - SLURM_GPUS_PER_NODE=1
+[ECMWF-INFO -sbatch] - SLURM_NNODES=1
+[ECMWF-INFO -sbatch] - EC_CLUSTER=ac
+[ECMWF-INFO -sbatch] - SLURM_EXPORT_ENV=ALL
+[ECMWF-INFO -sbatch] - SBATCH_EXPORT=NONE
+[ECMWF-INFO -sbatch] - -----------------------
+[ECMWF-INFO -sbatch] - jobscript: /etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/jobs/predict_proxy_manual_cfec83a3_new_o96_o320_20260320_oldlike200k.sbatch
+[ECMWF-INFO -sbatch] - --- SCRIPT OPTIONS ---
+[ECMWF-INFO -sbatch] - #SBATCH --job-name=pxy_manual_cfec83a3_new_o96_o320_20260320_oldlike200k
+[ECMWF-INFO -sbatch] - #SBATCH --qos=dg
+[ECMWF-INFO -sbatch] - #SBATCH --time=00:30:00
+[ECMWF-INFO -sbatch] - #SBATCH --cpus-per-task=32
+[ECMWF-INFO -sbatch] - #SBATCH --gpus-per-node=1
+[ECMWF-INFO -sbatch] - #SBATCH --mem=256G
+[ECMWF-INFO -sbatch] - #SBATCH --output=/home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/logs/predict_proxy_manual_cfec83a3_new_o96_o320_20260320_oldlike200k_%j.out
+[ECMWF-INFO -sbatch] - -----------------------
+[ECMWF-INFO -sbatch] - --- POST-PROCESSED OPTIONS ---
+[ECMWF-INFO -sbatch] - ARG --positional=['/home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/jobs/predict_proxy_manual_cfec83a3_new_o96_o320_20260320_oldlike200k.sbatch']
+[ECMWF-INFO -sbatch] - ARG --cpus_per_task=32
+[ECMWF-INFO -sbatch] - ARG --job_name=pxy_manual_cfec83a3_new_o96_o320_20260320_oldlike200k
+[ECMWF-INFO -sbatch] - ARG --output=/home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/logs/predict_proxy_manual_cfec83a3_new_o96_o320_20260320_oldlike200k_%j.out
+[ECMWF-INFO -sbatch] - ARG --qos=dg
+[ECMWF-INFO -sbatch] - ARG --time=00:30:00
+[ECMWF-INFO -sbatch] - ARG --mem=256G
+[ECMWF-INFO -sbatch] - ARG --gpus_per_node=1
+[ECMWF-INFO -sbatch] - ------------------------------
+[ECMWF-INFO -sbatch] - jobtag: ecm5702-pxy_manual_ldlike200k-1x32-/home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320__JOBID__oldlike200k/logs/predict_proxy_manual_cfec83a3_new_o96_o320__JOBID__oldlike200k__JOBID_.out
+[ECMWF-INFO -sbatch] - ['/usr/bin/sbatch', '--cpus-per-task=32', '--job-name=pxy_manual_cfec83a3_new_o96_o320_20260320_oldlike200k', '--output=/home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/logs/predict_proxy_manual_cfec83a3_new_o96_o320_20260320_oldlike200k_%j.out', '--qos=dg', '--time=00:30:00', '--mem=256G', '--gpus-per-node=1', '--licenses=h2resw01', '--export=EC_user_time_limit=00:30:00', '/etc/ecmwf/nfs/dh1_perm_a/ecm5702/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/jobs/predict_proxy_manual_cfec83a3_new_o96_o320_20260320_oldlike200k.sbatch']
+[ECMWF-INFO -sbatch] - sbatch executed on ac
+[ECMWF-INFO -sbatch] - Job queued on ac using method local
+[ECMWF-INFO -sbatch] - Submitted batch job 31375341
+[ECMWF-INFO -ecprofile] /usr/bin/bash NON_INTERACTIVE on ac6-300 at 20260320_122545.079, PID: 2520375, JOBID: 31375341
+[ECMWF-INFO -ecprofile] $SCRATCH=/ec/res4/scratch/ecm5702
+[ECMWF-INFO -ecprofile] $PERM=/perm/ecm5702
+[ECMWF-INFO -ecprofile] $HPCPERM=/ec/res4/hpcperm/ecm5702
+[ECMWF-INFO -ecprofile] $TMPDIR=/dev/shm/_tmpdir_.ecm5702.31375341
+[ECMWF-INFO -ecprofile] $SCRATCHDIR=/ec/res4/scratchdir/ecm5702/5/31375341
+/home/ecm5702/dev/downscaling-tools/manual_inference/checkpoints.py:82: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  initialize_config_dir(config_dir=anemoi_config_dir, job_name="compose_config")
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/anemoi-core/models/src/anemoi/models/models/downscaler_encoder_processor_decoder.py:608: UserWarning: noise_scheduler_config: {'schedule_type': 'karras', 'sigma_max': 1000.0, 'sigma_min': 0.03, 'rho': 7.0, 'num_steps': 40}
+  warnings.warn(f"noise_scheduler_config: {noise_scheduler_config}")
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/anemoi-core/models/src/anemoi/models/models/downscaler_encoder_processor_decoder.py:653: UserWarning: diffusion_sampler_config: {'sampler': 'heun', 'S_churn': 2.5, 'S_min': 0.75, 'S_max': 1000.0, 'S_noise': 1.05}
+  warnings.warn(f"diffusion_sampler_config: {diffusion_sampler_config}")
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/.ds-dyn/lib/python3.11/site-packages/torch/_inductor/compile_fx.py:194: UserWarning: TensorFloat32 tensor cores for float32 matrix multiplication available but not enabled. Consider setting `torch.set_float32_matmul_precision('high')` for better performance.
+  warnings.warn(
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/anemoi-core/models/src/anemoi/models/models/downscaler_encoder_processor_decoder.py:608: UserWarning: noise_scheduler_config: {'schedule_type': 'karras', 'sigma_max': 1000.0, 'sigma_min': 0.03, 'rho': 7.0, 'num_steps': 40}
+  warnings.warn(f"noise_scheduler_config: {noise_scheduler_config}")
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/anemoi-core/models/src/anemoi/models/models/downscaler_encoder_processor_decoder.py:653: UserWarning: diffusion_sampler_config: {'sampler': 'heun', 'S_churn': 2.5, 'S_min': 0.75, 'S_max': 1000.0, 'S_noise': 1.05}
+  warnings.warn(f"diffusion_sampler_config: {diffusion_sampler_config}")
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/anemoi-core/models/src/anemoi/models/models/downscaler_encoder_processor_decoder.py:608: UserWarning: noise_scheduler_config: {'schedule_type': 'karras', 'sigma_max': 1000.0, 'sigma_min': 0.03, 'rho': 7.0, 'num_steps': 40}
+  warnings.warn(f"noise_scheduler_config: {noise_scheduler_config}")
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/anemoi-core/models/src/anemoi/models/models/downscaler_encoder_processor_decoder.py:653: UserWarning: diffusion_sampler_config: {'sampler': 'heun', 'S_churn': 2.5, 'S_min': 0.75, 'S_max': 1000.0, 'S_noise': 1.05}
+  warnings.warn(f"diffusion_sampler_config: {diffusion_sampler_config}")
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/anemoi-core/models/src/anemoi/models/models/downscaler_encoder_processor_decoder.py:608: UserWarning: noise_scheduler_config: {'schedule_type': 'karras', 'sigma_max': 1000.0, 'sigma_min': 0.03, 'rho': 7.0, 'num_steps': 40}
+  warnings.warn(f"noise_scheduler_config: {noise_scheduler_config}")
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/anemoi-core/models/src/anemoi/models/models/downscaler_encoder_processor_decoder.py:653: UserWarning: diffusion_sampler_config: {'sampler': 'heun', 'S_churn': 2.5, 'S_min': 0.75, 'S_max': 1000.0, 'S_noise': 1.05}
+  warnings.warn(f"diffusion_sampler_config: {diffusion_sampler_config}")
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/anemoi-core/models/src/anemoi/models/models/downscaler_encoder_processor_decoder.py:608: UserWarning: noise_scheduler_config: {'schedule_type': 'karras', 'sigma_max': 1000.0, 'sigma_min': 0.03, 'rho': 7.0, 'num_steps': 40}
+  warnings.warn(f"noise_scheduler_config: {noise_scheduler_config}")
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/anemoi-core/models/src/anemoi/models/models/downscaler_encoder_processor_decoder.py:653: UserWarning: diffusion_sampler_config: {'sampler': 'heun', 'S_churn': 2.5, 'S_min': 0.75, 'S_max': 1000.0, 'S_noise': 1.05}
+  warnings.warn(f"diffusion_sampler_config: {diffusion_sampler_config}")
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/anemoi-core/models/src/anemoi/models/models/downscaler_encoder_processor_decoder.py:608: UserWarning: noise_scheduler_config: {'schedule_type': 'karras', 'sigma_max': 1000.0, 'sigma_min': 0.03, 'rho': 7.0, 'num_steps': 40}
+  warnings.warn(f"noise_scheduler_config: {noise_scheduler_config}")
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/anemoi-core/models/src/anemoi/models/models/downscaler_encoder_processor_decoder.py:653: UserWarning: diffusion_sampler_config: {'sampler': 'heun', 'S_churn': 2.5, 'S_min': 0.75, 'S_max': 1000.0, 'S_noise': 1.05}
+  warnings.warn(f"diffusion_sampler_config: {diffusion_sampler_config}")
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/anemoi-core/models/src/anemoi/models/models/downscaler_encoder_processor_decoder.py:608: UserWarning: noise_scheduler_config: {'schedule_type': 'karras', 'sigma_max': 1000.0, 'sigma_min': 0.03, 'rho': 7.0, 'num_steps': 40}
+  warnings.warn(f"noise_scheduler_config: {noise_scheduler_config}")
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/anemoi-core/models/src/anemoi/models/models/downscaler_encoder_processor_decoder.py:653: UserWarning: diffusion_sampler_config: {'sampler': 'heun', 'S_churn': 2.5, 'S_min': 0.75, 'S_max': 1000.0, 'S_noise': 1.05}
+  warnings.warn(f"diffusion_sampler_config: {diffusion_sampler_config}")
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/anemoi-core/models/src/anemoi/models/models/downscaler_encoder_processor_decoder.py:608: UserWarning: noise_scheduler_config: {'schedule_type': 'karras', 'sigma_max': 1000.0, 'sigma_min': 0.03, 'rho': 7.0, 'num_steps': 40}
+  warnings.warn(f"noise_scheduler_config: {noise_scheduler_config}")
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/anemoi-core/models/src/anemoi/models/models/downscaler_encoder_processor_decoder.py:653: UserWarning: diffusion_sampler_config: {'sampler': 'heun', 'S_churn': 2.5, 'S_min': 0.75, 'S_max': 1000.0, 'S_noise': 1.05}
+  warnings.warn(f"diffusion_sampler_config: {diffusion_sampler_config}")
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/anemoi-core/models/src/anemoi/models/models/downscaler_encoder_processor_decoder.py:608: UserWarning: noise_scheduler_config: {'schedule_type': 'karras', 'sigma_max': 1000.0, 'sigma_min': 0.03, 'rho': 7.0, 'num_steps': 40}
+  warnings.warn(f"noise_scheduler_config: {noise_scheduler_config}")
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/anemoi-core/models/src/anemoi/models/models/downscaler_encoder_processor_decoder.py:653: UserWarning: diffusion_sampler_config: {'sampler': 'heun', 'S_churn': 2.5, 'S_min': 0.75, 'S_max': 1000.0, 'S_noise': 1.05}
+  warnings.warn(f"diffusion_sampler_config: {diffusion_sampler_config}")
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/anemoi-core/models/src/anemoi/models/models/downscaler_encoder_processor_decoder.py:608: UserWarning: noise_scheduler_config: {'schedule_type': 'karras', 'sigma_max': 1000.0, 'sigma_min': 0.03, 'rho': 7.0, 'num_steps': 40}
+  warnings.warn(f"noise_scheduler_config: {noise_scheduler_config}")
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/anemoi-core/models/src/anemoi/models/models/downscaler_encoder_processor_decoder.py:653: UserWarning: diffusion_sampler_config: {'sampler': 'heun', 'S_churn': 2.5, 'S_min': 0.75, 'S_max': 1000.0, 'S_noise': 1.05}
+  warnings.warn(f"diffusion_sampler_config: {diffusion_sampler_config}")
+Using --bundle-pairs: 10 date/step pairs (dates=['20230827', '20230828', '20230829', '20230830'], steps=[24, 48, 72])
+noise_scheduler_params: {'schedule_type': 'karras', 'sigma_max': 1000.0, 'sigma_min': 0.03, 'rho': 7.0, 'num_steps': 40}
+sampler_params: {'sampler': 'heun', 'S_churn': 2.5, 'S_min': 0.75, 'S_max': 1000.0, 'S_noise': 1.05}
+sample, sigmas tensor([1.0000e+03, 8.6906e+02, 7.5310e+02, 6.5066e+02, 5.6041e+02, 4.8111e+02,
+        4.1162e+02, 3.5093e+02, 2.9807e+02, 2.5219e+02, 2.1250e+02, 1.7829e+02,
+        1.4891e+02, 1.2378e+02, 1.0238e+02, 8.4234e+01, 6.8917e+01, 5.6051e+01,
+        4.5302e+01, 3.6371e+01, 2.8993e+01, 2.2937e+01, 1.8000e+01, 1.4003e+01,
+        1.0792e+01, 8.2341e+00, 6.2145e+00, 4.6353e+00, 3.4134e+00, 2.4787e+00,
+        1.7725e+00, 1.2463e+00, 8.6016e-01, 5.8144e-01, 3.8402e-01, 2.4708e-01,
+        1.5433e-01, 9.3182e-02, 5.4097e-02, 3.0000e-02, 0.0000e+00],
+       device='cuda:0', dtype=torch.float64)
+sample, y val tensor(121.1360, device='cuda:0')
+sample y_init tensor(121.1360, device='cuda:0')
+x_in_interp val tensor(0.3803, device='cuda:0')
+x_in_hres val tensor(0.1935, device='cuda:0')
+y val tensor(121.1360, device='cuda:0')
+sigmas tensor([1.0000e+03, 8.6906e+02, 7.5310e+02, 6.5066e+02, 5.6041e+02, 4.8111e+02,
+        4.1162e+02, 3.5093e+02, 2.9807e+02, 2.5219e+02, 2.1250e+02, 1.7829e+02,
+        1.4891e+02, 1.2378e+02, 1.0238e+02, 8.4234e+01, 6.8917e+01, 5.6051e+01,
+        4.5302e+01, 3.6371e+01, 2.8993e+01, 2.2937e+01, 1.8000e+01, 1.4003e+01,
+        1.0792e+01, 8.2341e+00, 6.2145e+00, 4.6353e+00, 3.4134e+00, 2.4787e+00,
+        1.7725e+00, 1.2463e+00, 8.6016e-01, 5.8144e-01, 3.8402e-01, 2.4708e-01,
+        1.5433e-01, 9.3182e-02, 5.4097e-02, 3.0000e-02, 0.0000e+00],
+       device='cuda:0', dtype=torch.float64) 2.5 0.75 1000.0 1.05
+[1/10] wrote /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/predictions/predictions_20230829_step024.nc
+noise_scheduler_params: {'schedule_type': 'karras', 'sigma_max': 1000.0, 'sigma_min': 0.03, 'rho': 7.0, 'num_steps': 40}
+sampler_params: {'sampler': 'heun', 'S_churn': 2.5, 'S_min': 0.75, 'S_max': 1000.0, 'S_noise': 1.05}
+sample, sigmas tensor([1.0000e+03, 8.6906e+02, 7.5310e+02, 6.5066e+02, 5.6041e+02, 4.8111e+02,
+        4.1162e+02, 3.5093e+02, 2.9807e+02, 2.5219e+02, 2.1250e+02, 1.7829e+02,
+        1.4891e+02, 1.2378e+02, 1.0238e+02, 8.4234e+01, 6.8917e+01, 5.6051e+01,
+        4.5302e+01, 3.6371e+01, 2.8993e+01, 2.2937e+01, 1.8000e+01, 1.4003e+01,
+        1.0792e+01, 8.2341e+00, 6.2145e+00, 4.6353e+00, 3.4134e+00, 2.4787e+00,
+        1.7725e+00, 1.2463e+00, 8.6016e-01, 5.8144e-01, 3.8402e-01, 2.4708e-01,
+        1.5433e-01, 9.3182e-02, 5.4097e-02, 3.0000e-02, 0.0000e+00],
+       device='cuda:0', dtype=torch.float64)
+sample, y val tensor(121.1025, device='cuda:0')
+sample y_init tensor(121.1025, device='cuda:0')
+x_in_interp val tensor(0.3802, device='cuda:0')
+x_in_hres val tensor(0.1935, device='cuda:0')
+y val tensor(121.1025, device='cuda:0')
+sigmas tensor([1.0000e+03, 8.6906e+02, 7.5310e+02, 6.5066e+02, 5.6041e+02, 4.8111e+02,
+        4.1162e+02, 3.5093e+02, 2.9807e+02, 2.5219e+02, 2.1250e+02, 1.7829e+02,
+        1.4891e+02, 1.2378e+02, 1.0238e+02, 8.4234e+01, 6.8917e+01, 5.6051e+01,
+        4.5302e+01, 3.6371e+01, 2.8993e+01, 2.2937e+01, 1.8000e+01, 1.4003e+01,
+        1.0792e+01, 8.2341e+00, 6.2145e+00, 4.6353e+00, 3.4134e+00, 2.4787e+00,
+        1.7725e+00, 1.2463e+00, 8.6016e-01, 5.8144e-01, 3.8402e-01, 2.4708e-01,
+        1.5433e-01, 9.3182e-02, 5.4097e-02, 3.0000e-02, 0.0000e+00],
+       device='cuda:0', dtype=torch.float64) 2.5 0.75 1000.0 1.05
+[2/10] wrote /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/predictions/predictions_20230828_step048.nc
+noise_scheduler_params: {'schedule_type': 'karras', 'sigma_max': 1000.0, 'sigma_min': 0.03, 'rho': 7.0, 'num_steps': 40}
+sampler_params: {'sampler': 'heun', 'S_churn': 2.5, 'S_min': 0.75, 'S_max': 1000.0, 'S_noise': 1.05}
+sample, sigmas tensor([1.0000e+03, 8.6906e+02, 7.5310e+02, 6.5066e+02, 5.6041e+02, 4.8111e+02,
+        4.1162e+02, 3.5093e+02, 2.9807e+02, 2.5219e+02, 2.1250e+02, 1.7829e+02,
+        1.4891e+02, 1.2378e+02, 1.0238e+02, 8.4234e+01, 6.8917e+01, 5.6051e+01,
+        4.5302e+01, 3.6371e+01, 2.8993e+01, 2.2937e+01, 1.8000e+01, 1.4003e+01,
+        1.0792e+01, 8.2341e+00, 6.2145e+00, 4.6353e+00, 3.4134e+00, 2.4787e+00,
+        1.7725e+00, 1.2463e+00, 8.6016e-01, 5.8144e-01, 3.8402e-01, 2.4708e-01,
+        1.5433e-01, 9.3182e-02, 5.4097e-02, 3.0000e-02, 0.0000e+00],
+       device='cuda:0', dtype=torch.float64)
+sample, y val tensor(121.3008, device='cuda:0')
+sample y_init tensor(121.3008, device='cuda:0')
+x_in_interp val tensor(0.3793, device='cuda:0')
+x_in_hres val tensor(0.1935, device='cuda:0')
+y val tensor(121.3008, device='cuda:0')
+sigmas tensor([1.0000e+03, 8.6906e+02, 7.5310e+02, 6.5066e+02, 5.6041e+02, 4.8111e+02,
+        4.1162e+02, 3.5093e+02, 2.9807e+02, 2.5219e+02, 2.1250e+02, 1.7829e+02,
+        1.4891e+02, 1.2378e+02, 1.0238e+02, 8.4234e+01, 6.8917e+01, 5.6051e+01,
+        4.5302e+01, 3.6371e+01, 2.8993e+01, 2.2937e+01, 1.8000e+01, 1.4003e+01,
+        1.0792e+01, 8.2341e+00, 6.2145e+00, 4.6353e+00, 3.4134e+00, 2.4787e+00,
+        1.7725e+00, 1.2463e+00, 8.6016e-01, 5.8144e-01, 3.8402e-01, 2.4708e-01,
+        1.5433e-01, 9.3182e-02, 5.4097e-02, 3.0000e-02, 0.0000e+00],
+       device='cuda:0', dtype=torch.float64) 2.5 0.75 1000.0 1.05
+[3/10] wrote /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/predictions/predictions_20230829_step048.nc
+noise_scheduler_params: {'schedule_type': 'karras', 'sigma_max': 1000.0, 'sigma_min': 0.03, 'rho': 7.0, 'num_steps': 40}
+sampler_params: {'sampler': 'heun', 'S_churn': 2.5, 'S_min': 0.75, 'S_max': 1000.0, 'S_noise': 1.05}
+sample, sigmas tensor([1.0000e+03, 8.6906e+02, 7.5310e+02, 6.5066e+02, 5.6041e+02, 4.8111e+02,
+        4.1162e+02, 3.5093e+02, 2.9807e+02, 2.5219e+02, 2.1250e+02, 1.7829e+02,
+        1.4891e+02, 1.2378e+02, 1.0238e+02, 8.4234e+01, 6.8917e+01, 5.6051e+01,
+        4.5302e+01, 3.6371e+01, 2.8993e+01, 2.2937e+01, 1.8000e+01, 1.4003e+01,
+        1.0792e+01, 8.2341e+00, 6.2145e+00, 4.6353e+00, 3.4134e+00, 2.4787e+00,
+        1.7725e+00, 1.2463e+00, 8.6016e-01, 5.8144e-01, 3.8402e-01, 2.4708e-01,
+        1.5433e-01, 9.3182e-02, 5.4097e-02, 3.0000e-02, 0.0000e+00],
+       device='cuda:0', dtype=torch.float64)
+sample, y val tensor(121.0504, device='cuda:0')
+sample y_init tensor(121.0504, device='cuda:0')
+x_in_interp val tensor(0.3782, device='cuda:0')
+x_in_hres val tensor(0.1936, device='cuda:0')
+y val tensor(121.0504, device='cuda:0')
+sigmas tensor([1.0000e+03, 8.6906e+02, 7.5310e+02, 6.5066e+02, 5.6041e+02, 4.8111e+02,
+        4.1162e+02, 3.5093e+02, 2.9807e+02, 2.5219e+02, 2.1250e+02, 1.7829e+02,
+        1.4891e+02, 1.2378e+02, 1.0238e+02, 8.4234e+01, 6.8917e+01, 5.6051e+01,
+        4.5302e+01, 3.6371e+01, 2.8993e+01, 2.2937e+01, 1.8000e+01, 1.4003e+01,
+        1.0792e+01, 8.2341e+00, 6.2145e+00, 4.6353e+00, 3.4134e+00, 2.4787e+00,
+        1.7725e+00, 1.2463e+00, 8.6016e-01, 5.8144e-01, 3.8402e-01, 2.4708e-01,
+        1.5433e-01, 9.3182e-02, 5.4097e-02, 3.0000e-02, 0.0000e+00],
+       device='cuda:0', dtype=torch.float64) 2.5 0.75 1000.0 1.05
+[4/10] wrote /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/predictions/predictions_20230828_step024.nc
+noise_scheduler_params: {'schedule_type': 'karras', 'sigma_max': 1000.0, 'sigma_min': 0.03, 'rho': 7.0, 'num_steps': 40}
+sampler_params: {'sampler': 'heun', 'S_churn': 2.5, 'S_min': 0.75, 'S_max': 1000.0, 'S_noise': 1.05}
+sample, sigmas tensor([1.0000e+03, 8.6906e+02, 7.5310e+02, 6.5066e+02, 5.6041e+02, 4.8111e+02,
+        4.1162e+02, 3.5093e+02, 2.9807e+02, 2.5219e+02, 2.1250e+02, 1.7829e+02,
+        1.4891e+02, 1.2378e+02, 1.0238e+02, 8.4234e+01, 6.8917e+01, 5.6051e+01,
+        4.5302e+01, 3.6371e+01, 2.8993e+01, 2.2937e+01, 1.8000e+01, 1.4003e+01,
+        1.0792e+01, 8.2341e+00, 6.2145e+00, 4.6353e+00, 3.4134e+00, 2.4787e+00,
+        1.7725e+00, 1.2463e+00, 8.6016e-01, 5.8144e-01, 3.8402e-01, 2.4708e-01,
+        1.5433e-01, 9.3182e-02, 5.4097e-02, 3.0000e-02, 0.0000e+00],
+       device='cuda:0', dtype=torch.float64)
+sample, y val tensor(121.2657, device='cuda:0')
+sample y_init tensor(121.2657, device='cuda:0')
+x_in_interp val tensor(0.3792, device='cuda:0')
+x_in_hres val tensor(0.1935, device='cuda:0')
+y val tensor(121.2657, device='cuda:0')
+sigmas tensor([1.0000e+03, 8.6906e+02, 7.5310e+02, 6.5066e+02, 5.6041e+02, 4.8111e+02,
+        4.1162e+02, 3.5093e+02, 2.9807e+02, 2.5219e+02, 2.1250e+02, 1.7829e+02,
+        1.4891e+02, 1.2378e+02, 1.0238e+02, 8.4234e+01, 6.8917e+01, 5.6051e+01,
+        4.5302e+01, 3.6371e+01, 2.8993e+01, 2.2937e+01, 1.8000e+01, 1.4003e+01,
+        1.0792e+01, 8.2341e+00, 6.2145e+00, 4.6353e+00, 3.4134e+00, 2.4787e+00,
+        1.7725e+00, 1.2463e+00, 8.6016e-01, 5.8144e-01, 3.8402e-01, 2.4708e-01,
+        1.5433e-01, 9.3182e-02, 5.4097e-02, 3.0000e-02, 0.0000e+00],
+       device='cuda:0', dtype=torch.float64) 2.5 0.75 1000.0 1.05
+[5/10] wrote /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/predictions/predictions_20230830_step024.nc
+noise_scheduler_params: {'schedule_type': 'karras', 'sigma_max': 1000.0, 'sigma_min': 0.03, 'rho': 7.0, 'num_steps': 40}
+sampler_params: {'sampler': 'heun', 'S_churn': 2.5, 'S_min': 0.75, 'S_max': 1000.0, 'S_noise': 1.05}
+sample, sigmas tensor([1.0000e+03, 8.6906e+02, 7.5310e+02, 6.5066e+02, 5.6041e+02, 4.8111e+02,
+        4.1162e+02, 3.5093e+02, 2.9807e+02, 2.5219e+02, 2.1250e+02, 1.7829e+02,
+        1.4891e+02, 1.2378e+02, 1.0238e+02, 8.4234e+01, 6.8917e+01, 5.6051e+01,
+        4.5302e+01, 3.6371e+01, 2.8993e+01, 2.2937e+01, 1.8000e+01, 1.4003e+01,
+        1.0792e+01, 8.2341e+00, 6.2145e+00, 4.6353e+00, 3.4134e+00, 2.4787e+00,
+        1.7725e+00, 1.2463e+00, 8.6016e-01, 5.8144e-01, 3.8402e-01, 2.4708e-01,
+        1.5433e-01, 9.3182e-02, 5.4097e-02, 3.0000e-02, 0.0000e+00],
+       device='cuda:0', dtype=torch.float64)
+sample, y val tensor(121.2646, device='cuda:0')
+sample y_init tensor(121.2646, device='cuda:0')
+x_in_interp val tensor(0.3809, device='cuda:0')
+x_in_hres val tensor(0.1935, device='cuda:0')
+y val tensor(121.2646, device='cuda:0')
+sigmas tensor([1.0000e+03, 8.6906e+02, 7.5310e+02, 6.5066e+02, 5.6041e+02, 4.8111e+02,
+        4.1162e+02, 3.5093e+02, 2.9807e+02, 2.5219e+02, 2.1250e+02, 1.7829e+02,
+        1.4891e+02, 1.2378e+02, 1.0238e+02, 8.4234e+01, 6.8917e+01, 5.6051e+01,
+        4.5302e+01, 3.6371e+01, 2.8993e+01, 2.2937e+01, 1.8000e+01, 1.4003e+01,
+        1.0792e+01, 8.2341e+00, 6.2145e+00, 4.6353e+00, 3.4134e+00, 2.4787e+00,
+        1.7725e+00, 1.2463e+00, 8.6016e-01, 5.8144e-01, 3.8402e-01, 2.4708e-01,
+        1.5433e-01, 9.3182e-02, 5.4097e-02, 3.0000e-02, 0.0000e+00],
+       device='cuda:0', dtype=torch.float64) 2.5 0.75 1000.0 1.05
+[6/10] wrote /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/predictions/predictions_20230828_step072.nc
+noise_scheduler_params: {'schedule_type': 'karras', 'sigma_max': 1000.0, 'sigma_min': 0.03, 'rho': 7.0, 'num_steps': 40}
+sampler_params: {'sampler': 'heun', 'S_churn': 2.5, 'S_min': 0.75, 'S_max': 1000.0, 'S_noise': 1.05}
+sample, sigmas tensor([1.0000e+03, 8.6906e+02, 7.5310e+02, 6.5066e+02, 5.6041e+02, 4.8111e+02,
+        4.1162e+02, 3.5093e+02, 2.9807e+02, 2.5219e+02, 2.1250e+02, 1.7829e+02,
+        1.4891e+02, 1.2378e+02, 1.0238e+02, 8.4234e+01, 6.8917e+01, 5.6051e+01,
+        4.5302e+01, 3.6371e+01, 2.8993e+01, 2.2937e+01, 1.8000e+01, 1.4003e+01,
+        1.0792e+01, 8.2341e+00, 6.2145e+00, 4.6353e+00, 3.4134e+00, 2.4787e+00,
+        1.7725e+00, 1.2463e+00, 8.6016e-01, 5.8144e-01, 3.8402e-01, 2.4708e-01,
+        1.5433e-01, 9.3182e-02, 5.4097e-02, 3.0000e-02, 0.0000e+00],
+       device='cuda:0', dtype=torch.float64)
+sample, y val tensor(120.9142, device='cuda:0')
+sample y_init tensor(120.9142, device='cuda:0')
+x_in_interp val tensor(0.3803, device='cuda:0')
+x_in_hres val tensor(0.1935, device='cuda:0')
+y val tensor(120.9142, device='cuda:0')
+sigmas tensor([1.0000e+03, 8.6906e+02, 7.5310e+02, 6.5066e+02, 5.6041e+02, 4.8111e+02,
+        4.1162e+02, 3.5093e+02, 2.9807e+02, 2.5219e+02, 2.1250e+02, 1.7829e+02,
+        1.4891e+02, 1.2378e+02, 1.0238e+02, 8.4234e+01, 6.8917e+01, 5.6051e+01,
+        4.5302e+01, 3.6371e+01, 2.8993e+01, 2.2937e+01, 1.8000e+01, 1.4003e+01,
+        1.0792e+01, 8.2341e+00, 6.2145e+00, 4.6353e+00, 3.4134e+00, 2.4787e+00,
+        1.7725e+00, 1.2463e+00, 8.6016e-01, 5.8144e-01, 3.8402e-01, 2.4708e-01,
+        1.5433e-01, 9.3182e-02, 5.4097e-02, 3.0000e-02, 0.0000e+00],
+       device='cuda:0', dtype=torch.float64) 2.5 0.75 1000.0 1.05
+[7/10] wrote /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/predictions/predictions_20230827_step072.nc
+noise_scheduler_params: {'schedule_type': 'karras', 'sigma_max': 1000.0, 'sigma_min': 0.03, 'rho': 7.0, 'num_steps': 40}
+sampler_params: {'sampler': 'heun', 'S_churn': 2.5, 'S_min': 0.75, 'S_max': 1000.0, 'S_noise': 1.05}
+sample, sigmas tensor([1.0000e+03, 8.6906e+02, 7.5310e+02, 6.5066e+02, 5.6041e+02, 4.8111e+02,
+        4.1162e+02, 3.5093e+02, 2.9807e+02, 2.5219e+02, 2.1250e+02, 1.7829e+02,
+        1.4891e+02, 1.2378e+02, 1.0238e+02, 8.4234e+01, 6.8917e+01, 5.6051e+01,
+        4.5302e+01, 3.6371e+01, 2.8993e+01, 2.2937e+01, 1.8000e+01, 1.4003e+01,
+        1.0792e+01, 8.2341e+00, 6.2145e+00, 4.6353e+00, 3.4134e+00, 2.4787e+00,
+        1.7725e+00, 1.2463e+00, 8.6016e-01, 5.8144e-01, 3.8402e-01, 2.4708e-01,
+        1.5433e-01, 9.3182e-02, 5.4097e-02, 3.0000e-02, 0.0000e+00],
+       device='cuda:0', dtype=torch.float64)
+sample, y val tensor(121.3014, device='cuda:0')
+sample y_init tensor(121.3014, device='cuda:0')
+x_in_interp val tensor(0.3838, device='cuda:0')
+x_in_hres val tensor(0.1934, device='cuda:0')
+y val tensor(121.3014, device='cuda:0')
+sigmas tensor([1.0000e+03, 8.6906e+02, 7.5310e+02, 6.5066e+02, 5.6041e+02, 4.8111e+02,
+        4.1162e+02, 3.5093e+02, 2.9807e+02, 2.5219e+02, 2.1250e+02, 1.7829e+02,
+        1.4891e+02, 1.2378e+02, 1.0238e+02, 8.4234e+01, 6.8917e+01, 5.6051e+01,
+        4.5302e+01, 3.6371e+01, 2.8993e+01, 2.2937e+01, 1.8000e+01, 1.4003e+01,
+        1.0792e+01, 8.2341e+00, 6.2145e+00, 4.6353e+00, 3.4134e+00, 2.4787e+00,
+        1.7725e+00, 1.2463e+00, 8.6016e-01, 5.8144e-01, 3.8402e-01, 2.4708e-01,
+        1.5433e-01, 9.3182e-02, 5.4097e-02, 3.0000e-02, 0.0000e+00],
+       device='cuda:0', dtype=torch.float64) 2.5 0.75 1000.0 1.05
+[8/10] wrote /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/predictions/predictions_20230830_step048.nc
+noise_scheduler_params: {'schedule_type': 'karras', 'sigma_max': 1000.0, 'sigma_min': 0.03, 'rho': 7.0, 'num_steps': 40}
+sampler_params: {'sampler': 'heun', 'S_churn': 2.5, 'S_min': 0.75, 'S_max': 1000.0, 'S_noise': 1.05}
+sample, sigmas tensor([1.0000e+03, 8.6906e+02, 7.5310e+02, 6.5066e+02, 5.6041e+02, 4.8111e+02,
+        4.1162e+02, 3.5093e+02, 2.9807e+02, 2.5219e+02, 2.1250e+02, 1.7829e+02,
+        1.4891e+02, 1.2378e+02, 1.0238e+02, 8.4234e+01, 6.8917e+01, 5.6051e+01,
+        4.5302e+01, 3.6371e+01, 2.8993e+01, 2.2937e+01, 1.8000e+01, 1.4003e+01,
+        1.0792e+01, 8.2341e+00, 6.2145e+00, 4.6353e+00, 3.4134e+00, 2.4787e+00,
+        1.7725e+00, 1.2463e+00, 8.6016e-01, 5.8144e-01, 3.8402e-01, 2.4708e-01,
+        1.5433e-01, 9.3182e-02, 5.4097e-02, 3.0000e-02, 0.0000e+00],
+       device='cuda:0', dtype=torch.float64)
+sample, y val tensor(121.3044, device='cuda:0')
+sample y_init tensor(121.3044, device='cuda:0')
+x_in_interp val tensor(0.3839, device='cuda:0')
+x_in_hres val tensor(0.1934, device='cuda:0')
+y val tensor(121.3044, device='cuda:0')
+sigmas tensor([1.0000e+03, 8.6906e+02, 7.5310e+02, 6.5066e+02, 5.6041e+02, 4.8111e+02,
+        4.1162e+02, 3.5093e+02, 2.9807e+02, 2.5219e+02, 2.1250e+02, 1.7829e+02,
+        1.4891e+02, 1.2378e+02, 1.0238e+02, 8.4234e+01, 6.8917e+01, 5.6051e+01,
+        4.5302e+01, 3.6371e+01, 2.8993e+01, 2.2937e+01, 1.8000e+01, 1.4003e+01,
+        1.0792e+01, 8.2341e+00, 6.2145e+00, 4.6353e+00, 3.4134e+00, 2.4787e+00,
+        1.7725e+00, 1.2463e+00, 8.6016e-01, 5.8144e-01, 3.8402e-01, 2.4708e-01,
+        1.5433e-01, 9.3182e-02, 5.4097e-02, 3.0000e-02, 0.0000e+00],
+       device='cuda:0', dtype=torch.float64) 2.5 0.75 1000.0 1.05
+[9/10] wrote /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/predictions/predictions_20230829_step072.nc
+noise_scheduler_params: {'schedule_type': 'karras', 'sigma_max': 1000.0, 'sigma_min': 0.03, 'rho': 7.0, 'num_steps': 40}
+sampler_params: {'sampler': 'heun', 'S_churn': 2.5, 'S_min': 0.75, 'S_max': 1000.0, 'S_noise': 1.05}
+sample, sigmas tensor([1.0000e+03, 8.6906e+02, 7.5310e+02, 6.5066e+02, 5.6041e+02, 4.8111e+02,
+        4.1162e+02, 3.5093e+02, 2.9807e+02, 2.5219e+02, 2.1250e+02, 1.7829e+02,
+        1.4891e+02, 1.2378e+02, 1.0238e+02, 8.4234e+01, 6.8917e+01, 5.6051e+01,
+        4.5302e+01, 3.6371e+01, 2.8993e+01, 2.2937e+01, 1.8000e+01, 1.4003e+01,
+        1.0792e+01, 8.2341e+00, 6.2145e+00, 4.6353e+00, 3.4134e+00, 2.4787e+00,
+        1.7725e+00, 1.2463e+00, 8.6016e-01, 5.8144e-01, 3.8402e-01, 2.4708e-01,
+        1.5433e-01, 9.3182e-02, 5.4097e-02, 3.0000e-02, 0.0000e+00],
+       device='cuda:0', dtype=torch.float64)
+sample, y val tensor(121.4017, device='cuda:0')
+sample y_init tensor(121.4017, device='cuda:0')
+x_in_interp val tensor(0.3777, device='cuda:0')
+x_in_hres val tensor(0.1936, device='cuda:0')
+y val tensor(121.4017, device='cuda:0')
+sigmas tensor([1.0000e+03, 8.6906e+02, 7.5310e+02, 6.5066e+02, 5.6041e+02, 4.8111e+02,
+        4.1162e+02, 3.5093e+02, 2.9807e+02, 2.5219e+02, 2.1250e+02, 1.7829e+02,
+        1.4891e+02, 1.2378e+02, 1.0238e+02, 8.4234e+01, 6.8917e+01, 5.6051e+01,
+        4.5302e+01, 3.6371e+01, 2.8993e+01, 2.2937e+01, 1.8000e+01, 1.4003e+01,
+        1.0792e+01, 8.2341e+00, 6.2145e+00, 4.6353e+00, 3.4134e+00, 2.4787e+00,
+        1.7725e+00, 1.2463e+00, 8.6016e-01, 5.8144e-01, 3.8402e-01, 2.4708e-01,
+        1.5433e-01, 9.3182e-02, 5.4097e-02, 3.0000e-02, 0.0000e+00],
+       device='cuda:0', dtype=torch.float64) 2.5 0.75 1000.0 1.05
+[10/10] wrote /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/predictions/predictions_20230827_step048.nc
+Wrote manifest: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/predictions/predictions_manifest.csv

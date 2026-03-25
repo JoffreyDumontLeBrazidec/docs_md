@@ -1,0 +1,84 @@
+run_id: manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total
+checkpoint:
+  run_id: 61cf18112f9f4e5da192ae930b40aa79
+  path: /home/ecm5702/scratch/aifs/checkpoint/61cf18112f9f4e5da192ae930b40aa79/anemoi-by_epoch-epoch_021-step_100000.ckpt
+stack_flavor: new
+lane: o96_o320
+scope:
+  dates:
+  - 20230827
+  - 20230828
+  - 20230829
+  - 20230830
+  steps_hours:
+  - 24
+  - 48
+  - 72
+  members:
+  - 1
+  bundle_pairs:
+  - '20230829:24'
+  - '20230828:48'
+  - '20230829:48'
+  - '20230828:24'
+  - '20230830:24'
+  - 20230828:72
+  - 20230827:72
+  - '20230830:48'
+  - 20230829:72
+  - '20230827:48'
+sampling_config:
+  schedule_type: experimental_piecewise
+  num_steps: 30
+  sigma_max: 100000.0
+  sigma_transition: 100.0
+  sigma_min: 0.03
+  high_schedule_type: exponential
+  low_schedule_type: karras
+  num_steps_high: 10
+  num_steps_low: 20
+  rho: 7.0
+  sampler: heun
+  S_churn: 2.5
+  S_min: 0.75
+  S_max: 100000.0
+  S_noise: 1.05
+source:
+  input_root: /home/ecm5702/hpcperm/data/input_data/o96_o320/idalia
+  bundle_scope_note: Dedicated direct proxy10total launch so fast scoreboard results do not wait on the full Aug26-30 run.
+  bundle_pattern: '*_input_bundle.nc'
+  bundle_scope:
+    dates:
+    - 20230827
+    - 20230828
+    - 20230829
+    - 20230830
+    steps_hours:
+    - 24
+    - 48
+    - 72
+    members:
+    - 1
+outputs:
+  run_dir: /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total
+  predictions_dir: /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total/predictions
+  subset_dir: /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total/proxy10total_subset_20260320
+  spectra_dir: /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total/spectra_harmonized_proxy10total_20260320
+  jobs_dir: /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total/jobs
+  manifest_csv: /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total/predictions_manifest.csv
+  run_info_txt: /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total/manual_inference_run_info.txt
+  logs_dir: /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total/logs
+sampling_config_json: '{"S_churn":2.5,"S_max":100000.0,"S_min":0.75,"S_noise":1.05,"high_schedule_type":"exponential","low_schedule_type":"karras","num_steps":30,"num_steps_high":10,"num_steps_low":20,"rho":7.0,"sampler":"heun","schedule_kind":"experimental_piecewise","schedule_type":"experimental_piecewise","sigma_max":100000.0,"sigma_min":0.03,"sigma_transition":100.0}'
+config_capture_metadata:
+  capture_status: exact
+  inventory_record_slug: manual-61cf1811-new-piecewise30-h10-l20-sigma100
+  inventory_path: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/state/experiment_config_inventory.yaml
+  primary_source_kind: run_info
+  primary_source_path: /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total/manual_inference_run_info.txt
+  secondary_source_paths:
+  - /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/scratch/submit/20260320/predict_proxy_61cf1811_piecewise30_20260320.sbatch
+  - /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total/logs/predict_proxy_manual_61cf1811_new_o96_o320_20260320_piecewise30_h10_l20_sigma100_proxy10total_31457433.out
+  - /home/ecm5702/perm/eval/manual_61cf1811_new_o96_o320_20260323_piecewise30_h10_l20_sigma100_ref/manual_inference_run_info.txt
+  updated_utc: '2026-03-24T11:48:13Z'
+  run_info_present: true
+  bundle_pair_count: 10

@@ -1,0 +1,156 @@
+{
+  "base_dir": "/home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k",
+  "output_dir": "/home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/spectra_step120_5dates_m10_ecmwf",
+  "prefer_step": 120,
+  "models": [
+    {
+      "name": "spectra_step120_5dates_m10_ecmwf",
+      "path": "/home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/spectra_step120_5dates_m10_ecmwf",
+      "exists": true,
+      "steps_with_wvn": [
+        120
+      ],
+      "chosen_step": 120
+    },
+    {
+      "name": "enfo_o320",
+      "path": "/home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/enfo_o320",
+      "exists": true,
+      "steps_with_wvn": [
+        24,
+        48,
+        72,
+        96,
+        120,
+        144,
+        168,
+        192,
+        216,
+        240
+      ],
+      "chosen_step": 120
+    },
+    {
+      "name": "eefo_o96",
+      "path": "/home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260320_oldlike200k/eefo_o96",
+      "exists": true,
+      "steps_with_wvn": [
+        24,
+        48,
+        72,
+        96,
+        120,
+        144,
+        168,
+        192,
+        216,
+        240
+      ],
+      "chosen_step": 120
+    }
+  ],
+  "per_param": {
+    "2t_sfc": {
+      "spectra_step120_5dates_m10_ecmwf": {
+        "status": "plotted",
+        "step": 120,
+        "files": 50
+      },
+      "enfo_o320": {
+        "status": "plotted",
+        "step": 120,
+        "files": 110
+      },
+      "eefo_o96": {
+        "status": "plotted",
+        "step": 120,
+        "files": 100
+      }
+    },
+    "10u_sfc": {
+      "spectra_step120_5dates_m10_ecmwf": {
+        "status": "plotted",
+        "step": 120,
+        "files": 50
+      },
+      "enfo_o320": {
+        "status": "plotted",
+        "step": 120,
+        "files": 110
+      },
+      "eefo_o96": {
+        "status": "plotted",
+        "step": 120,
+        "files": 100
+      }
+    },
+    "10v_sfc": {
+      "spectra_step120_5dates_m10_ecmwf": {
+        "status": "plotted",
+        "step": 120,
+        "files": 50
+      },
+      "enfo_o320": {
+        "status": "plotted",
+        "step": 120,
+        "files": 110
+      },
+      "eefo_o96": {
+        "status": "plotted",
+        "step": 120,
+        "files": 100
+      }
+    },
+    "sp_sfc": {
+      "spectra_step120_5dates_m10_ecmwf": {
+        "status": "plotted",
+        "step": 120,
+        "files": 50
+      },
+      "enfo_o320": {
+        "status": "plotted",
+        "step": 120,
+        "files": 80
+      },
+      "eefo_o96": {
+        "status": "plotted",
+        "step": 120,
+        "files": 100
+      }
+    },
+    "t_850": {
+      "spectra_step120_5dates_m10_ecmwf": {
+        "status": "plotted",
+        "step": 120,
+        "files": 50
+      },
+      "enfo_o320": {
+        "status": "plotted",
+        "step": 120,
+        "files": 80
+      },
+      "eefo_o96": {
+        "status": "plotted",
+        "step": 120,
+        "files": 100
+      }
+    },
+    "z_500": {
+      "spectra_step120_5dates_m10_ecmwf": {
+        "status": "plotted",
+        "step": 120,
+        "files": 50
+      },
+      "enfo_o320": {
+        "status": "plotted",
+        "step": 120,
+        "files": 80
+      },
+      "eefo_o96": {
+        "status": "plotted",
+        "step": 120,
+        "files": 100
+      }
+    }
+  }
+}
