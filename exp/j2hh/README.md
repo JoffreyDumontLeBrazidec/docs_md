@@ -7,6 +7,9 @@ Storage root: `/home/ecm5702/hpcperm/docs/exp/j2hh`
 ## What this is
 This page is a durable, self-contained dossier for `j2hh` under `~/hpcperm/docs/exp/j2hh`. It collects the important outputs, repaired-job history, metadata, provenance links, and plot access points for the completed `j2hh` evaluation bundle.
 
+> GitHub note:
+> the inline images under `previews/` render normally on GitHub, but most files under `links/` are symlinks back to local ECMWF paths and are mainly for use on the source machine or in local Obsidian sessions.
+
 ## Experiment identity
 - expver: `j2hh`
 - stack: `old`
@@ -267,4 +270,3 @@ Multi-page bundles are previewed here on a representative first page (or all pag
   ![idalia_msl_fields_28_08_step1.png](links/tc_members/idalia_msl_fields_28_08_step1.png)
 - [`idalia_wind10m_fields_28_08_step1.png`](links/tc_members/idalia_wind10m_fields_28_08_step1.png)
   ![idalia_wind10m_fields_28_08_step1.png](links/tc_members/idalia_wind10m_fields_28_08_step1.png)
-
