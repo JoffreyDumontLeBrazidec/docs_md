@@ -1,0 +1,34 @@
+doc_type: experiment-room
+lane: o320-o1280
+slug: 181be03e-full25
+status: completed
+updated_utc: 2026-04-23T12:34:00Z
+checkpoint_family: 181be03eed254d669c87fba5ae33931b
+checkpoint_root: /home/ecm5702/scratch/aifs/checkpoint/181be03eed254d669c87fba5ae33931b
+run_root: /home/ecm5702/perm/eval/manual_181be03e_new_o320_o1280_20260421_manual_eval
+predictions:
+  file_count: 25
+  dates: [20230826, 20230827, 20230828, 20230829, 20230830]
+  steps_hours: [24, 48, 72, 96, 120]
+  ensemble_members: 10
+artifacts:
+  predictions_dir: /home/ecm5702/perm/eval/manual_181be03e_new_o320_o1280_20260421_manual_eval/data/predictions
+  predictions_manifest: /home/ecm5702/perm/eval/manual_181be03e_new_o320_o1280_20260421_manual_eval/data/predictions_manifest.csv
+  experiment_config: /home/ecm5702/perm/eval/manual_181be03e_new_o320_o1280_20260421_manual_eval/EXPERIMENT_CONFIG.yaml
+  spectra_proxy: /home/ecm5702/perm/eval/manual_181be03e_new_o320_o1280_20260421_manual_eval/spectra_proxy.pdf
+  tc_contours: /home/ecm5702/perm/eval/manual_181be03e_new_o320_o1280_20260421_manual_eval/tc_contours.pdf
+  tc_pdf_distributions: /home/ecm5702/perm/eval/manual_181be03e_new_o320_o1280_20260421_manual_eval/tc_pdf_distributions.pdf
+  local_plots_step024: /home/ecm5702/perm/eval/manual_181be03e_new_o320_o1280_20260421_manual_eval/local_plots_step024.pdf
+  local_plots_step120: /home/ecm5702/perm/eval/manual_181be03e_new_o320_o1280_20260421_manual_eval/local_plots_step120.pdf
+  surface_loss_summary: /home/ecm5702/perm/eval/manual_181be03e_new_o320_o1280_20260421_manual_eval/data/surface_loss_summary.json
+  metrics_sidecar: /home/ecm5702/perm/eval/manual_181be03e_new_o320_o1280_20260421_manual_eval/data/o320_o1280_metrics.json
+  weight_diagnostics: /home/ecm5702/perm/eval/manual_181be03e_new_o320_o1280_20260421_manual_eval/weight_diagnostics
+  tc_stats: /home/ecm5702/perm/eval/manual_181be03e_new_o320_o1280_20260421_manual_eval/data/tc_normed_pdfs_idalia__franklin_manual_181be03e_new_o320_o1280_20260421_manual_eval_native_from_predictions.stats.json
+provenance:
+  task_note: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/epics/o320_o1280/in-progress/20260421_181be03e_200k_o320_o1280_eval.md
+  scoreboard: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o320_o1280/scoreboard.md
+notes:
+  sigma: pending (CPU fallback 50035119 running)
+  training_loss_plots: not_available
+  tc_pdf_comparison: no ip6y reference available — ip6y is o96->o320 only
+  assessment: probably just lacks training; local and contour quality acceptable
