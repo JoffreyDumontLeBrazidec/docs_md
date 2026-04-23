@@ -22,13 +22,14 @@ artifacts:
   local_plots_step120: /home/ecm5702/perm/eval/manual_181be03e_new_o320_o1280_20260421_manual_eval/local_plots_step120.pdf
   surface_loss_summary: /home/ecm5702/perm/eval/manual_181be03e_new_o320_o1280_20260421_manual_eval/data/surface_loss_summary.json
   metrics_sidecar: /home/ecm5702/perm/eval/manual_181be03e_new_o320_o1280_20260421_manual_eval/data/o320_o1280_metrics.json
+  sigma_csv: /home/ecm5702/perm/eval/scoreboards/sigma/181be03eed254d669c87fba5ae33931b_sigma_eval.csv
   weight_diagnostics: /home/ecm5702/perm/eval/manual_181be03e_new_o320_o1280_20260421_manual_eval/weight_diagnostics
   tc_stats: /home/ecm5702/perm/eval/manual_181be03e_new_o320_o1280_20260421_manual_eval/data/tc_normed_pdfs_idalia__franklin_manual_181be03e_new_o320_o1280_20260421_manual_eval_native_from_predictions.stats.json
 provenance:
   task_note: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/epics/o320_o1280/in-progress/20260421_181be03e_200k_o320_o1280_eval.md
   scoreboard: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o320_o1280/scoreboard.md
 notes:
-  sigma: pending (CPU fallback 50035119 running)
+  sigma: completed by CPU fallback 50035119
   training_loss_plots: not_available
   tc_pdf_comparison: no ip6y reference available — ip6y is o96->o320 only
   assessment: probably just lacks training; local and contour quality acceptable

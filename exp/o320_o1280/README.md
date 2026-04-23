@@ -26,7 +26,7 @@ This hub collects the durable `o320 -> o1280` inference surfaces that are most u
 ## Rooms
 | room | status | purpose | source |
 | --- | --- | --- | --- |
-| [`181be03e-full25`](181be03e-full25/README.md) | `completed` | 200k checkpoint full25 eval, lean PDF bundle layout, sigma pending | `/home/ecm5702/perm/eval/manual_181be03e_new_o320_o1280_20260421_manual_eval` |
+| [`181be03e-full25`](181be03e-full25/README.md) | `completed` | 200k checkpoint full25 eval with lean PDF bundle, sigma complete, and preview gallery | `/home/ecm5702/perm/eval/manual_181be03e_new_o320_o1280_20260421_manual_eval` |
 | [`f03c9e-full25`](f03c9e-full25/README.md) | `completed` | stable Aug 26-30 `full25` predictions plus TC and trusted ECMWF spectra | `/home/ecm5702/perm/eval/manual_f03c9e_100k_full25_20260309_yfix1` |
 | [`da4d902b-proxy-watch`](da4d902b-proxy-watch/README.md) | `in-progress` | latest `step_013872` proxy-like run watch surface; no predictions written yet | `/home/ecm5702/perm/eval/manual_da4d902b_new_o320_o1280_20260325_proxy10pair_m1_step013872` |
 
@@ -35,4 +35,5 @@ This hub collects the durable `o320 -> o1280` inference surfaces that are most u
 - Spectra summaries and PDF bundles are exposed under the stable room's `links/artifacts/spectra_ecmwf/`.
 - Idalia TC stats JSON is exposed under the stable room's `links/artifacts/tc_idalia_regridded/`.
 - Existing intermediate local-plot PNGs are copied into the stable room's `previews/` gallery for quick glanceable browsing.
+- The `181be03e-full25` room is the completed 200k drill-down surface with sigma, preview gallery, and lean PDF links.
 - The pending `da4d902b` watch room already records the checkpoint, run roots, job lineage, and failed-attempt logs so the next publish refresh can add real outputs in place.

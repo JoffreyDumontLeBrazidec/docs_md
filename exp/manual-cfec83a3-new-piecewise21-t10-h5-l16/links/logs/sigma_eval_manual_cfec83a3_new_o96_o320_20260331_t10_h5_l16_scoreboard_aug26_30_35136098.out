@@ -1,0 +1,109 @@
+[ECMWF-INFO -sbatch] - -------------------------------------------------------------------------------------
+[ECMWF-INFO -sbatch] -  This is the ECMWF jobfilter
+[ECMWF-INFO -sbatch] -  +++ Please report issues using the Support portal +++
+[ECMWF-INFO -sbatch] -  +++ https://support.ecmwf.int                     +++
+[ECMWF-INFO -sbatch] -  /usr/local/bin/ecsbatch: size: 53801, mtime: Tue Nov 25 12:31:30 2025
+[ECMWF-INFO -sbatch] - -------------------------------------------------------------------------------------
+[ECMWF-INFO -sbatch] - Time at submit: Tue Mar 31 12:39:16 2026 (1774960756.9000885) on ac6-101.bullx:/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs
+[ECMWF-INFO -sbatch] - --- SLURM VARIABLES ---
+[ECMWF-INFO -sbatch] - SLURM_GPUS_PER_NODE=1
+[ECMWF-INFO -sbatch] - SLURM_NNODES=1
+[ECMWF-INFO -sbatch] - EC_CLUSTER=ac
+[ECMWF-INFO -sbatch] - SLURM_EXPORT_ENV=ALL
+[ECMWF-INFO -sbatch] - SBATCH_EXPORT=NONE
+[ECMWF-INFO -sbatch] - -----------------------
+[ECMWF-INFO -sbatch] - jobscript: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/jobscripts/submit/20260331/sigma_cfec83a3_t10_h5_l16_20260331.sbatch
+[ECMWF-INFO -sbatch] - --- SCRIPT OPTIONS ---
+[ECMWF-INFO -sbatch] - #SBATCH --job-name=sig_cfec83a3_t10_h5_l16
+[ECMWF-INFO -sbatch] - #SBATCH --qos=ng
+[ECMWF-INFO -sbatch] - #SBATCH --time=01:00:00
+[ECMWF-INFO -sbatch] - #SBATCH --cpus-per-task=8
+[ECMWF-INFO -sbatch] - #SBATCH --mem=64G
+[ECMWF-INFO -sbatch] - #SBATCH --gpus-per-node=1
+[ECMWF-INFO -sbatch] - #SBATCH --output=/home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/logs/sigma_eval_manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30_%j.out
+[ECMWF-INFO -sbatch] - -----------------------
+[ECMWF-INFO -sbatch] - --- POST-PROCESSED OPTIONS ---
+[ECMWF-INFO -sbatch] - ARG --positional=['/home/ecm5702/dev/jobscripts/submit/20260331/sigma_cfec83a3_t10_h5_l16_20260331.sbatch']
+[ECMWF-INFO -sbatch] - ARG --cpus_per_task=8
+[ECMWF-INFO -sbatch] - ARG --job_name=sig_cfec83a3_t10_h5_l16
+[ECMWF-INFO -sbatch] - ARG --output=/home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/logs/sigma_eval_manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30_%j.out
+[ECMWF-INFO -sbatch] - ARG --qos=ng
+[ECMWF-INFO -sbatch] - ARG --time=01:00:00
+[ECMWF-INFO -sbatch] - ARG --mem=64G
+[ECMWF-INFO -sbatch] - ARG --gpus_per_node=1
+[ECMWF-INFO -sbatch] - ------------------------------
+[ECMWF-INFO -sbatch] - jobtag: ecm5702-sig_cfec83_t10_h5_l16-1x8-/home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320__JOBID__t10_h5_l16_scoreboard_aug26_30/logs/sigma_eval_manual_cfec83a3_new_o96_o320__JOBID__t10_h5_l16_scoreboard_aug26_30__JOBID_.out
+[ECMWF-INFO -sbatch] - ['/usr/bin/sbatch', '--cpus-per-task=8', '--job-name=sig_cfec83a3_t10_h5_l16', '--output=/home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/logs/sigma_eval_manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30_%j.out', '--qos=ng', '--time=01:00:00', '--mem=64G', '--gpus-per-node=1', '--licenses=h2resw01', '--export=EC_user_time_limit=01:00:00', '/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/jobscripts/submit/20260331/sigma_cfec83a3_t10_h5_l16_20260331.sbatch']
+[ECMWF-INFO -sbatch] - sbatch executed on ac
+[ECMWF-INFO -sbatch] - Job queued on ac using method local
+[ECMWF-INFO -sbatch] - Submitted batch job 35136098
+[ECMWF-INFO -ecprofile] /usr/bin/bash NON_INTERACTIVE on ac6-327 at 20260331_124150.203, PID: 322759, JOBID: 35136098
+[ECMWF-INFO -ecprofile] $SCRATCH=/ec/res4/scratch/ecm5702
+[ECMWF-INFO -ecprofile] $PERM=/perm/ecm5702
+[ECMWF-INFO -ecprofile] $HPCPERM=/ec/res4/hpcperm/ecm5702
+[ECMWF-INFO -ecprofile] $TMPDIR=/dev/shm/_tmpdir_.ecm5702.35136098
+[ECMWF-INFO -ecprofile] $SCRATCHDIR=/ec/res4/scratchdir/ecm5702/2/35136098
+checkpoint_path=/home/ecm5702/scratch/aifs/checkpoint/cfec83a3cd0644778e2bfcbacfa9f4fc/anemoi-by_epoch-epoch_043-step_200000.ckpt
+lane=o96_o320
+stack_flavor=new
+source_hpc=ac
+host_short=ac6-327
+host_family=ac
+recommended_venv=/home/ecm5702/dev/.ds-dyn/bin/activate
+ac6-327
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/.ds-dyn
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/.ds-dyn/bin/python
+Python 3.11.10
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/downscaling-tools/manual_inference/checkpoints.py:82: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  initialize_config_dir(config_dir=anemoi_config_dir, job_name="compose_config")
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/downscaling-tools/manual_inference/checkpoints.py:82: UserWarning: 
+The version_base parameter is not specified.
+Please specify a compatability version level, or None.
+Will assume defaults for version 1.1
+  initialize_config_dir(config_dir=anemoi_config_dir, job_name="compose_config")
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/anemoi-datasets/src/anemoi/datasets/data/forwards.py:214: UserWarning: The behaviour of Zip.collect_supporting_arrays() is not well defined
+  warnings.warn(f"The behaviour of {self.__class__.__name__}.collect_supporting_arrays() is not well defined")
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/.ds-dyn/lib/python3.11/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.4, which is newer than your current Lightning version: v2.5.0.post0
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/anemoi-core/training/src/anemoi/training/losses/scalers/variable_tendency.py:57: UserWarning: Dataset has no tendency statistics! Are you sure you want to use a tendency scaler?
+  warnings.warn("Dataset has no tendency statistics! Are you sure you want to use a tendency scaler?")
+ckpt used is /home/ecm5702/scratch/aifs/checkpoint/cfec83a3cd0644778e2bfcbacfa9f4fc/anemoi-by_epoch-epoch_043-step_200000.ckpt
+Output CSV will be saved to: /home/ecm5702/perm/eval/scoreboards/sigma/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30_sigma_eval.csv
+Running sigma evaluator on device: cuda
+Evaluating sigma 1.0 with noisy output
+/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/.ds-dyn/lib/python3.11/site-packages/torch/_inductor/compile_fx.py:194: UserWarning: TensorFloat32 tensor cores for float32 matrix multiplication available but not enabled. Consider setting `torch.set_float32_matmul_precision('high')` for better performance.
+  warnings.warn(
+Evaluating sigma 5.0 with noisy output
+Evaluating sigma 10.0 with noisy output
+Evaluating sigma 100.0 with noisy output
+Saved sigma table: /home/ecm5702/perm/eval/scoreboards/sigma/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30_sigma_eval.csv
+DONE: /home/ecm5702/perm/eval/scoreboards/sigma/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30_sigma_eval.csv
+[ECMWF-INFO -ecepilog] ----------------------------------------------------------------------------------------------------
+[ECMWF-INFO -ecepilog] This is the ECMWF job Epilogue
+[ECMWF-INFO -ecepilog] +++ Please report issues using the Support portal +++
+[ECMWF-INFO -ecepilog] +++ https://support.ecmwf.int                     +++
+[ECMWF-INFO -ecepilog] ----------------------------------------------------------------------------------------------------
+[ECMWF-INFO -ecepilog] Run at 2026-03-31T12:43:21 on ac
+[ECMWF-INFO -ecepilog] JobName                   : sig_cfec83a3_t10_h5_l16
+[ECMWF-INFO -ecepilog] JobID                     : 35136098
+[ECMWF-INFO -ecepilog] Submit                    : 2026-03-31T12:39:16
+[ECMWF-INFO -ecepilog] Start                     : 2026-03-31T12:41:47
+[ECMWF-INFO -ecepilog] End                       : 2026-03-31T12:43:21
+[ECMWF-INFO -ecepilog] QueuedTime                : 151.0
+[ECMWF-INFO -ecepilog] ElapsedRaw                : 94
+[ECMWF-INFO -ecepilog] ExitCode                  : 0:0
+[ECMWF-INFO -ecepilog] DerivedExitCode           : 0:0
+[ECMWF-INFO -ecepilog] State                     : COMPLETED
+[ECMWF-INFO -ecepilog] Account                   : ecrdmomu
+[ECMWF-INFO -ecepilog] QOS                       : ng
+[ECMWF-INFO -ecepilog] User                      : ecm5702
+[ECMWF-INFO -ecepilog] StdOut                    : /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/logs/sigma_eval_manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30_35136098.out
+[ECMWF-INFO -ecepilog] StdErr                    : /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/logs/sigma_eval_manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30_35136098.out
+[ECMWF-INFO -ecepilog] NNodes                    : 1
+[ECMWF-INFO -ecepilog] NCPUS                     : 8
+[ECMWF-INFO -ecepilog] SBU                       : 1.782
+[ECMWF-INFO -ecepilog] jobtag                    : ecm5702-sig_cfec83_t10_h5_l16-1x8-/home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320__JOBID__t10_h5_l16_scoreboard_aug26_30/logs/sigma_eval_manual_cfec83a3_new_o96_o320__JOBID__t10_h5_l16_scoreboard_aug26_30__JOBID_.out
+[ECMWF-INFO -ecepilog] ----------------------------------------------------------------------------------------------------
+

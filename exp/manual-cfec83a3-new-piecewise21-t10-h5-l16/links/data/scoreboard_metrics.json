@@ -1,0 +1,14 @@
+{
+  "run_id": "manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30",
+  "sigma_losses": {
+    "sigma_1": 0.06642085649073123,
+    "sigma_5": 0.0869150597602129,
+    "sigma_10": 0.10390659794211388,
+    "sigma_100": 0.14536937996745108
+  },
+  "tc_extreme_scores": {
+    "idalia": 0.895957597163912,
+    "franklin": 0.6983921283940746
+  },
+  "surface_weighted_mse": 10681.53406506083
+}

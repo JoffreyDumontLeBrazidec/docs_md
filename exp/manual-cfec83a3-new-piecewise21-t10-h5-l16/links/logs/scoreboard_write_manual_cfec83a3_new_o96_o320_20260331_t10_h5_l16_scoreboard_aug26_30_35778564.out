@@ -1,0 +1,112 @@
+[ECMWF-INFO -sbatch] - -------------------------------------------------------------------------------------
+[ECMWF-INFO -sbatch] -  This is the ECMWF jobfilter
+[ECMWF-INFO -sbatch] -  +++ Please report issues using the Support portal +++
+[ECMWF-INFO -sbatch] -  +++ https://support.ecmwf.int                     +++
+[ECMWF-INFO -sbatch] -  /usr/local/bin/ecsbatch: size: 53801, mtime: Tue Nov 25 12:31:30 2025
+[ECMWF-INFO -sbatch] - -------------------------------------------------------------------------------------
+[ECMWF-INFO -sbatch] - Time at submit: Thu Apr  2 13:11:43 2026 (1775135503.9384322) on ac6-101.bullx:/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs
+[ECMWF-INFO -sbatch] - --- SLURM VARIABLES ---
+[ECMWF-INFO -sbatch] - SLURM_GPUS_PER_NODE=1
+[ECMWF-INFO -sbatch] - SLURM_NNODES=1
+[ECMWF-INFO -sbatch] - EC_CLUSTER=ac
+[ECMWF-INFO -sbatch] - SLURM_EXPORT_ENV=ALL
+[ECMWF-INFO -sbatch] - SBATCH_EXPORT=NONE
+[ECMWF-INFO -sbatch] - -----------------------
+[ECMWF-INFO -sbatch] - jobscript: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/jobscripts/submit/20260331/scoreboard_write_cfec83a3_t10_h5_l16_20260331.sbatch
+[ECMWF-INFO -sbatch] - --- SCRIPT OPTIONS ---
+[ECMWF-INFO -sbatch] - #SBATCH --job-name=wr_cfec83a3_t10_h5_l16
+[ECMWF-INFO -sbatch] - #SBATCH --nodes=1
+[ECMWF-INFO -sbatch] - #SBATCH --ntasks=1
+[ECMWF-INFO -sbatch] - #SBATCH --cpus-per-task=16
+[ECMWF-INFO -sbatch] - #SBATCH --time=04:00:00
+[ECMWF-INFO -sbatch] - #SBATCH --mem=64G
+[ECMWF-INFO -sbatch] - #SBATCH --output=/home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/logs/scoreboard_write_manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30_%j.out
+[ECMWF-INFO -sbatch] - -----------------------
+[ECMWF-INFO -sbatch] - --- POST-PROCESSED OPTIONS ---
+[ECMWF-INFO -sbatch] - ARG --positional=['/home/ecm5702/dev/jobscripts/submit/20260331/scoreboard_write_cfec83a3_t10_h5_l16_20260331.sbatch']
+[ECMWF-INFO -sbatch] - ARG --cpus_per_task=16
+[ECMWF-INFO -sbatch] - ARG --job_name=wr_cfec83a3_t10_h5_l16
+[ECMWF-INFO -sbatch] - ARG --ntasks=1
+[ECMWF-INFO -sbatch] - ARG --nodes=1
+[ECMWF-INFO -sbatch] - ARG --output=/home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/logs/scoreboard_write_manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30_%j.out
+[ECMWF-INFO -sbatch] - ARG --time=04:00:00
+[ECMWF-INFO -sbatch] - ARG --mem=64G
+[ECMWF-INFO -sbatch] - ------------------------------
+[ECMWF-INFO -sbatch] - No qos requested, assuming qos=nf
+[ECMWF-INFO -sbatch] - jobtag: ecm5702-wr_cfec83a_t10_h5_l16-1x16-/home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320__JOBID__t10_h5_l16_scoreboard_aug26_30/logs/scoreboard_write_manual_cfec83a3_new_o96_o320__JOBID__t10_h5_l16_scoreboard_aug26_30__JOBID_.out
+[ECMWF-INFO -sbatch] - ------------------------------
+[ECMWF-INFO -sbatch] - Average Walltime 0 with a Standard Deviation 0
+[ECMWF-INFO -sbatch] - Runtime history
+[ECMWF-INFO -sbatch] -   Date               | Cores   Cluster   Walltime       Mem
+[ECMWF-INFO -sbatch] - 
+[ECMWF-INFO -sbatch] - ['/usr/bin/sbatch', '--cpus-per-task=16', '--job-name=wr_cfec83a3_t10_h5_l16', '--ntasks=1', '--nodes=1', '--output=/home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/logs/scoreboard_write_manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30_%j.out', '--time=04:00:00', '--mem=64G', '--qos=nf', '--licenses=h2resw01', '--export=EC_user_time_limit=04:00:00', '/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/jobscripts/submit/20260331/scoreboard_write_cfec83a3_t10_h5_l16_20260331.sbatch']
+[ECMWF-INFO -sbatch] - sbatch executed on ac
+[ECMWF-INFO -sbatch] - Job queued on ac using method local
+[ECMWF-INFO -sbatch] - Submitted batch job 35778564
+[ECMWF-INFO -ecprofile] /usr/bin/bash NON_INTERACTIVE on ac6-142 at 20260402_131216.561, PID: 3432090, JOBID: 35778564
+[ECMWF-INFO -ecprofile] $SCRATCH=/ec/res4/scratch/ecm5702
+[ECMWF-INFO -ecprofile] $PERM=/perm/ecm5702
+[ECMWF-INFO -ecprofile] $HPCPERM=/ec/res4/hpcperm/ecm5702
+[ECMWF-INFO -ecprofile] $TMPDIR=/etc/ecmwf/ssd/ssd1/tmpdirs/ecm5702.35778564
+[ECMWF-INFO -ecprofile] $SCRATCHDIR=/ec/res4/scratchdir/ecm5702/4/35778564
+=== Scoreboard writer ===
+job_id=35778564
+host=ac6-142
+run_id=manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30
+run_root=/home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30
+pred_dir=/home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/predictions
+pred_count=25
+timestamp_utc=2026-04-02T13:12:21Z
+ERROR: Missing spectra input file: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/predictions/predictions_20230829_step24.nc
+
+
+[/etc/bash.bash_logout] resources consumed by this shell: 
+0m0.012s 0m0.019s
+0m1.261s 0m1.559s
+ac6-142.bullx: total_cache 83349504
+ac6-142.bullx: total_rss 12050432
+ac6-142.bullx: total_rss_huge 0
+ac6-142.bullx: total_shmem 20480
+ac6-142.bullx: total_mapped_file 0
+ac6-142.bullx: total_dirty 0
+ac6-142.bullx: total_writeback 0
+ac6-142.bullx: total_swap 0
+ac6-142.bullx: total_pgpgin 99481
+ac6-142.bullx: total_pgpgout 76182
+ac6-142.bullx: total_pgfault 107415
+ac6-142.bullx: total_pgmajfault 416
+ac6-142.bullx: total_inactive_anon 11919360
+ac6-142.bullx: total_active_anon 45056
+ac6-142.bullx: total_inactive_file 82833408
+ac6-142.bullx: total_active_file 495616
+ac6-142.bullx: total_unevictable 0
+ac6-142.bullx: max_usage_in_bytes: 188788736
+ac6-142.bullx: soft_limit_in_bytes: 68719476736
+
+[ECMWF-INFO -ecepilog] ----------------------------------------------------------------------------------------------------
+[ECMWF-INFO -ecepilog] This is the ECMWF job Epilogue
+[ECMWF-INFO -ecepilog] +++ Please report issues using the Support portal +++
+[ECMWF-INFO -ecepilog] +++ https://support.ecmwf.int                     +++
+[ECMWF-INFO -ecepilog] ----------------------------------------------------------------------------------------------------
+[ECMWF-INFO -ecepilog] Run at 2026-04-02T13:12:22 on ac
+[ECMWF-INFO -ecepilog] JobName                   : wr_cfec83a3_t10_h5_l16
+[ECMWF-INFO -ecepilog] JobID                     : 35778564
+[ECMWF-INFO -ecepilog] Submit                    : 2026-04-02T13:11:43
+[ECMWF-INFO -ecepilog] Start                     : 2026-04-02T13:12:12
+[ECMWF-INFO -ecepilog] End                       : 2026-04-02T13:12:22
+[ECMWF-INFO -ecepilog] QueuedTime                : 29.0
+[ECMWF-INFO -ecepilog] ElapsedRaw                : 10
+[ECMWF-INFO -ecepilog] ExitCode                  : 2:0
+[ECMWF-INFO -ecepilog] DerivedExitCode           : 0:0
+[ECMWF-INFO -ecepilog] State                     : FAILED
+[ECMWF-INFO -ecepilog] Account                   : ecrdmomu
+[ECMWF-INFO -ecepilog] QOS                       : nf
+[ECMWF-INFO -ecepilog] User                      : ecm5702
+[ECMWF-INFO -ecepilog] StdOut                    : /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/logs/scoreboard_write_manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30_35778564.out
+[ECMWF-INFO -ecepilog] StdErr                    : /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/logs/scoreboard_write_manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30_35778564.out
+[ECMWF-INFO -ecepilog] NNodes                    : 1
+[ECMWF-INFO -ecepilog] NCPUS                     : 16
+[ECMWF-INFO -ecepilog] SBU                       : 0.379
+[ECMWF-INFO -ecepilog] jobtag                    : ecm5702-wr_cfec83a_t10_h5_l16-1x16-/home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320__JOBID__t10_h5_l16_scoreboard_aug26_30/logs/scoreboard_write_manual_cfec83a3_new_o96_o320__JOBID__t10_h5_l16_scoreboard_aug26_30__JOBID_.out
+[ECMWF-INFO -ecepilog] ----------------------------------------------------------------------------------------------------
+

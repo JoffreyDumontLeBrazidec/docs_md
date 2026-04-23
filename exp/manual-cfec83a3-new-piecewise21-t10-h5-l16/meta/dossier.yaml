@@ -1,0 +1,154 @@
+generated_at: '2026-04-23T14:03:19Z'
+slug: manual-cfec83a3-new-piecewise21-t10-h5-l16
+source_dossier: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/exp/manual-cfec83a3-new-piecewise21-t10-h5-l16.md
+run_root: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30
+front_matter:
+  dossier_mode: generated
+  slug: manual-cfec83a3-new-piecewise21-t10-h5-l16
+  display_label: cfec83 pw21 t10/h5/l16
+  role: experiment
+  checkpoint_id: cfec83a3cd0644778e2bfcbacfa9f4fc
+  checkpoint_path: /home/ecm5702/scratch/aifs/checkpoint/cfec83a3cd0644778e2bfcbacfa9f4fc/anemoi-by_epoch-epoch_043-step_200000.ckpt
+  lane: o96-o320
+  stack_flavor: new
+  run_id: manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30
+  run_root: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30
+  venv: /home/ecm5702/dev/.ds-dyn/bin/activate
+  login_node: ac6-102
+  qos: nf
+  job_ids: []
+  task_note: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/epics/o96_o320_opti/in-progress/20260328_o96_o320_piecewise_scheduler_search.md
+  experiment_config: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/EXPERIMENT_CONFIG.yaml
+  sampling:
+    summary: schedule_type=experimental_piecewise, schedule_kind=stage1_piecewise,
+      num_steps=21, sigma_max=1000.0, sigma_transition=10.0, sigma_min=0.03, high_schedule_type=exponential,
+      low_schedule_type=karras, num_steps_high=5, num_steps_low=16, rho=7.0, sampler=heun,
+      S_churn=2.5, S_min=0.75, S_max=1000.0, S_noise=1.05
+    extra_args:
+      schedule_type: experimental_piecewise
+      schedule_kind: stage1_piecewise
+      num_steps: 21
+      sigma_max: 1000.0
+      sigma_transition: 10.0
+      sigma_min: 0.03
+      high_schedule_type: exponential
+      low_schedule_type: karras
+      num_steps_high: 5
+      num_steps_low: 16
+      rho: 7.0
+      sampler: heun
+      S_churn: 2.5
+      S_min: 0.75
+      S_max: 1000.0
+      S_noise: 1.05
+  surfaces:
+    proxy10:
+      status: not_yet_recorded
+      promotion: not_promoted
+      rank: null
+      scope: {}
+      artifacts:
+        tc_stats: null
+        spectra_summary: null
+        compare_json: null
+        scoreboard_metrics: null
+    aug_26_30:
+      status: recorded
+      promotion: promoted
+      rank: 4
+      scope:
+        dates:
+        - 20230826
+        - 20230827
+        - 20230828
+        - 20230829
+        - 20230830
+        members:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        steps_hours:
+        - 24
+        - 48
+        - 72
+        - 96
+        - 120
+      artifacts:
+        sigma_csv: /home/ecm5702/perm/eval/scoreboards/sigma/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30_sigma_eval.csv
+        tc_stats: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/tc_normed_pdfs_idalia_franklin_manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30_from_predictions.stats.json
+        spectra_summary: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/spectra_proxy10_subset_ecmwf/spectra_summary.json
+        comparison_summary: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/spectra_proxy10_subset_ecmwf/comparison_summary.json
+        surface_loss_summary: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/surface_loss_summary.json
+scoreboard:
+  full:
+    tc_rank: '4'
+    label: cfec83 pw21 t10/h5/l16
+    checkpoint_short: cfec83a3cd
+    eval_sampler_min: piecewise21
+    table_group: main
+    contract_status: eligible
+    idalia_tc_extreme_score: '0.974236'
+    franklin_tc_extreme_score: '0.968308'
+    enfo_deviation: '0.053528'
+    spectra_10u_score_vs_reference: '0.964681'
+    spectra_10v_score_vs_reference: '0.965238'
+    spectra_2t_score_vs_reference: '0.957922'
+    spectra_mean_score_vs_reference: '0.962614'
+    spectra_10u_distance: '0.035319'
+    spectra_10v_distance: '0.034762'
+    spectra_2t_distance: '0.042078'
+    spectra_mean_distance: '0.037386'
+    surface_weighted_mse: '10681.534065'
+    surface_weighted_nmse: '0.096343'
+    surface_10v_nmse: '0.271363'
+    surface_2t_nmse: '0.006243'
+    surface_msl_nmse: '0.048656'
+    surface_sp_nmse: '0.000951'
+    validation_loss: '0.066421'
+    role: experiment
+    spectra_coverage: '10u: step24/24 30c/100r; 10v: step24/24 30c/100r; 2t: step24/24
+      30c/100r; msl: step24/24 30c/80r; t_850: step24/24 30c/80r; z_500: step24/24
+      30c/80r'
+    spectra_n_curves: '30'
+    surface_loss_source: /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/surface_loss_summary.json
+    note: Full-contract row with TC, surface-loss, sigma, and proxy10 ECMWF spectra
+      fallback artifacts complete.
+    dossier: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/state/source_26_30/experiments/manual-cfec83a3-new-piecewise21-t10-h5-l16.md
+    slug: manual-cfec83a3-new-piecewise21-t10-h5-l16
+  proxy: {}
+  idalia_franklin_mean: 0.9712719999999999
+inventory:
+  predictions_count: 25
+  spectra_dirs:
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/spectra_proxy10_subset_ecmwf
+  local_plot_dirs: []
+  local_plot_pngs: 0
+  local_plot_pdfs: 0
+  top_level_data_files:
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/EXPERIMENT_CONFIG.yaml
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/manual_inference_run_info.txt
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/predictions_manifest.csv
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/scoreboard_metrics.json
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/surface_loss_summary.json
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/tc_normed_pdfs_idalia_franklin_manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30_from_predictions.stats.json
+  top_level_artifacts:
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/tc_normed_pdfs_idalia_franklin_manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30_from_predictions.pdf
+  logs:
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/logs/predict25_manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30_35136099.out
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/logs/predict25_manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30_35138694.out
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/logs/scoreboard_write_manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30_35138696.out
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/logs/scoreboard_write_manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30_35778564.out
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/logs/scoreboard_write_manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30_35779201.out
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/logs/sigma_eval_manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30_35136098.out
+  extra_dirs:
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/eefo_o96
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/enfo_o320
+  - /home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/predictions_proxy10_subset
+  tc_members: 0

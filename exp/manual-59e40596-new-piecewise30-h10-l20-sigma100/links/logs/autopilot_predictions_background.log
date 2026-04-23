@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/downscaling-tools/eval/jobs/autopilot_predictions.py", line 467, in <module>
+    main()
+  File "/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/downscaling-tools/eval/jobs/autopilot_predictions.py", line 279, in main
+    str(proxy_launch),
+        ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'proxy_launch' where it is not associated with a value

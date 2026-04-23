@@ -1,0 +1,158 @@
+{
+  "base_dir": "/home/ecm5702/perm/eval/manual_59e4_300k",
+  "output_dir": "/home/ecm5702/perm/eval/manual_59e4_300k/spectra_proxy10_subset_ecmwf",
+  "prefer_step": 24,
+  "models": [
+    {
+      "name": "spectra_proxy10_subset_ecmwf",
+      "path": "/home/ecm5702/perm/eval/manual_59e4_300k/spectra_proxy10_subset_ecmwf",
+      "exists": true,
+      "steps_with_wvn": [
+        24,
+        48,
+        72
+      ],
+      "chosen_step": 24
+    },
+    {
+      "name": "enfo_o320",
+      "path": "/home/ecm5702/perm/eval/manual_59e4_300k/enfo_o320",
+      "exists": true,
+      "steps_with_wvn": [
+        24,
+        48,
+        72,
+        96,
+        120,
+        144,
+        168,
+        192,
+        216,
+        240
+      ],
+      "chosen_step": 24
+    },
+    {
+      "name": "eefo_o96",
+      "path": "/home/ecm5702/perm/eval/manual_59e4_300k/eefo_o96",
+      "exists": true,
+      "steps_with_wvn": [
+        24,
+        48,
+        72,
+        96,
+        120,
+        144,
+        168,
+        192,
+        216,
+        240
+      ],
+      "chosen_step": 24
+    }
+  ],
+  "per_param": {
+    "2t_sfc": {
+      "spectra_proxy10_subset_ecmwf": {
+        "status": "plotted",
+        "step": 24,
+        "files": 30
+      },
+      "enfo_o320": {
+        "status": "plotted",
+        "step": 24,
+        "files": 100
+      },
+      "eefo_o96": {
+        "status": "plotted",
+        "step": 24,
+        "files": 100
+      }
+    },
+    "10u_sfc": {
+      "spectra_proxy10_subset_ecmwf": {
+        "status": "plotted",
+        "step": 24,
+        "files": 30
+      },
+      "enfo_o320": {
+        "status": "plotted",
+        "step": 24,
+        "files": 100
+      },
+      "eefo_o96": {
+        "status": "plotted",
+        "step": 24,
+        "files": 100
+      }
+    },
+    "10v_sfc": {
+      "spectra_proxy10_subset_ecmwf": {
+        "status": "plotted",
+        "step": 24,
+        "files": 30
+      },
+      "enfo_o320": {
+        "status": "plotted",
+        "step": 24,
+        "files": 100
+      },
+      "eefo_o96": {
+        "status": "plotted",
+        "step": 24,
+        "files": 100
+      }
+    },
+    "sp_sfc": {
+      "spectra_proxy10_subset_ecmwf": {
+        "status": "plotted",
+        "step": 24,
+        "files": 30
+      },
+      "enfo_o320": {
+        "status": "plotted",
+        "step": 24,
+        "files": 80
+      },
+      "eefo_o96": {
+        "status": "plotted",
+        "step": 24,
+        "files": 100
+      }
+    },
+    "t_850": {
+      "spectra_proxy10_subset_ecmwf": {
+        "status": "plotted",
+        "step": 24,
+        "files": 30
+      },
+      "enfo_o320": {
+        "status": "plotted",
+        "step": 24,
+        "files": 80
+      },
+      "eefo_o96": {
+        "status": "plotted",
+        "step": 24,
+        "files": 100
+      }
+    },
+    "z_500": {
+      "spectra_proxy10_subset_ecmwf": {
+        "status": "plotted",
+        "step": 24,
+        "files": 30
+      },
+      "enfo_o320": {
+        "status": "plotted",
+        "step": 24,
+        "files": 80
+      },
+      "eefo_o96": {
+        "status": "plotted",
+        "step": 24,
+        "files": 100
+      }
+    }
+  }
+}

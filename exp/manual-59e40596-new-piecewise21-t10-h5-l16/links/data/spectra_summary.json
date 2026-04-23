@@ -1,0 +1,40 @@
+{
+  "method": "ecmwf_mean_curve_reference_weighted_l2",
+  "relative_to": "/lus/h2resw01/hpcperm/ecm5702/reference_spectra/enfo_o320",
+  "spectra_output_dir": "/home/ecm5702/perm/eval/manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16/spectra_proxy10_subset_ecmwf",
+  "scoreboard_fields": [
+    "10u",
+    "10v",
+    "2t",
+    "msl",
+    "t_850",
+    "z_500"
+  ],
+  "score_wavenumber_min_exclusive": 100.0,
+  "mean_relative_l2": 0.049362921429180334,
+  "coverage": "10u: step24/24 30c/100r; 10v: step24/24 30c/100r; 2t: step24/24 30c/100r; msl: step24/24 30c/80r; t_850: step24/24 30c/80r; z_500: step24/24 30c/80r",
+  "10u": {
+    "relative_l2_mean_curve": 0.028151332279515363,
+    "n_curves": 30
+  },
+  "10v": {
+    "relative_l2_mean_curve": 0.02889702362585914,
+    "n_curves": 30
+  },
+  "2t": {
+    "relative_l2_mean_curve": 0.043063477860586084,
+    "n_curves": 30
+  },
+  "msl": {
+    "relative_l2_mean_curve": 0.02128707875582791,
+    "n_curves": 30
+  },
+  "t_850": {
+    "relative_l2_mean_curve": 0.04307707427913372,
+    "n_curves": 30
+  },
+  "z_500": {
+    "relative_l2_mean_curve": 0.13170154177415977,
+    "n_curves": 30
+  }
+}

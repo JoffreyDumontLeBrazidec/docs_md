@@ -1,4 +1,4 @@
-generated_at: '2026-03-25T19:38:31Z'
+generated_at: '2026-04-23T14:03:15Z'
 slug: manual-56b6c4e2-old-piecewise30-h10-l20-sigma100
 source_dossier: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/exp/manual-56b6c4e2-old-piecewise30-h10-l20-sigma100.md
 run_root: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot
@@ -45,7 +45,7 @@ front_matter:
     proxy10:
       status: recorded
       promotion: promoted
-      rank: 2
+      rank: 4
       scope:
         dates:
         - 20230827
@@ -66,7 +66,7 @@ front_matter:
     aug_26_30:
       status: recorded
       promotion: promoted
-      rank: 2
+      rank: 1
       scope:
         dates:
         - 20230826
@@ -99,14 +99,15 @@ front_matter:
         surface_loss_summary: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/surface_loss_summary.json
 scoreboard:
   full:
-    tc_rank: '2'
+    tc_rank: '1'
     label: 56b6 old pw30 classic
     checkpoint_short: 56b6c4e2a6
     eval_sampler_min: piecewise30
     table_group: main
     contract_status: eligible
-    idalia_tc_extreme_score: '0.938624'
-    franklin_tc_extreme_score: '0.758736'
+    idalia_tc_extreme_score: '0.977885'
+    franklin_tc_extreme_score: '0.966184'
+    enfo_deviation: '0.031473'
     spectra_10u_score_vs_reference: '0.956592'
     spectra_10v_score_vs_reference: '0.966089'
     spectra_2t_score_vs_reference: '0.983259'
@@ -116,6 +117,11 @@ scoreboard:
     spectra_2t_distance: '0.016741'
     spectra_mean_distance: '0.031353'
     surface_weighted_mse: '10783.899057'
+    surface_weighted_nmse: '0.098020'
+    surface_10v_nmse: '0.275767'
+    surface_2t_nmse: '0.006413'
+    surface_msl_nmse: '0.049229'
+    surface_sp_nmse: '0.000957'
     validation_loss: na
     role: experiment
     spectra_coverage: 25 curves
@@ -125,14 +131,15 @@ scoreboard:
     dossier: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/state/source_26_30/experiments/manual-56b6c4e2-old-piecewise30-h10-l20-sigma100.md
     slug: manual-56b6c4e2-old-piecewise30-h10-l20-sigma100
   proxy:
-    tc_rank: '2'
+    tc_rank: '4'
     label: 56b6 pw30 proxy10total
     checkpoint_short: 56b6c4e2a6
     eval_sampler_min: piecewise30
     table_group: main
     contract_status: eligible
-    idalia_tc_extreme_score: '0.911372'
-    franklin_tc_extreme_score: '1.000000'
+    idalia_tc_extreme_score: '0.970960'
+    franklin_tc_extreme_score: '0.965815'
+    enfo_deviation: '0.051601'
     spectra_10u_score_vs_reference: '0.952414'
     spectra_10v_score_vs_reference: '0.958627'
     spectra_2t_score_vs_reference: '0.973634'
@@ -142,6 +149,11 @@ scoreboard:
     spectra_2t_distance: '0.026366'
     spectra_mean_distance: '0.038442'
     surface_weighted_mse: '10783.899057'
+    surface_weighted_nmse: '0.098020'
+    surface_10v_nmse: '0.275767'
+    surface_2t_nmse: '0.006413'
+    surface_msl_nmse: '0.049229'
+    surface_sp_nmse: '0.000957'
     validation_loss: na
     role: experiment
     spectra_coverage: 10 curves
@@ -150,7 +162,7 @@ scoreboard:
     note: Corrected proxy10total row with scoreboard-native TC and spectra artifacts.
     dossier: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/state/source_proxy10/experiments/manual-56b6c4e2-old-piecewise30-h10-l20-sigma100.md
     slug: manual-56b6c4e2-old-piecewise30-h10-l20-sigma100
-  idalia_franklin_mean: 0.84868
+  idalia_franklin_mean: 0.9720345
 inventory:
   predictions_count: 25
   spectra_dirs:

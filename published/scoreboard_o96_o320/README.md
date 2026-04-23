@@ -1,6 +1,6 @@
 # O96->O320 current manual-scoreboard vault
 
-Generated: `2026-03-25T19:38:41Z`
+Generated: `2026-04-23T14:03:32Z`
 
 Storage root: `/home/ecm5702/hpcperm/docs/published/scoreboard_o96_o320`
 
@@ -32,11 +32,10 @@ This hub mirrors the current O96->O320 scoreboard surfaces plus the top full-sco
 ## Published experiment rooms
 | combo tc mean | full rank | proxy rank | experiment | checkpoint | schedule | idalia tc | franklin tc | spectra mean | room |
 | ---: | ---: | ---: | --- | --- | --- | ---: | ---: | ---: | --- |
-| 0.857141 | 5 | 4 | `cfec83 k40 oldlike200k` | `cfec83a3cd` | `karras40` | 0.919355 | 0.794926 | 0.980591 | [room](../../exp/manual-cfec83a3-new-karras40-oldlike200k/README.md) |
-| 0.848680 | 2 | 2 | `56b6 old pw30 classic` | `56b6c4e2a6` | `piecewise30` | 0.938624 | 0.758736 | 0.968647 | [room](../../exp/manual-56b6c4e2-old-piecewise30-h10-l20-sigma100/README.md) |
-| 0.830040 | 4 | na | `56b6 old k80 sigmax100k` | `56b6c4e2a6` | `karras80` | 0.921282 | 0.738797 | 0.973445 | [room](../../exp/manual-56b6c4e2-old-karras80-sigmax100k/README.md) |
-| 0.828266 | 1 | 7 | `61cf pw30 exp/karras` | `61cf18112f` | `piecewise30` | 0.955691 | 0.700841 | 0.967218 | [room](../../exp/manual-61cf1811-new-piecewise30-h10-l20-sigma100/README.md) |
-| 0.826055 | 6 | 9 | `cfec83 pw30` | `cfec83a3cd` | `piecewise30` | 0.909171 | 0.742939 | 0.979096 | [room](../../exp/manual-cfec83a3-new-piecewise30-h10-l20-sigma100/README.md) |
+| 0.972035 | 1 | 4 | `56b6 old pw30 classic` | `56b6c4e2a6` | `piecewise30` | 0.977885 | 0.966184 | 0.968647 | [room](../../exp/manual-56b6c4e2-old-piecewise30-h10-l20-sigma100/README.md) |
+| 0.971272 | 4 | na | `cfec83 pw21 t10/h5/l16` | `cfec83a3cd` | `piecewise21` | 0.974236 | 0.968308 | 0.962614 | [room](../../exp/manual-cfec83a3-new-piecewise21-t10-h5-l16/README.md) |
+| 0.968071 | 8 | na | `59e4 300k pw30` | `59e4059602` | `piecewise30` | 0.966706 | 0.969437 | 0.980678 | [room](../../exp/manual-59e40596-new-piecewise30-h10-l20-sigma100/README.md) |
+| 0.963623 | 13 | na | `59e4 300k pw21 t10/h5/l16` | `59e4059602` | `piecewise21` | 0.963081 | 0.964164 | 0.966629 | [room](../../exp/manual-59e40596-new-piecewise21-t10-h5-l16/README.md) |
 
 ## Source paths
 - source hub: `/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320`

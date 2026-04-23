@@ -41,7 +41,7 @@ surfaces:
   proxy10:
     status: recorded
     promotion: promoted
-    rank: 2
+    rank: 4
     scope:
       dates:
       - 20230827
@@ -62,7 +62,7 @@ surfaces:
   aug_26_30:
     status: recorded
     promotion: promoted
-    rank: 2
+    rank: 1
     scope:
       dates:
       - 20230826
@@ -94,18 +94,18 @@ surfaces:
       comparison_summary: null
       surface_loss_summary: /home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/surface_loss_summary.json
 vault_published: true
-vault_published_at: '2026-03-25T19:38:34Z'
+vault_published_at: '2026-04-23T14:03:18Z'
 vault_source_dossier: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/exp/manual-56b6c4e2-old-piecewise30-h10-l20-sigma100.md
 vault_room_root: /home/ecm5702/hpcperm/docs/exp/manual-56b6c4e2-old-piecewise30-h10-l20-sigma100
-vault_full_rank: '2'
+vault_full_rank: '1'
 vault_full_contract: eligible
-vault_proxy_rank: '2'
+vault_proxy_rank: '4'
 vault_proxy_contract: eligible
 ---
 
 # 56b6 old pw30 classic
 
-Generated: `2026-03-25T19:38:34Z`
+Generated: `2026-04-23T14:03:18Z`
 
 Storage root: `/home/ecm5702/hpcperm/docs/exp/manual-56b6c4e2-old-piecewise30-h10-l20-sigma100`
 
@@ -132,8 +132,8 @@ This room mirrors the current scoreboard-facing manual-inference artifacts into 
 ## Current scoreboard status
 | surface | rank | contract | idalia tc | franklin tc | spectra mean | surface mse | val loss | note |
 | --- | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |
-| Aug 26-30 | 2 | `eligible` | 0.938624 | 0.758736 | 0.968647 | 10783.899057 | na | Full-contract row with TC plus spectra complete. |
-| Proxy10 | 2 | `eligible` | 0.911372 | 1.000000 | 0.961558 | 10783.899057 | na | Corrected proxy10total row with scoreboard-native TC and spectra artifacts. |
+| Aug 26-30 | 1 | `eligible` | 0.977885 | 0.966184 | 0.968647 | 10783.899057 | na | Full-contract row with TC plus spectra complete. |
+| Proxy10 | 4 | `eligible` | 0.970960 | 0.965815 | 0.961558 | 10783.899057 | na | Corrected proxy10total row with scoreboard-native TC and spectra artifacts. |
 
 ## Coverage summary
 - predictions files: `25`
@@ -155,9 +155,9 @@ This room mirrors the current scoreboard-facing manual-inference artifacts into 
 | `manual_inference_run_info.txt` | [`manual_inference_run_info.txt`](links/data/manual_inference_run_info.txt) | 1.4 KB |
 | `predictions_manifest.csv` | [`predictions_manifest.csv`](links/data/predictions_manifest.csv) | 79.2 KB |
 | `surface_loss_summary.json` | [`surface_loss_summary.json`](links/data/surface_loss_summary.json) | 1.4 KB |
-| `tc_normed_pdfs_franklin_manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot_from_predictions.stats.json` | [`tc_normed_pdfs_franklin_manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot_from_predictions.stats.json`](links/data/tc_normed_pdfs_franklin_manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot_from_predictions.stats.json) | 22.3 KB |
-| `tc_normed_pdfs_idalia_franklin_56b6c4e2_full25_strict_20260317.stats.json` | [`tc_normed_pdfs_idalia_franklin_56b6c4e2_full25_strict_20260317.stats.json`](links/data/tc_normed_pdfs_idalia_franklin_56b6c4e2_full25_strict_20260317.stats.json) | 41.4 KB |
-| `tc_normed_pdfs_idalia_manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot_from_predictions.stats.json` | [`tc_normed_pdfs_idalia_manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot_from_predictions.stats.json`](links/data/tc_normed_pdfs_idalia_manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot_from_predictions.stats.json) | 22.0 KB |
+| `tc_normed_pdfs_franklin_manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot_from_predictions.stats.json` | [`tc_normed_pdfs_franklin_manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot_from_predictions.stats.json`](links/data/tc_normed_pdfs_franklin_manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot_from_predictions.stats.json) | 23.5 KB |
+| `tc_normed_pdfs_idalia_franklin_56b6c4e2_full25_strict_20260317.stats.json` | [`tc_normed_pdfs_idalia_franklin_56b6c4e2_full25_strict_20260317.stats.json`](links/data/tc_normed_pdfs_idalia_franklin_56b6c4e2_full25_strict_20260317.stats.json) | 43.8 KB |
+| `tc_normed_pdfs_idalia_manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot_from_predictions.stats.json` | [`tc_normed_pdfs_idalia_manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot_from_predictions.stats.json`](links/data/tc_normed_pdfs_idalia_manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot_from_predictions.stats.json) | 23.2 KB |
 | `predictions/` | [`predictions/`](links/data/predictions) | 25 files |
 
 ## Key top-level artifacts
@@ -194,9 +194,9 @@ This room mirrors the current scoreboard-facing manual-inference artifacts into 
 ## Provenance
 | file | link | size |
 | --- | --- | ---: |
-| `manual-56b6c4e2-old-piecewise30-h10-l20-sigma100.md` | [`manual-56b6c4e2-old-piecewise30-h10-l20-sigma100.md`](links/provenance/manual-56b6c4e2-old-piecewise30-h10-l20-sigma100.md) | 13.7 KB |
-| `manual-56b6c4e2-old-piecewise30-h10-l20-sigma100.md` | [`manual-56b6c4e2-old-piecewise30-h10-l20-sigma100.md`](links/provenance/manual-56b6c4e2-old-piecewise30-h10-l20-sigma100.md) | 5.1 KB |
-| `manual-56b6c4e2-old-piecewise30-h10-l20-sigma100.md` | [`manual-56b6c4e2-old-piecewise30-h10-l20-sigma100.md`](links/provenance/manual-56b6c4e2-old-piecewise30-h10-l20-sigma100.md) | 5.1 KB |
+| `manual-56b6c4e2-old-piecewise30-h10-l20-sigma100.md` | [`manual-56b6c4e2-old-piecewise30-h10-l20-sigma100.md`](links/provenance/manual-56b6c4e2-old-piecewise30-h10-l20-sigma100.md) | 13.8 KB |
+| `manual-56b6c4e2-old-piecewise30-h10-l20-sigma100.md` | [`manual-56b6c4e2-old-piecewise30-h10-l20-sigma100.md`](links/provenance/manual-56b6c4e2-old-piecewise30-h10-l20-sigma100.md) | 5.2 KB |
+| `manual-56b6c4e2-old-piecewise30-h10-l20-sigma100.md` | [`manual-56b6c4e2-old-piecewise30-h10-l20-sigma100.md`](links/provenance/manual-56b6c4e2-old-piecewise30-h10-l20-sigma100.md) | 5.3 KB |
 | `56b6c4e2.md` | [`56b6c4e2.md`](links/provenance/56b6c4e2.md) | 3.4 KB |
 
 ## Extra directories

@@ -1,0 +1,71 @@
+{
+  "run_id": "manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30",
+  "artifacts_root": "/home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30",
+  "stack_flavor": "new",
+  "lane": "o96_o320",
+  "source_hpc": "ac",
+  "host_short": "ac6-319",
+  "venv_activate": "/home/ecm5702/dev/.ds-dyn/bin/activate",
+  "code_root": "/etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/downscaling-tools",
+  "sampling_config_json": "{\"schedule_type\":\"experimental_piecewise\",\"schedule_kind\":\"stage1_piecewise\",\"num_steps\":21,\"sigma_max\":1000.0,\"sigma_transition\":10.0,\"sigma_min\":0.03,\"high_schedule_type\":\"exponential\",\"low_schedule_type\":\"karras\",\"num_steps_high\":5,\"num_steps_low\":16,\"rho\":7.0,\"sampler\":\"heun\",\"S_churn\":2.5,\"S_min\":0.75,\"S_max\":1000.0,\"S_noise\":1.05}",
+  "checkpoint": {
+    "run_id": "cfec83a3cd0644778e2bfcbacfa9f4fc",
+    "path": "/home/ecm5702/scratch/aifs/checkpoint/cfec83a3cd0644778e2bfcbacfa9f4fc/anemoi-by_epoch-epoch_043-step_200000.ckpt"
+  },
+  "source": {
+    "input_root": "/home/ecm5702/hpcperm/data/input_data/o96_o320/idalia",
+    "input_root_mode": "lane_canonical_root",
+    "rebuilt_truth_bundle_root": false,
+    "bundle_scope": {
+      "dates": [
+        20230826,
+        20230827,
+        20230828,
+        20230829,
+        20230830
+      ],
+      "members": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "steps_hours": [
+        24,
+        48,
+        72,
+        96,
+        120
+      ],
+      "selection_mode": "cartesian_dates_steps"
+    }
+  },
+  "model": {
+    "development_hacks": {
+      "extra_args": {
+        "schedule_type": "experimental_piecewise",
+        "schedule_kind": "stage1_piecewise",
+        "num_steps": 21,
+        "sigma_max": 1000.0,
+        "sigma_transition": 10.0,
+        "sigma_min": 0.03,
+        "high_schedule_type": "exponential",
+        "low_schedule_type": "karras",
+        "num_steps_high": 5,
+        "num_steps_low": 16,
+        "rho": 7.0,
+        "sampler": "heun",
+        "S_churn": 2.5,
+        "S_min": 0.75,
+        "S_max": 1000.0,
+        "S_noise": 1.05
+      }
+    }
+  }
+}

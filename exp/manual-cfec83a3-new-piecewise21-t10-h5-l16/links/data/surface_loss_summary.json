@@ -1,0 +1,56 @@
+{
+  "n_member_samples_per_variable": 250,
+  "n_prediction_files": 25,
+  "total_weight": 14.0,
+  "variables": {
+    "10u": {
+      "mean_mse": 5.604757233961554,
+      "n_member_samples": 250,
+      "normalized_weight": 0.17857142857142858,
+      "weight": 2.5
+    },
+    "10v": {
+      "mean_mse": 5.8446290723125145,
+      "n_member_samples": 250,
+      "normalized_weight": 0.17857142857142858,
+      "weight": 2.5
+    },
+    "2d": {
+      "mean_mse": 3.0295457868677005,
+      "n_member_samples": 250,
+      "normalized_weight": 0.14285714285714285,
+      "weight": 2.0
+    },
+    "2t": {
+      "mean_mse": 1.273800256908096,
+      "n_member_samples": 250,
+      "normalized_weight": 0.14285714285714285,
+      "weight": 2.0
+    },
+    "msl": {
+      "mean_mse": 43403.09072143726,
+      "n_member_samples": 250,
+      "normalized_weight": 0.14285714285714285,
+      "weight": 2.0
+    },
+    "skt": {
+      "mean_mse": 1.125375843499739,
+      "n_member_samples": 250,
+      "normalized_weight": 0.03571428571428571,
+      "weight": 0.5
+    },
+    "sp": {
+      "mean_mse": 41782.63207787565,
+      "n_member_samples": 250,
+      "normalized_weight": 0.10714285714285714,
+      "weight": 1.5
+    },
+    "tcw": {
+      "mean_mse": 23.554505388667213,
+      "n_member_samples": 250,
+      "normalized_weight": 0.07142857142857142,
+      "weight": 1.0
+    }
+  },
+  "weighted_surface_mse": 10681.53406506083
+}

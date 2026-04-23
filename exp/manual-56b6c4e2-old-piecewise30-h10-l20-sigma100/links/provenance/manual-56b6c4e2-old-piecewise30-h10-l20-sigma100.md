@@ -1,6 +1,6 @@
 # manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot
 
-Generated (UTC): `2026-03-24T16:37:33Z`
+Generated (UTC): `2026-04-23T13:07:42Z`
 
 ## Snapshot
 - Summary: Corrected proxy10total row under the 10-total member-1 contract.
@@ -12,8 +12,9 @@ Generated (UTC): `2026-03-24T16:37:33Z`
 - Contract detail: steps: ok
 
 ## Metrics
-- Idalia TC extreme score: `0.911372`
-- Franklin TC extreme score: `1.000000`
+- Idalia TC extreme score: `0.970960`
+- Franklin TC extreme score: `0.965815`
+- ENFO deviation: `0.051601`
 - Spectra reference: `ENFO O320`
 - Spectra 10u score vs ENFO O320: `0.952414`
 - Spectra 10v score vs ENFO O320: `0.958627`
@@ -24,7 +25,12 @@ Generated (UTC): `2026-03-24T16:37:33Z`
 - Spectra 2t distance: `0.026366`
 - Spectra mean distance: `0.038442`
 - Spectra coverage: `10 curves`
+- Surface 10v nMSE: `0.275767`
+- Surface 2t nMSE: `0.006413`
+- Surface MSLP nMSE: `0.049229`
+- Surface SP nMSE: `0.000957`
 - Surface weighted MSE: `10783.899057`
+- Surface weighted nMSE: `0.098020`
 - Surface loss source: `/home/ecm5702/perm/eval/manual_56b6c4e2_old_o96_o320_20260312_piecewise30_h10_l20_sigma100_classic_piecewisegen4_mixedroot/surface_loss_summary.json`
 - Validation loss: `na`
 - Validation loss source: `na`
@@ -42,7 +48,7 @@ Generated (UTC): `2026-03-24T16:37:33Z`
 - Dates: `20230827, 20230828, 20230829, 20230830`
 - Members: `1`
 - Steps (hours): `24, 48, 72`
-- Eval (schedule+steps): `piecewise30`
+- Eval: `piecewise30`
 - Sampling: `schedule_type=experimental_piecewise, schedule_kind=piecewise30, high_schedule_type=exponential, low_schedule_type=karras, num_steps=30, num_steps_high=10, num_steps_low=20, sigma_min=0.03, sigma_transition=100.0, sigma_max=100000.0, rho=7.0, sampler=heun, S_churn=2.5, S_min=0.75, S_max=100000.0, S_noise=1.05`
 - Extra args source: `manifest.extra_args`
 - Training noise: `Old-stack piecewise/classic baseline with strict late-August manual evaluation complete.`

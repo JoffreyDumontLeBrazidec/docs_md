@@ -1,0 +1,325 @@
+{
+  "events": {
+    "idalia": {
+      "status": "FAIL",
+      "per_bundle": {
+        "20230829_step024": {
+          "mslp_980_990_fraction": {
+            "anchor": 0.0007681228996639462,
+            "proxy": 0.0003600576092174748,
+            "relative_deviation": 0.5312
+          },
+          "wind_gt_25_fraction": {
+            "anchor": 0.0005880940950552089,
+            "proxy": 0.0007201152184349496,
+            "relative_deviation": 0.2245
+          }
+        },
+        "20230828_step048": {
+          "mslp_980_990_fraction": {
+            "anchor": 0.0010921747479596736,
+            "proxy": 0.00048007681228996637,
+            "relative_deviation": 0.5604
+          },
+          "wind_gt_25_fraction": {
+            "anchor": 0.0005760921747479596,
+            "proxy": 0.00012001920307249159,
+            "relative_deviation": 0.7917
+          }
+        },
+        "20230829_step048": {
+          "mslp_980_990_fraction": {
+            "anchor": 0.0017042726836293807,
+            "proxy": 0.00012001920307249159,
+            "relative_deviation": 0.9296
+          },
+          "wind_gt_25_fraction": {
+            "anchor": 1.200192030724916e-05,
+            "proxy": 0.0,
+            "relative_deviation": 1.0
+          }
+        },
+        "20230828_step024": {
+          "mslp_980_990_fraction": {
+            "anchor": 0.0014402304368698992,
+            "proxy": 0.0009601536245799327,
+            "relative_deviation": 0.3333
+          },
+          "wind_gt_25_fraction": {
+            "anchor": 0.0010321651464234277,
+            "proxy": 0.0019203072491598655,
+            "relative_deviation": 0.8605
+          }
+        },
+        "20230830_step024": {
+          "mslp_980_990_fraction": {
+            "anchor": 0.00033605376860297646,
+            "proxy": 0.0,
+            "relative_deviation": 1.0
+          },
+          "wind_gt_25_fraction": {
+            "anchor": 3.600576092174748e-05,
+            "proxy": 0.0,
+            "relative_deviation": 1.0
+          }
+        },
+        "20230828_step072": {
+          "mslp_980_990_fraction": {
+            "anchor": 0.0012962073931829094,
+            "proxy": 0.0,
+            "relative_deviation": 1.0
+          },
+          "wind_gt_25_fraction": {
+            "anchor": 1.200192030724916e-05,
+            "proxy": 0.0,
+            "relative_deviation": 1.0
+          }
+        },
+        "20230827_step072": {
+          "mslp_980_990_fraction": {
+            "anchor": 0.0006721075372059529,
+            "proxy": 0.0,
+            "relative_deviation": 1.0
+          },
+          "wind_gt_25_fraction": {
+            "anchor": 0.0001800288046087374,
+            "proxy": 0.0,
+            "relative_deviation": 1.0
+          }
+        },
+        "20230830_step048": {
+          "mslp_980_990_fraction": {
+            "anchor": 0.00013202112337974077,
+            "proxy": 0.0,
+            "relative_deviation": 1.0
+          },
+          "wind_gt_25_fraction": {
+            "anchor": 7.201152184349496e-05,
+            "proxy": 0.0,
+            "relative_deviation": 1.0
+          }
+        },
+        "20230829_step072": {
+          "mslp_980_990_fraction": {
+            "anchor": 0.0,
+            "proxy": 0.0,
+            "relative_deviation": 0.0
+          },
+          "wind_gt_25_fraction": {
+            "anchor": 0.0,
+            "proxy": 0.0,
+            "relative_deviation": 0.0
+          }
+        },
+        "20230827_step048": {
+          "mslp_980_990_fraction": {
+            "anchor": 0.0006961113778204513,
+            "proxy": 0.0009601536245799327,
+            "relative_deviation": 0.3793
+          },
+          "wind_gt_25_fraction": {
+            "anchor": 0.0007201152184349496,
+            "proxy": 0.002400384061449832,
+            "relative_deviation": 2.3333
+          }
+        }
+      },
+      "aggregate": {
+        "mslp_980_990_count": {
+          "anchor": 678,
+          "proxy": 24,
+          "relative_deviation": 0.9646,
+          "label": "MSLP 980-990 count"
+        },
+        "wind_gt_25_count": {
+          "anchor": 269,
+          "proxy": 43,
+          "relative_deviation": 0.8401,
+          "label": "Wind >25 count"
+        },
+        "mslp_min": {
+          "anchor_extreme": 969.28,
+          "proxy_extreme": 972.12,
+          "relative_deviation": 0.0029
+        },
+        "mslp_p01": {
+          "anchor_extreme": 986.63,
+          "proxy_extreme": 983.49,
+          "relative_deviation": 0.0032
+        },
+        "wind_max": {
+          "anchor_extreme": 37.22,
+          "proxy_extreme": 35.13,
+          "relative_deviation": 0.0562
+        },
+        "wind_p99": {
+          "anchor_extreme": 16.89,
+          "proxy_extreme": 16.86,
+          "relative_deviation": 0.0021
+        }
+      },
+      "max_deviation": 2.3333
+    },
+    "franklin": {
+      "status": "FAIL",
+      "per_bundle": {
+        "20230829_step024": {
+          "mslp_980_990_fraction": {
+            "anchor": 0.0016678665706743462,
+            "proxy": 0.0011999040076793857,
+            "relative_deviation": 0.2806
+          },
+          "wind_gt_25_fraction": {
+            "anchor": 0.0021598272138228943,
+            "proxy": 0.0026397888168946484,
+            "relative_deviation": 0.2222
+          }
+        },
+        "20230828_step048": {
+          "mslp_980_990_fraction": {
+            "anchor": 0.0017638588912886968,
+            "proxy": 0.00167986561075114,
+            "relative_deviation": 0.0476
+          },
+          "wind_gt_25_fraction": {
+            "anchor": 0.0016438684905207583,
+            "proxy": 0.0005999520038396928,
+            "relative_deviation": 0.635
+          }
+        },
+        "20230829_step048": {
+          "mslp_980_990_fraction": {
+            "anchor": 0.0018838492920566355,
+            "proxy": 0.001919846412287017,
+            "relative_deviation": 0.0191
+          },
+          "wind_gt_25_fraction": {
+            "anchor": 0.0014518838492920566,
+            "proxy": 0.0013198944084473242,
+            "relative_deviation": 0.0909
+          }
+        },
+        "20230828_step024": {
+          "mslp_980_990_fraction": {
+            "anchor": 0.0014398848092152627,
+            "proxy": 0.0009599232061435085,
+            "relative_deviation": 0.3333
+          },
+          "wind_gt_25_fraction": {
+            "anchor": 0.0010439164866810654,
+            "proxy": 0.001919846412287017,
+            "relative_deviation": 0.8391
+          }
+        },
+        "20230830_step024": {
+          "mslp_980_990_fraction": {
+            "anchor": 0.0019438444924406047,
+            "proxy": 0.0020398368130549556,
+            "relative_deviation": 0.0494
+          },
+          "wind_gt_25_fraction": {
+            "anchor": 0.002507799376049916,
+            "proxy": 0.0013198944084473242,
+            "relative_deviation": 0.4737
+          }
+        },
+        "20230828_step072": {
+          "mslp_980_990_fraction": {
+            "anchor": 0.0024598032157427405,
+            "proxy": 0.00167986561075114,
+            "relative_deviation": 0.3171
+          },
+          "wind_gt_25_fraction": {
+            "anchor": 0.0008639308855291577,
+            "proxy": 0.00083993280537557,
+            "relative_deviation": 0.0278
+          }
+        },
+        "20230827_step072": {
+          "mslp_980_990_fraction": {
+            "anchor": 0.0019438444924406047,
+            "proxy": 0.0017998560115190785,
+            "relative_deviation": 0.0741
+          },
+          "wind_gt_25_fraction": {
+            "anchor": 0.0009239260859131269,
+            "proxy": 0.0013198944084473242,
+            "relative_deviation": 0.4286
+          }
+        },
+        "20230830_step048": {
+          "mslp_980_990_fraction": {
+            "anchor": 0.002171826253899688,
+            "proxy": 0.0014398848092152627,
+            "relative_deviation": 0.337
+          },
+          "wind_gt_25_fraction": {
+            "anchor": 0.0005999520038396928,
+            "proxy": 0.00011999040076793856,
+            "relative_deviation": 0.8
+          }
+        },
+        "20230829_step072": {
+          "mslp_980_990_fraction": {
+            "anchor": 0.002003839692824574,
+            "proxy": 0.00167986561075114,
+            "relative_deviation": 0.1617
+          },
+          "wind_gt_25_fraction": {
+            "anchor": 0.0009119270458363331,
+            "proxy": 0.002759779217662587,
+            "relative_deviation": 2.0263
+          }
+        },
+        "20230827_step048": {
+          "mslp_980_990_fraction": {
+            "anchor": 0.0006959443244540437,
+            "proxy": 0.0009599232061435085,
+            "relative_deviation": 0.3793
+          },
+          "wind_gt_25_fraction": {
+            "anchor": 0.0007319414446844252,
+            "proxy": 0.0023998080153587713,
+            "relative_deviation": 2.2787
+          }
+        }
+      },
+      "aggregate": {
+        "mslp_980_990_count": {
+          "anchor": 1498,
+          "proxy": 128,
+          "relative_deviation": 0.9146,
+          "label": "MSLP 980-990 count"
+        },
+        "wind_gt_25_count": {
+          "anchor": 1070,
+          "proxy": 127,
+          "relative_deviation": 0.8813,
+          "label": "Wind >25 count"
+        },
+        "mslp_min": {
+          "anchor_extreme": 964.81,
+          "proxy_extreme": 966.38,
+          "relative_deviation": 0.0016
+        },
+        "mslp_p01": {
+          "anchor_extreme": 980.05,
+          "proxy_extreme": 979.02,
+          "relative_deviation": 0.001
+        },
+        "wind_max": {
+          "anchor_extreme": 39.0,
+          "proxy_extreme": 38.64,
+          "relative_deviation": 0.0092
+        },
+        "wind_p99": {
+          "anchor_extreme": 18.74,
+          "proxy_extreme": 18.55,
+          "relative_deviation": 0.0101
+        }
+      },
+      "max_deviation": 2.2787
+    }
+  },
+  "overall_verdict": "FAIL"
+}

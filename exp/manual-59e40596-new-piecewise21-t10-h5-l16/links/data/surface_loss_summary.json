@@ -1,0 +1,98 @@
+{
+  "available_surface_variables": [
+    "10u",
+    "10v",
+    "2d",
+    "2t",
+    "msl",
+    "skt",
+    "sp",
+    "tcw"
+  ],
+  "missing_surface_variables": [],
+  "n_member_samples_per_variable": 250,
+  "n_prediction_files": 25,
+  "normalization_scheme": "truth-std",
+  "prediction_var": "y_pred",
+  "requested_surface_variables": [
+    "10u",
+    "10v",
+    "2d",
+    "2t",
+    "msl",
+    "skt",
+    "sp",
+    "tcw"
+  ],
+  "total_requested_weight": 14.0,
+  "total_weight": 14.0,
+  "truth_var": "y",
+  "variables": {
+    "10u": {
+      "mean_mse": 5.545961921961674,
+      "mean_nmse": 0.17854782796178825,
+      "n_member_samples": 250,
+      "normalized_weight": 0.17857142857142858,
+      "truth_std": 5.573283767744627,
+      "weight": 2.5
+    },
+    "10v": {
+      "mean_mse": 5.7653600357506525,
+      "mean_nmse": 0.267682470045904,
+      "n_member_samples": 250,
+      "normalized_weight": 0.17857142857142858,
+      "truth_std": 4.640911119729918,
+      "weight": 2.5
+    },
+    "2d": {
+      "mean_mse": 2.997501622422153,
+      "mean_nmse": 0.015077181842271175,
+      "n_member_samples": 250,
+      "normalized_weight": 0.14285714285714285,
+      "truth_std": 14.100016699783618,
+      "weight": 2.0
+    },
+    "2t": {
+      "mean_mse": 1.2469334019107579,
+      "mean_nmse": 0.006111116967959248,
+      "n_member_samples": 250,
+      "normalized_weight": 0.14285714285714285,
+      "truth_std": 14.284377901452796,
+      "weight": 2.0
+    },
+    "msl": {
+      "mean_mse": 43136.222671601165,
+      "mean_nmse": 0.04835663908083547,
+      "n_member_samples": 250,
+      "normalized_weight": 0.14285714285714285,
+      "truth_std": 944.4805132882676,
+      "weight": 2.0
+    },
+    "skt": {
+      "mean_mse": 1.0651925352054732,
+      "mean_nmse": 0.004854183849901634,
+      "n_member_samples": 250,
+      "normalized_weight": 0.03571428571428571,
+      "truth_std": 14.813440813955154,
+      "weight": 0.5
+    },
+    "sp": {
+      "mean_mse": 41260.48604059636,
+      "mean_nmse": 0.0009389313546651187,
+      "n_member_samples": 250,
+      "normalized_weight": 0.10714285714285714,
+      "truth_std": 6629.034033939957,
+      "weight": 1.5
+    },
+    "tcw": {
+      "mean_mse": 23.44246977612887,
+      "mean_nmse": 0.0746694647863725,
+      "n_member_samples": 250,
+      "normalized_weight": 0.07142857142857142,
+      "truth_std": 17.718630973437328,
+      "weight": 1.0
+    }
+  },
+  "weighted_surface_mse": 10587.422617505967,
+  "weighted_surface_nmse": 0.09522646961033453
+}

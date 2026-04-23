@@ -1,43 +1,36 @@
-generated_at: '2026-03-25T19:38:41Z'
+generated_at: '2026-04-23T14:03:32Z'
 source_hub: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320
 experiment_root: /home/ecm5702/hpcperm/docs/exp
 selection_mode: idalia-franklin-mean
 top_n: 5
 selection_mode_note: mean of Idalia and Franklin TC extreme scores
 published_rooms:
-- manual-cfec83a3-new-karras40-oldlike200k
 - manual-56b6c4e2-old-piecewise30-h10-l20-sigma100
-- manual-56b6c4e2-old-karras80-sigmax100k
-- manual-61cf1811-new-piecewise30-h10-l20-sigma100
-- manual-cfec83a3-new-piecewise30-h10-l20-sigma100
+- manual-cfec83a3-new-piecewise21-t10-h5-l16
+- manual-59e40596-new-piecewise30-h10-l20-sigma100
+- manual-59e40596-new-piecewise21-t10-h5-l16
 selection_rows:
-- slug: manual-cfec83a3-new-karras40-oldlike200k
-  full_rank: '5'
-  proxy_rank: '4'
-  idalia_tc_extreme_score: '0.919355'
-  franklin_tc_extreme_score: '0.794926'
-  idalia_franklin_mean: '0.857141'
 - slug: manual-56b6c4e2-old-piecewise30-h10-l20-sigma100
-  full_rank: '2'
-  proxy_rank: '2'
-  idalia_tc_extreme_score: '0.938624'
-  franklin_tc_extreme_score: '0.758736'
-  idalia_franklin_mean: '0.848680'
-- slug: manual-56b6c4e2-old-karras80-sigmax100k
+  full_rank: '1'
+  proxy_rank: '4'
+  idalia_tc_extreme_score: '0.977885'
+  franklin_tc_extreme_score: '0.966184'
+  idalia_franklin_mean: '0.972035'
+- slug: manual-cfec83a3-new-piecewise21-t10-h5-l16
   full_rank: '4'
   proxy_rank: na
-  idalia_tc_extreme_score: '0.921282'
-  franklin_tc_extreme_score: '0.738797'
-  idalia_franklin_mean: '0.830040'
-- slug: manual-61cf1811-new-piecewise30-h10-l20-sigma100
-  full_rank: '1'
-  proxy_rank: '7'
-  idalia_tc_extreme_score: '0.955691'
-  franklin_tc_extreme_score: '0.700841'
-  idalia_franklin_mean: '0.828266'
-- slug: manual-cfec83a3-new-piecewise30-h10-l20-sigma100
-  full_rank: '6'
-  proxy_rank: '9'
-  idalia_tc_extreme_score: '0.909171'
-  franklin_tc_extreme_score: '0.742939'
-  idalia_franklin_mean: '0.826055'
+  idalia_tc_extreme_score: '0.974236'
+  franklin_tc_extreme_score: '0.968308'
+  idalia_franklin_mean: '0.971272'
+- slug: manual-59e40596-new-piecewise30-h10-l20-sigma100
+  full_rank: '8'
+  proxy_rank: na
+  idalia_tc_extreme_score: '0.966706'
+  franklin_tc_extreme_score: '0.969437'
+  idalia_franklin_mean: '0.968071'
+- slug: manual-59e40596-new-piecewise21-t10-h5-l16
+  full_rank: '13'
+  proxy_rank: na
+  idalia_tc_extreme_score: '0.963081'
+  franklin_tc_extreme_score: '0.964164'
+  idalia_franklin_mean: '0.963623'

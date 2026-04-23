@@ -1,0 +1,21 @@
+{
+  "method": "ecmwf_mean_curve_reference_l2",
+  "relative_to": "/home/ecm5702/hpcperm/reference_spectra/enfo_o320",
+  "spectra_output_dir": "/home/ecm5702/perm/eval/manual_cfec83a3_new_o96_o320_20260331_t10_h5_l16_scoreboard_aug26_30/spectra_proxy10_subset_ecmwf",
+  "scoreboard_fields": [
+    "10u",
+    "10v",
+    "2t"
+  ],
+  "score_wavenumber_min_exclusive": 100.0,
+  "coverage": "missing",
+  "10u": {
+    "status": "missing"
+  },
+  "10v": {
+    "status": "missing"
+  },
+  "2t": {
+    "status": "missing"
+  }
+}

@@ -1,0 +1,131 @@
+generated_at: '2026-04-23T14:03:29Z'
+slug: manual-59e40596-new-piecewise21-t10-h5-l16
+source_dossier: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/exp/manual-59e40596-new-piecewise21-t10-h5-l16.md
+run_root: /home/ecm5702/perm/eval/manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16
+front_matter:
+  dossier_mode: generated
+  slug: manual-59e40596-new-piecewise21-t10-h5-l16
+  display_label: 59e4 300k pw21 t10/h5/l16
+  role: experiment
+  checkpoint_id: 59e40596023d4f72a1c5e2027805d7df
+  checkpoint_path: /home/ecm5702/scratch/aifs/checkpoint/59e40596023d4f72a1c5e2027805d7df/anemoi-by_epoch-epoch_260-step_300000.ckpt
+  lane: o96-o320
+  stack_flavor: new
+  run_id: manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16
+  run_root: /home/ecm5702/perm/eval/manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16
+  venv: /home/ecm5702/dev/.ds-dyn/bin/activate
+  login_node: ac6-100
+  qos: nf
+  job_ids: []
+  task_note: null
+  experiment_config: /home/ecm5702/perm/eval/manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16/EXPERIMENT_CONFIG.yaml
+  sampling:
+    summary: null
+    extra_args: {}
+  surfaces:
+    proxy10:
+      status: not_yet_recorded
+      promotion: not_promoted
+      rank: null
+      scope: {}
+      artifacts:
+        tc_stats: null
+        spectra_summary: null
+        compare_json: null
+        scoreboard_metrics: null
+    aug_26_30:
+      status: recorded
+      promotion: promoted
+      rank: 13
+      scope:
+        dates:
+        - '20230826'
+        - '20230827'
+        - '20230828'
+        - '20230829'
+        - '20230830'
+        members:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        steps_hours:
+        - 24
+        - 48
+        - 72
+        - 96
+        - 120
+      artifacts:
+        sigma_csv: null
+        tc_stats: /home/ecm5702/perm/eval/manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16/tc_normed_pdfs_idalia_franklin_manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16_from_predictions.stats.json
+        spectra_summary: /home/ecm5702/perm/eval/manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16/spectra_proxy10_subset_ecmwf/spectra_summary.json
+        comparison_summary: null
+        surface_loss_summary: /home/ecm5702/perm/eval/manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16/surface_loss_summary.json
+scoreboard:
+  full:
+    tc_rank: '13'
+    label: 59e4 300k pw21 t10/h5/l16
+    checkpoint_short: 59e4059602
+    eval_sampler_min: piecewise21
+    table_group: main
+    contract_status: eligible
+    idalia_tc_extreme_score: '0.963081'
+    franklin_tc_extreme_score: '0.964164'
+    enfo_deviation: '0.075433'
+    spectra_10u_score_vs_reference: '0.971849'
+    spectra_10v_score_vs_reference: '0.971103'
+    spectra_2t_score_vs_reference: '0.956937'
+    spectra_mean_score_vs_reference: '0.966629'
+    spectra_10u_distance: '0.028151'
+    spectra_10v_distance: '0.028897'
+    spectra_2t_distance: '0.043063'
+    spectra_mean_distance: '0.033371'
+    surface_weighted_mse: '10587.422618'
+    surface_weighted_nmse: '0.095226'
+    surface_10v_nmse: '0.267682'
+    surface_2t_nmse: '0.006111'
+    surface_msl_nmse: '0.048357'
+    surface_sp_nmse: '0.000939'
+    validation_loss: '0.060484'
+    role: experiment
+    spectra_coverage: 30 pairs
+    spectra_n_curves: '30'
+    surface_loss_source: /home/ecm5702/perm/eval/manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16/surface_loss_summary.json
+    note: "Sweep finalist; \u03C3_max=1000; infer 2:32:53."
+    dossier: /etc/ecmwf/nfs/dh2_home_a/ecm5702/dev/docs/docs/scoreboard_o96_o320/state/source_26_30/experiments/manual-59e40596-new-piecewise21-t10-h5-l16.md
+    slug: manual-59e40596-new-piecewise21-t10-h5-l16
+  proxy: {}
+  idalia_franklin_mean: 0.9636225
+inventory:
+  predictions_count: 25
+  spectra_dirs:
+  - /home/ecm5702/perm/eval/manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16/spectra_proxy10_subset_ecmwf
+  local_plot_dirs: []
+  local_plot_pngs: 0
+  local_plot_pdfs: 0
+  top_level_data_files:
+  - /home/ecm5702/perm/eval/manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16/EXPERIMENT_CONFIG.yaml
+  - /home/ecm5702/perm/eval/manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16/manual_inference_run_info.txt
+  - /home/ecm5702/perm/eval/manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16/predictions_manifest.csv
+  - /home/ecm5702/perm/eval/manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16/scoreboard_metrics.json
+  - /home/ecm5702/perm/eval/manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16/surface_loss_summary.json
+  - /home/ecm5702/perm/eval/manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16/tc_normed_pdfs_idalia_franklin_manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16_from_predictions.stats.json
+  top_level_artifacts:
+  - /home/ecm5702/perm/eval/manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16/local_plots_step024.pdf
+  - /home/ecm5702/perm/eval/manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16/local_plots_step120.pdf
+  - /home/ecm5702/perm/eval/manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16/spectra_ecmwf.pdf
+  - /home/ecm5702/perm/eval/manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16/tc_pdf_distributions.pdf
+  logs: []
+  extra_dirs:
+  - /home/ecm5702/perm/eval/manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16/data
+  - /home/ecm5702/perm/eval/manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16/eefo_o96
+  - /home/ecm5702/perm/eval/manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16/enfo_o320
+  - /home/ecm5702/perm/eval/manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16/predictions_proxy10_subset
+  - /home/ecm5702/perm/eval/manual_59e40596_new_o96_o320_20260422_pw21_t10_h5_l16/weight_diagnostics
+  tc_members: 0
